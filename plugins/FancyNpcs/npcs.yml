@@ -1,0 +1,214 @@
+npcs:
+  548140b4-b05c-43a5-83a6-95eea606abc7:
+    name: AH
+    creator: be0a981b-a802-3419-8e76-899cd7368d6e
+    displayName: AH
+    type: PLAYER
+    location:
+      world: world
+      x: -1957.4310617205726
+      y: 189.0
+      z: -353.5864100699482
+      yaw: -0.036987305
+      pitch: 4.329169
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: true
+    glowingColor: dark_red
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.5
+    visibility_distance: -1
+    visibility: ALL
+    skin:
+      mirrorSkin: true
+    actions:
+      ANY_CLICK:
+        '1':
+          action: player_command
+          value: ah
+  6db27cab-1e4f-47e9-81d7-92b4e28598f4:
+    name: Sell
+    creator: be0a981b-a802-3419-8e76-899cd7368d6e
+    displayName: Sell
+    type: PLAYER
+    location:
+      world: world
+      x: -1945.485750187157
+      y: 189.0
+      z: -329.2357984906186
+      yaw: -179.77869
+      pitch: 1.2858001
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: true
+    glowingColor: dark_green
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.5
+    visibility_distance: -1
+    visibility: ALL
+    skin:
+      mirrorSkin: true
+    actions:
+      ANY_CLICK:
+        '1':
+          action: player_command
+          value: sell
+  e5170cd6-4253-4e6e-9934-9696c3bed6d5:
+    name: Settings
+    creator: be0a981b-a802-3419-8e76-899cd7368d6e
+    displayName: Settings
+    type: PLAYER
+    location:
+      world: world
+      x: -1951.4911962976742
+      y: 189.0
+      z: -353.24999936744405
+      yaw: 1.0273438
+      pitch: 2.6553178
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: true
+    glowingColor: red
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.5
+    visibility_distance: -1
+    visibility: ALL
+    skin:
+      mirrorSkin: true
+    actions:
+      ANY_CLICK:
+        '1':
+          action: player_command
+          value: Settings
+        '2':
+          action: player_command
+          value: settings
+  23e35f31-975a-445d-b2aa-8fc98c97d307:
+    name: Shop
+    creator: be0a981b-a802-3419-8e76-899cd7368d6e
+    displayName: Shop
+    type: PLAYER
+    location:
+      world: world
+      x: -1951.5072605496744
+      y: 189.0
+      z: -329.5518972927292
+      yaw: 179.64355
+      pitch: 1.4379646
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: true
+    glowingColor: green
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.5
+    visibility_distance: -1
+    visibility: ALL
+    skin:
+      mirrorSkin: true
+    actions:
+      ANY_CLICK:
+        '1':
+          action: player_command
+          value: shop
+  08076db4-1f34-40ba-9e6a-dd1837c8e64c:
+    name: RTP
+    creator: be0a981b-a802-3419-8e76-899cd7368d6e
+    displayName: RTP
+    type: PLAYER
+    location:
+      world: world
+      x: -1945.4680116256302
+      y: 189.0
+      z: -353.70538708658586
+      yaw: -0.55566406
+      pitch: 1.4379685
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: true
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.5
+    visibility_distance: -1
+    visibility: ALL
+    skin:
+      mirrorSkin: true
+    actions:
+      ANY_CLICK:
+        '1':
+          action: player_command
+          value: rtp
+  158e45c4-b0e9-42c2-83c7-b04a12a64d05:
+    name: Warp
+    creator: be0a981b-a802-3419-8e76-899cd7368d6e
+    displayName: Warp
+    type: PLAYER
+    location:
+      world: world
+      x: -1957.48166086939
+      y: 189.0
+      z: -329.5840465576587
+      yaw: 179.49133
+      pitch: -0.38806334
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: true
+    glowingColor: aqua
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.5
+    visibility_distance: -1
+    visibility: ALL
+    skin:
+      mirrorSkin: true
+    actions:
+      ANY_CLICK:
+        '1':
+          action: player_command
+          value: warp
+  bf89dc62-0005-4264-81bc-af9470dfecf0:
+    name: Help
+    creator: be0a981b-a802-3419-8e76-899cd7368d6e
+    displayName: Help
+    type: PLAYER
+    location:
+      world: world
+      x: -1963.0468880633955
+      y: 190.5
+      z: -336.95332263039006
+      yaw: -136.04688
+      pitch: 70.97895
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: true
+    glowingColor: dark_purple
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    visibility: ALL
+    skin:
+      mirrorSkin: true
+    actions:
+      ANY_CLICK:
+        '1':
+          action: player_command
+          value: help
