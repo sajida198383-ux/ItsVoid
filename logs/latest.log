@@ -1,0 +1,581 @@
+[16:05:25] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Microsoft Microsoft-13053558) on Linux 6.8.0-1052-azure (amd64)
+[16:05:25] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-121-main@a2a42c5 (2026-08-29T11:32:25Z) for Minecraft 26.2
+[16:05:25] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[16:05:26] [ServerMain/INFO]: [PluginInitializerManager] Initialized 22 plugins
+[16:05:26] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
+ - FancyNpcs (2.11.0), Veinminer (2.12.1)
+[16:05:26] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (20):
+ - Chunky (1.5.3), Geyser-Spigot (2.11.2-SNAPSHOT), GrimAC (2.3.74-61caa53), LifeStealZ (2.21.1), LuckPerms (5.5.71), PlaceholderAPI (2.12.3), ProtocolLib (5.4.0), RTPQueue (2.0), SkinsRestorer (15.12.5), TotemGuard (2.1.4), UltimateDonutSmp (1.4.1), Vault (1.7.3-b131), ViaBackwards (5.12.0-SNAPSHOT), ViaRewind (4.1.3), ViaVersion (5.12.0-SNAPSHOT), WorldEdit (7.4.5+7590-b8dc4c1), WorldGuard (7.0.18+2392-fa605e6), floodgate (2.2.5-SNAPSHOT (b140-8780fa4)), packetevents (2.13.0), playit-gg (0.2.0)
+[16:05:30] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[16:05:30] [ServerMain/WARN]: Failed to parse resource pack prompt 'Pack hosted by minepack.fr for free'
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setStrictness(Strictness.LENIENT) to accept malformed JSON at line 1 column 1 path $
+See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json
+	at com.google.gson.internal.Streams.parse(Streams.java:60) ~[gson-2.14.0.jar:?]
+	at com.google.gson.JsonParser.parseReader(JsonParser.java:144) ~[gson-2.14.0.jar:?]
+	at net.minecraft.util.StrictJsonParser.parse(StrictJsonParser.java:20) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.util.StrictJsonParser.parse(StrictJsonParser.java:34) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.server.dedicated.DedicatedServerProperties.parseResourcePackPrompt(DedicatedServerProperties.java:181) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.server.dedicated.DedicatedServerProperties.getServerPackInfo(DedicatedServerProperties.java:227) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.server.dedicated.DedicatedServerProperties.<init>(DedicatedServerProperties.java:147) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.server.dedicated.DedicatedServerProperties.fromFile(DedicatedServerProperties.java:167) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.server.dedicated.DedicatedServerSettings.<init>(DedicatedServerSettings.java:13) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.server.Main.main(Main.java:124) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:25) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at org.bukkit.craftbukkit.Main.main(Main.java:204) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setStrictness(Strictness.LENIENT) to accept malformed JSON at line 1 column 1 path $
+See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1817) ~[gson-2.14.0.jar:?]
+	at com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1613) ~[gson-2.14.0.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:727) ~[gson-2.14.0.jar:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:545) ~[gson-2.14.0.jar:?]
+	at com.google.gson.internal.Streams.parse(Streams.java:46) ~[gson-2.14.0.jar:?]
+	... 13 more
+[16:05:30] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[16:05:31] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 711.2ms
+[16:05:33] [ServerMain/INFO]: Loaded 1585 recipes
+[16:05:33] [ServerMain/INFO]: Loaded 1688 advancements
+[16:05:33] [ServerMain/WARN]: Failed to parse resource pack prompt 'Pack hosted by minepack.fr for free'
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setStrictness(Strictness.LENIENT) to accept malformed JSON at line 1 column 1 path $
+See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json
+	at com.google.gson.internal.Streams.parse(Streams.java:60) ~[gson-2.14.0.jar:?]
+	at com.google.gson.JsonParser.parseReader(JsonParser.java:144) ~[gson-2.14.0.jar:?]
+	at net.minecraft.util.StrictJsonParser.parse(StrictJsonParser.java:20) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.util.StrictJsonParser.parse(StrictJsonParser.java:34) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.server.dedicated.DedicatedServerProperties.parseResourcePackPrompt(DedicatedServerProperties.java:181) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.server.dedicated.DedicatedServerProperties.getServerPackInfo(DedicatedServerProperties.java:227) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.server.dedicated.DedicatedServerProperties.<init>(DedicatedServerProperties.java:147) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.server.dedicated.DedicatedServerProperties.reload(DedicatedServerProperties.java:174) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.server.dedicated.DedicatedServerProperties.reload(DedicatedServerProperties.java:49) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.server.dedicated.Settings$MutableValue.update(Settings.java:277) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.server.dedicated.DedicatedServer.lambda$setMotd$0(DedicatedServer.java:741) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.server.dedicated.DedicatedServerSettings.update(DedicatedServerSettings.java:26) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.server.dedicated.DedicatedServer.setMotd(DedicatedServer.java:741) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.server.dedicated.DedicatedServer.<init>(DedicatedServer.java:120) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.server.Main.lambda$main$2(Main.java:307) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.server.MinecraftServer.spin(MinecraftServer.java:310) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at net.minecraft.server.Main.main(Main.java:296) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:25) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at org.bukkit.craftbukkit.Main.main(Main.java:204) ~[paper-26.2.jar:26.2-121-a2a42c5]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setStrictness(Strictness.LENIENT) to accept malformed JSON at line 1 column 1 path $
+See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1817) ~[gson-2.14.0.jar:?]
+	at com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1613) ~[gson-2.14.0.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:727) ~[gson-2.14.0.jar:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:545) ~[gson-2.14.0.jar:?]
+	at com.google.gson.internal.Streams.parse(Streams.java:46) ~[gson-2.14.0.jar:?]
+	... 20 more
+[16:05:33] [Server thread/INFO]: Starting minecraft server version 26.2
+[16:05:33] [Server thread/INFO]: Loading properties
+[16:05:33] [Server thread/INFO]: This server is running Paper version 26.2-121-main@a2a42c5 (2026-08-29T11:32:25Z) (Implementing API version 26.2.build.121-stable)
+[16:05:34] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[16:05:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:05:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:05:34] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[16:05:34] [Server thread/INFO]: Default game type: SURVIVAL
+[16:05:34] [Server thread/INFO]: Generating keypair
+[16:05:34] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:05:35] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[16:05:35] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loading 10 libraries... please wait
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/org/incendo/cloud-paper/2.0.0-beta.17/cloud-paper-2.0.0-beta.17.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/org/incendo/cloud-bukkit/2.0.0-beta.17/cloud-bukkit-2.0.0-beta.17.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/org/incendo/cloud-core/2.0.0/cloud-core-2.0.0.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/org/incendo/cloud-services/2.0.0/cloud-services-2.0.0.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/io/leangen/geantyref/geantyref/1.3.15/geantyref-1.3.15.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/org/incendo/cloud-brigadier/2.0.0-beta.17/cloud-brigadier-2.0.0-beta.17.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/de/exlll/configlib-yaml/4.6.1/configlib-yaml-4.6.1.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/de/exlll/configlib-core/4.6.1/configlib-core-4.6.1.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/org/snakeyaml/snakeyaml-engine/2.7/snakeyaml-engine-2.7.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/io/lettuce/lettuce-core/6.8.1.RELEASE/lettuce-core-6.8.1.RELEASE.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/redis/clients/authentication/redis-authx-core/0.1.1-beta2/redis-authx-core-0.1.1-beta2.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/io/netty/netty-common/4.1.118.Final/netty-common-4.1.118.Final.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/io/netty/netty-handler/4.1.118.Final/netty-handler-4.1.118.Final.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/io/netty/netty-resolver/4.1.118.Final/netty-resolver-4.1.118.Final.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/io/netty/netty-buffer/4.1.118.Final/netty-buffer-4.1.118.Final.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/io/netty/netty-transport-native-unix-common/4.1.118.Final/netty-transport-native-unix-common-4.1.118.Final.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/io/netty/netty-codec/4.1.118.Final/netty-codec-4.1.118.Final.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/io/netty/netty-transport/4.1.118.Final/netty-transport-4.1.118.Final.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/io/projectreactor/reactor-core/3.6.6/reactor-core-3.6.6.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/io/netty/netty-resolver-dns/4.1.118.Final/netty-resolver-dns-4.1.118.Final.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/io/netty/netty-codec-dns/4.1.118.Final/netty-codec-dns-4.1.118.Final.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/net/jodah/expiringmap/0.5.11/expiringmap-0.5.11.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/com/j256/ormlite/ormlite-jdbc/6.1/ormlite-jdbc-6.1.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/com/zaxxer/HikariCP/7.0.2/HikariCP-7.0.2.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/com/mysql/mysql-connector-j/9.4.0/mysql-connector-j-9.4.0.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/com/google/protobuf/protobuf-java/4.31.1/protobuf-java-4.31.1.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/org/mariadb/jdbc/mariadb-java-client/3.5.6/mariadb-java-client-3.5.6.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/com/h2database/h2/2.4.240/h2-2.4.240.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/net/kyori/adventure-text-serializer-plain/4.25.0/adventure-text-serializer-plain-4.25.0.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/net/kyori/adventure-api/4.25.0/adventure-api-4.25.0.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/net/kyori/adventure-key/4.25.0/adventure-key-4.25.0.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[16:05:35] [Server thread/INFO]: [SpigotLibraryLoader] [TotemGuard] Loaded library /workspaces/ItsVoid/libraries/org/jetbrains/annotations/26.0.2-1/annotations-26.0.2-1.jar
+[16:05:36] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.12.0-SNAPSHOT
+[16:05:36] [Server thread/INFO]: [ViaVersion] ViaVersion 5.12.0-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[16:05:36] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[16:05:36] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[16:05:37] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[16:05:37] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.71
+[16:05:37] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[16:05:37] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b140-8780fa4)
+[16:05:38] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[16:05:38] [Server thread/INFO]: [floodgate] Took 505ms to boot Floodgate
+[16:05:38] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.12.0-SNAPSHOT
+[16:05:38] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[16:05:38] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.11.2-SNAPSHOT
+[16:05:38] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[16:05:38] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[16:05:38] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[16:05:38] [Server thread/WARN]: [ProtocolLib] Version (MC: 26.2.0) has not yet been tested! Proceed with caution.
+[16:05:38] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.1.3
+[16:05:38] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.4.5+7590-b8dc4c1
+[16:05:39] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@96315ba]
+[16:05:39] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.13.0
+[16:05:39] [Server thread/INFO]: [packetevents] Loading packetevents...
+[16:05:41] [Server thread/INFO]: [packetevents] Loaded packetevents v2.13.0
+[16:05:41] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.3
+[16:05:41] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.18+2392-fa605e6
+[16:05:41] [Server thread/INFO]: [TotemGuard] Loading server plugin TotemGuard v2.1.4
+[16:05:41] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.5
+[16:05:41] [Server thread/INFO]: [FancyNpcs] Loading server plugin FancyNpcs v2.11.0
+[16:05:41] [Server thread/INFO]: [RTPQueue] Loading server plugin RTPQueue v2.0
+[16:05:41] [Server thread/INFO]: [UltimateDonutSmp] Loading server plugin UltimateDonutSmp v1.4.1
+[16:05:41] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.74-61caa53
+[16:05:41] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
+[16:05:41] [Server thread/INFO]: [packetevents] Loading packetevents...
+[16:05:43] [Server thread/INFO]: [packetevents] Loaded packetevents v2.13.1+4d40422-SNAPSHOT for GrimAC
+[16:05:43] [pool-22-thread-1/INFO]: [packetevents] Loading block mappings for V_26_2/22...
+[16:05:43] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
+[16:05:43] [Server thread/INFO]: [Veinminer] Loading server plugin Veinminer v2.12.1
+[16:05:43] [Server thread/INFO]: [Veinminer] Detected platform: Paper
+[16:05:43] [Server thread/INFO]: [LifeStealZ] Loading server plugin LifeStealZ v2.21.1
+[16:05:43] [Server thread/INFO]: [LifeStealZ] Loading LifeStealZ...
+[16:05:43] [Server thread/INFO]: [LifeStealZ] WorldGuard found! Enabling WorldGuard support...
+[16:05:43] [Server thread/INFO]: [LifeStealZ] WorldGuard found! Enabled WorldGuard support!
+[16:05:43] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.5.3
+[16:05:43] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.71
+[16:05:43] [pool-22-thread-1/INFO]: [packetevents] Finished loading block mappings for V_26_2/22 in 427.611522ms
+[16:05:43] [Server thread/INFO]:         __    
+[16:05:43] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.71
+[16:05:43] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[16:05:43] [Server thread/INFO]: 
+[16:05:43] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[16:05:44] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[16:05:44] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[16:05:44] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1097ms)
+[16:05:44] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[16:05:44] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[16:05:44] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[16:05:44] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[16:05:44] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[16:05:44] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.1.3
+[16:05:44] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.4.5+7590-b8dc4c1
+[16:05:44] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[16:05:44] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[16:05:45] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v26_2.PaperweightAdapter as the Bukkit adapter
+[16:05:45] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.5
+[16:05:46] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 26.2.0.
+[16:05:46] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[16:05:46] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[16:05:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.12.5]
+[16:05:46] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[16:05:46] [Server thread/INFO]: [Veinminer] Enabling Veinminer v2.12.1
+[16:05:46] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:05:46] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:05:46] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:05:46] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:05:46] [Server thread/INFO]: Preparing level "world"
+[16:05:46] [Folia Async Scheduler Thread #1/WARN]: [SkinsRestorer] Failed to get release info from api.github.com. 
+ If this message is repeated a lot, please see https://skinsrestorer.net/firewall
+[16:05:46] [DefaultDispatcher-worker-1/INFO]: [de.miraculixx.veinminer.Veinminer] veinminer is up to date
+[16:05:47] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[16:05:47] [Server thread/INFO]: Preparing spawn area: 100%
+[16:05:47] [Server thread/INFO]: Prepared spawn area in 1 ms
+[16:05:47] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[16:05:47] [Server thread/INFO]: Prepared spawn area in 0 ms
+[16:05:47] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[16:05:47] [Server thread/INFO]: Prepared spawn area in 0 ms
+[16:05:47] [Server thread/INFO]: Done preparing level "world" (0.829s)
+[16:05:47] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.12.0-SNAPSHOT
+[16:05:47] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.2 (776)
+[16:05:47] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.5-SNAPSHOT (b140-8780fa4)
+[16:05:47] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.12.0-SNAPSHOT
+[16:05:47] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.11.2-SNAPSHOT
+[16:05:48] [Server thread/INFO]: [packetevents] Enabling packetevents v2.13.0
+[16:05:48] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[16:05:48] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.3
+[16:05:48] [packetevents-update-check-thread/INFO]: [packetevents] Failed to check for updates
+[16:05:48] [packetevents-update-check-thread/WARN]: 
+java.lang.IllegalStateException: Failed to parse packetevents version!
+	at packetevents-spigot-2.13.0.jar//com.github.retrooper.packetevents.util.updatechecker.UpdateChecker.checkLatestReleasedVersion(UpdateChecker.java:56) ~[?:?]
+	at packetevents-spigot-2.13.0.jar//com.github.retrooper.packetevents.util.updatechecker.UpdateChecker.checkForUpdate(UpdateChecker.java:68) ~[?:?]
+	at packetevents-spigot-2.13.0.jar//com.github.retrooper.packetevents.util.updatechecker.UpdateChecker.lambda$handleUpdateCheck$1(UpdateChecker.java:117) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.io.IOException: Server returned HTTP response code: 403 for URL: https://api.github.com/repos/retrooper/packetevents/releases/latest
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1700) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1302) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223) ~[?:?]
+	at packetevents-spigot-2.13.0.jar//com.github.retrooper.packetevents.util.updatechecker.UpdateChecker.checkLatestReleasedVersion(UpdateChecker.java:50) ~[?:?]
+	... 3 more
+[16:05:48] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[16:05:48] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.18+2392-fa605e6
+[16:05:48] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[16:05:48] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[16:05:48] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[16:05:48] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[16:05:48] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[16:05:48] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[16:05:48] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[16:05:48] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[16:05:48] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[16:05:48] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[16:05:48] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[16:05:48] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[16:05:48] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[16:05:48] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[16:05:48] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[16:05:48] [Server thread/INFO]: [WorldGuard] Loading region data...
+[16:05:49] [Server thread/INFO]: [TotemGuard] Enabling TotemGuard v2.1.4
+[16:05:49] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[16:05:49] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:/workspaces/ItsVoid/plugins/TotemGuard/db/data user=ROOT
+[16:05:49] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[16:05:49] [Server thread/INFO]: [TotemGuard] Database provider initialized
+[16:05:49] [ForkJoinPool.commonPool-worker-2/WARN]: [TotemGuard] Failed to parse TotemGuard version! Version API: Server returned HTTP response code: 403 for URL: https://api.github.com/repos/Bram1903/TotemGuard/releases/latest
+[16:05:49] [ForkJoinPool.commonPool-worker-2/WARN]: [TotemGuard] Unable to fetch the latest version from GitHub.
+[16:05:49] [Server thread/INFO]: [TotemGuard] Initializing command manager...
+[16:05:49] [Server thread/INFO]: [TotemGuard] Hooked into Brigadier for native command support.
+[16:05:49] [Server thread/INFO]: [FancyNpcs] Enabling FancyNpcs v2.11.0
+[16:05:50] [Server thread/WARN]: [org.mineskin.MineSkinClient] Creating MineSkinClient without API key
+[16:05:50] [FancyLogger/INFO]: [FancyNpcs] (Server thread) INFO: FancyNpcs (2.11.0) has been enabled.
+[16:05:50] [Server thread/INFO]: [RTPQueue] Enabling RTPQueue v2.0
+[16:05:50] [Server thread/INFO]: [RTPQueue] AdvancedRTPQueue v2.0 by KingRBxD enabled!
+[16:05:50] [Server thread/INFO]: [UltimateDonutSmp] Enabling UltimateDonutSmp v1.4.1
+[16:05:50] [Server thread/INFO]: 
+[16:05:50] [Server thread/INFO]:   ██╗   ██╗██╗  ████████╗██╗███╗   ███╗ █████╗ ████████╗███████╗
+[16:05:50] [Server thread/INFO]:   ██║   ██║██║  ╚══██╔══╝██║████╗ ████║██╔══██╗╚══██╔══╝██╔════╝
+[16:05:50] [Server thread/INFO]:   ██║   ██║██║     ██║   ██║██╔████╔██║███████║   ██║   █████╗  
+[16:05:50] [Server thread/INFO]:   ██║   ██║██║     ██║   ██║██║╚██╔╝██║██╔══██║   ██║   ██╔══╝  
+[16:05:50] [Server thread/INFO]:   ╚██████╔╝███████╗██║   ██║██║ ╚═╝ ██║██║  ██║   ██║   ███████╗
+[16:05:50] [Server thread/INFO]:    ╚═════╝ ╚══════╝╚═╝   ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝
+[16:05:50] [Server thread/INFO]: 
+[16:05:50] [Server thread/INFO]:   ██████╗  ██████╗ ███╗   ██╗██╗   ██╗████████╗    ███████╗███╗   ███╗██████╗ 
+[16:05:50] [Server thread/INFO]:   ██╔══██╗██╔═══██╗████╗  ██║██║   ██║╚══██╔══╝    ██╔════╝████╗ ████║██╔══██╗
+[16:05:50] [Server thread/INFO]:   ██║  ██║██║   ██║██╔██╗ ██║██║   ██║   ██║       ███████╗██╔████╔██║██████╔╝
+[16:05:50] [Server thread/INFO]:   ██║  ██║██║   ██║██║╚██╗██║██║   ██║   ██║       ╚════██║██║╚██╔╝██║██╔═══╝ 
+[16:05:50] [Server thread/INFO]:   ██████╔╝╚██████╔╝██║ ╚████║╚██████╔╝   ██║       ███████║██║ ╚═╝ ██║██║     
+[16:05:50] [Server thread/INFO]:   ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝    ╚═╝       ╚══════╝╚═╝     ╚═╝╚═╝     
+[16:05:50] [Server thread/INFO]: 
+[16:05:50] [Server thread/INFO]:   ═══════════════════════════════════════════════════════════════════════════════
+[16:05:50] [Server thread/INFO]:                        ᴍᴀᴅᴇ ʙʏ ʙᴇᴇѕᴛᴏxᴅ | ᴠᴇʀѕɪᴏɴ 1.4.1
+[16:05:50] [Server thread/INFO]:                    ᴅɪѕᴄᴏʀᴅ: https://dsc.gg/hellstarr
+[16:05:50] [Server thread/INFO]:   ═══════════════════════════════════════════════════════════════════════════════
+[16:05:50] [Server thread/INFO]: 
+[16:05:50] [Server thread/INFO]:   ╔═══════════════════════════════════════════════════════════════════════════╗
+[16:05:50] [Server thread/INFO]:   ║                                                                         ║
+[16:05:50] [Server thread/INFO]:   ║  ⚠ ɴᴏᴛᴇ                                                              ║
+[16:05:50] [Server thread/INFO]:   ║                                                                         ║
+[16:05:50] [Server thread/INFO]:   ║  ɢᴜʏѕ, ᴘʟᴇᴀѕᴇ ᴅᴏɴᴀᴛᴇ ᴛᴏ ᴛʜɪѕ ᴘʀᴏᴊᴇᴄᴛ ᴏʀ ᴛʜɪѕ ᴘʟᴜɢɪɴ ɪꜰ ʏᴏᴜ ʀᴇᴀʟʟʏ      ║
+[16:05:50] [Server thread/INFO]:   ║  ʟɪᴋᴇ ᴛʜɪѕ ᴘʟᴜɢɪɴ, ꜰᴏʀ ᴛʜᴇ ᴅᴏɴᴀᴛɪᴏɴ ʟɪɴᴋ ᴊᴜѕᴛ ᴅᴍ ᴍᴇ ᴏɴ ᴅɪѕᴄᴏʀᴅ,        ║
+[16:05:50] [Server thread/INFO]:   ║  ᴀɴᴅ ꜰᴏʀ ᴛʜᴏѕᴇ ᴡʜᴏ ʜᴀᴠᴇ ᴅᴏɴᴀᴛᴇᴅ ᴛᴏ ᴍᴇ, ᴍᴀʏ ɢᴏᴅ ʙʟᴇѕѕ ʏᴏᴜ ᴀɴᴅ ᴍᴀʏ       ║
+[16:05:50] [Server thread/INFO]:   ║  ʏᴏᴜ ᴀʟᴡᴀʏѕ ʙᴇ ʜᴇᴀʟᴛʜʏ ᴀɴᴅ ɪ ᴀᴍ ᴠᴇʀʏ ɢʀᴀᴛᴇꜰᴜʟ ꜰᴏʀ ᴛʜᴇ ᴅᴏɴᴀᴛɪᴏɴѕ        ║
+[16:05:50] [Server thread/INFO]:   ║  ᴛʜᴀᴛ ʜᴀᴠᴇ ʙᴇᴇɴ ɢɪᴠᴇɴ ᴛᴏ ᴍᴇ :)                                       ║
+[16:05:50] [Server thread/INFO]:   ║                                                                         ║
+[16:05:50] [Server thread/INFO]:   ╚═══════════════════════════════════════════════════════════════════════════╝
+[16:05:50] [Server thread/INFO]: 
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:50] [Server thread/INFO]: [UltimateDonutSmp] Added 2 missing bundled default path(s) to rtp.yml.
+[16:05:50] [Server thread/INFO]: [UltimateDonutSmp] Configuration sync complete: 0 created, 1 updated, .
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:51] [Server thread/WARN]: [org.bukkit.configuration.file.YamlConstructor] duplicate keys found : REQUIRED-PLAYTIME-HOURS
+[16:05:52] [Server thread/INFO]: [UltimateDonutSmp] Language loaded: en_US
+[16:05:52] [Server thread/INFO]: [UltimateDonutSmp] Database connected successfully using SQLITE.
+[16:05:52] [Server thread/INFO]: [UltimateDonutSmp] Vault economy provider registered.
+[16:05:53] [Server thread/WARN]: [UltimateDonutSmp] [SpawnManager] SPAWN-MENU.AREAS.1 is missing cuboid. it can still be used only as a generic visual template.
+[16:05:53] [Server thread/INFO]: [UltimateDonutSmp] Redis integration is disabled.
+[16:05:53] [Server thread/WARN]: [UltimateDonutSmp] Lunar Rich Presence is enabled, but the Apollo plugin/API is not installed.
+[16:05:53] [Server thread/INFO]: [UltimateDonutSmp] LuckPerms tablist refresh bridge enabled (Spigot one-shot refresh v4).
+[16:05:53] [Server thread/INFO]: [UltimateDonutSmp] SkinsRestorer tablist skin head refresh bridge enabled via API EventBus.
+[16:05:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: economy [1.1]
+[16:05:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ultimatedonutsmp [1.1]
+[16:05:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: uds [1.1]
+[16:05:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: hide [1.4.1]
+[16:05:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: economylb [1.4.1]
+[16:05:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: economyrank [1.4.1]
+[16:05:53] [Server thread/INFO]: [UltimateDonutSmp] PlaceholderAPI expansion registered.
+[16:05:53] [Server thread/INFO]: [UltimateDonutSmp] UltimateDonutSmp enabled successfully.
+[16:05:53] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.74-61caa53
+[16:05:53] [Server thread/INFO]: [GrimAC] Registering packets...
+[16:05:53] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
+[16:05:53] [Server thread/INFO]: Grim Version: 2.3.74-61caa53
+[16:05:54] [Server thread/INFO]: [grim-datastore] [grim-datastore] SQLite engine 3.49.1 — using modern dialect
+[16:05:54] [Server thread/INFO]: [grim-datastore] [v2-bootstrap] grim:grim_settings (settings): 0 migration(s)
+[16:05:54] [Server thread/INFO]: [grim-datastore] [v2-bootstrap] grim:grim_players (players): 0 migration(s)
+[16:05:54] [Server thread/INFO]: [grim-datastore] [v2-bootstrap] grim:grim_violations (violations): 0 migration(s)
+[16:05:54] [Server thread/INFO]: [grim-datastore] [v2-bootstrap] grim:grim_checks (checks): 0 migration(s)
+[16:05:54] [Server thread/INFO]: [grim-datastore] [v2-bootstrap] grim:grim_sessions (sessions): 0 migration(s)
+[16:05:54] [Server thread/INFO]: [grim-datastore] [v2-bootstrap] grim:server_startups (server_startups): 0 migration(s)
+[16:05:54] [Server thread/INFO]: [grim-datastore] [grim-datastore] v2 cutover complete: 1 v2 backend(s), ac.grim.grimac.internal.storage.core.V2Routes@771f7038 routes installed, 0 legacy backends
+[16:05:54] [Server thread/INFO]: [grim-datastore] [grim-datastore] storage startup claimed: serverName='ChangeMe' instanceId=8e8ce829-5b36-43df-abaf-4d4e877a9e7f startupId=e491e7fb-46c9-4c9d-aa65-1f9a3ed861c4 fence=8feaa021-2739-4518-9c3f-1bc3bc0d464d.
+[16:05:54] [Server thread/WARN]: [GrimAC] GrimAC has detected that you have installed ViaBackwards on a 1.21.2+ server.
+[16:05:54] [Server thread/WARN]: [GrimAC] This setup is currently unsupported and you will experience issues with older clients using vehicles.
+[16:05:54] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
+[16:05:54] [Server thread/INFO]: [GrimAC] LuckPerms detected
+[16:05:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: grim [2.3.74-61caa53]
+[16:05:54] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.2.0
+[16:05:54] [Thread-19/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
+[16:05:54] [Thread-19/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[16:05:54] [Server thread/INFO]: [LifeStealZ] Enabling LifeStealZ v2.21.1
+[16:05:54] [Server thread/INFO]: [LifeStealZ] Geyser found, enabling Bedrock player support.
+[16:05:54] [Server thread/INFO]: [LifeStealZ] Using language file: plugins/LifeStealZ/lang/en-US.yml
+[16:05:54] [Server thread/INFO]: [LifeStealZ] Using SQLite storage
+[16:05:55] [Thread-19/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret verified, ready to connect
+[16:05:55] [Thread-19/INFO]: [gg.playit.minecraft.PlayitManager] keys setup complete, ready to connect
+[16:05:55] [Server thread/INFO]: [com.zetaplugins.zetacore.libs.reflections.Reflections] Reflections took 124 ms to scan 1 urls, producing 39 keys and 134 values
+[16:05:55] [Server thread/INFO]: [LifeStealZ] Registered 5 commands
+[16:05:55] [Server thread/INFO]: [com.zetaplugins.zetacore.libs.reflections.Reflections] Reflections took 33 ms to scan 1 urls, producing 39 keys and 134 values
+[16:05:55] [Server thread/INFO]: [LifeStealZ] Registered 19 event listeners
+[16:05:55] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: lifestealz [2.21.1]
+[16:05:55] [Server thread/INFO]: [LifeStealZ] PlaceholderAPI found! Enabled PlaceholderAPI support!
+[16:05:55] [Server thread/INFO]: [LifeStealZ] LifeStealZ enabled!
+[16:05:55] [Server thread/INFO]: [Chunky] Enabling Chunky v1.5.3
+[16:05:55] [Thread-19/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :/[2602:fbaf:840:0:0:0:0:1]:5525, error : java.net.SocketException: Network is unreachable
+[16:05:55] [Server thread/INFO]: [spark] Starting background profiler...
+[16:05:55] [Thread-19/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[16:05:56] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[16:05:56] [Server thread/INFO]: [Geyser-Spigot] 
+[16:05:56] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.11.2-b1234 (git-master-9b65a39)
+[16:05:56] [Server thread/INFO]: [Geyser-Spigot] 
+[16:05:56] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[16:05:56] [Thread-19/INFO]: [gg.playit.minecraft.PlayitManager] found minecraft java tunnel: cynthia-appearances.tun.ply.gg
+[16:05:56] [Thread-19/INFO]: playit.gg: tunnel setup
+[16:05:56] [Thread-19/INFO]: playit.gg: cynthia-appearances.tun.ply.gg
+[16:05:57] [Server thread/INFO]: [Geyser-Spigot] Registered 199 custom block overrides.
+[16:05:57] [Server thread/INFO]: [Geyser-Spigot] Registered 2 custom block item overrides.
+[16:05:57] [Server thread/INFO]: [Geyser-Spigot] Registered 7 custom blocks.
+[16:05:58] [Server thread/INFO]: [Geyser-Spigot] Registered 1 custom items
+[16:06:00] [GeyserServer-4-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[16:06:00] [Server thread/INFO]: [Geyser-Spigot] Done (3.902s)! Run /geyser help for help!
+[16:06:00] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[16:06:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:06:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[16:06:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[16:06:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:06:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:06:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:06:00] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:06:00] [Server thread/INFO]: Running delayed init tasks
+[16:06:00] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[16:06:00] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] Checking for Updates ... 
+[16:06:00] [Craft Scheduler Thread - 7 - UltimateDonutSmp/INFO]: [UltimateDonutSmp] You are running the latest version of UltimateDonutSmp (1.4.1).
+[16:06:00] [Craft Scheduler Thread - 6 - GrimAC/INFO]: You are using the latest version of GrimAC
+[16:06:00] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] No new version available
+[16:06:01] [Server thread/INFO]: [de.miraculixx.veinminer.Veinminer] All events enabled!
+[16:06:01] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:duel/duel_biome_ef9d1d360ba7'...
+[16:06:01] [Server thread/INFO]: Preparing spawn area: 100%
+[16:06:01] [Server thread/INFO]: Prepared spawn area in 16 ms
+[16:06:01] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[16:06:01] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[16:06:01] [Server thread/INFO]: [WorldGuard] (duel/duel_biome_ef9d1d360ba7) TNT ignition is PERMITTED.
+[16:06:01] [Server thread/INFO]: [WorldGuard] (duel/duel_biome_ef9d1d360ba7) Lighters are PERMITTED.
+[16:06:01] [Server thread/INFO]: [WorldGuard] (duel/duel_biome_ef9d1d360ba7) Lava fire is PERMITTED.
+[16:06:01] [Server thread/INFO]: [WorldGuard] (duel/duel_biome_ef9d1d360ba7) Fire spread is UNRESTRICTED.
+[16:06:01] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'duel/duel_biome_ef9d1d360ba7'
+[16:06:03] [Server thread/INFO]: [gg.playit.minecraft.PlayitPipelineInjector] injected playit header decoder into server channel: [id: 0x25fcdcc5, L:/[0:0:0:0:0:0:0:0]:25565]
+[16:06:03] [Server thread/INFO]: [gg.playit.minecraft.PlayitPipelineInjector] injected playit header decoder into server channel: [id: 0xe39ccb07, L:local:E:99f6d763]
+[16:06:03] [Server thread/INFO]: [gg.playit.minecraft.PlayitBukkit] playit header decoder injected into server pipeline
+[16:06:03] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[16:06:03] [Server thread/INFO]: Done (38.722s)! For help, type "help"
+[16:06:03] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[16:06:03] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.9]
+[16:06:03] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion coinsapi due to an unknown issue.
+[16:06:03] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[16:06:03] [Server thread/INFO]: 3 placeholder hook(s) registered!
+[16:06:03] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:duel/duel_biome_675621126e11'...
+[16:06:03] [Server thread/INFO]: Prepared spawn area in 2 ms
+[16:06:03] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[16:06:03] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[16:06:03] [Server thread/INFO]: [WorldGuard] (duel/duel_biome_675621126e11) TNT ignition is PERMITTED.
+[16:06:03] [Server thread/INFO]: [WorldGuard] (duel/duel_biome_675621126e11) Lighters are PERMITTED.
+[16:06:03] [Server thread/INFO]: [WorldGuard] (duel/duel_biome_675621126e11) Lava fire is PERMITTED.
+[16:06:03] [Server thread/INFO]: [WorldGuard] (duel/duel_biome_675621126e11) Fire spread is UNRESTRICTED.
+[16:06:03] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'duel/duel_biome_675621126e11'
+[16:07:32] [Thread-19/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.213:32170, peerAddr=169.224.26.206:64774, claimAddress=69.9.185.2:43786, claimToken=[44, 0, 108, -109, -71, -35, -43, 125, -86, -87, -32, 26, -50, -3, 6, -23, 11, 91, -48, -85, 10, 106, -98, -31, 68, 0, 0, 0, 0, 0, 40, -46, 107, 0, 0, 0, 0, 0, 103, -124, -90, 0, 0, 0, 0, 0, 71, 4, -37, -58, -85, -85, 10, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 38, 37, 0, -122, 6, 30, 99, 121, 110, 116, 104, 105, 97, 45, 97, 112, 112, 101, 97, 114, 97, 110, 99, 101, 115, 46, 116, 117, 110, 46, 112, 108, 121, 46, 103, 103, 99, -35, 1, 55, -67, -116, -37, -96, -59, -23, -90, 108, -26, -67, 80, 89, 80, -89, -79], tunnelServerId=0, tunnelId=4654299, dataCenterId=36, portOffset=0}
+[16:07:32] [Thread-19/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[16:07:32] [Thread-19/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.185.2:43786 to claim client
+[16:07:32] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[16:07:32] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[16:07:32] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[16:07:32] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[16:07:32] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[16:07:32] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /169.224.26.206:64774
+[16:07:32] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
+[16:07:34] [Thread-19/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.213:32170, peerAddr=169.224.26.206:64878, claimAddress=69.9.185.2:43786, claimToken=[44, 0, -119, -109, -71, -35, -43, 125, -86, -87, -32, 26, -50, -3, 110, -78, -45, 119, 49, -85, 10, 106, -98, -31, 70, 0, 0, 0, 0, 0, 40, -46, 107, 0, 0, 0, 0, 0, 103, -124, -90, 0, 0, 0, 0, 0, 71, 4, -37, -73, -17, -85, 10, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 2, 0, 12, 0, 67, 38, 0, -122, 6, 31, 99, 121, 110, 116, 104, 105, 97, 45, 97, 112, 112, 101, 97, 114, 97, 110, 99, 101, 115, 46, 116, 117, 110, 46, 112, 108, 121, 46, 103, 103, 46, 125, -86, 2, 27, 0, 9, 73, 116, 115, 86, 111, 105, 100, 77, 101, -63, 37, -64, -107, 83, 17, 68, 123, -79, -43, -96, -50, 79, -128, 81, 125, -23, -17, -46, 108, -93, 82, -34, -112, 58, 89, -108, -17, 104, 11, 63, 66], tunnelServerId=0, tunnelId=4654299, dataCenterId=36, portOffset=0}
+[16:07:34] [Thread-19/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[16:07:34] [Thread-19/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.185.2:43786 to claim client
+[16:07:34] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[16:07:34] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[16:07:34] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[16:07:34] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[16:07:34] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[16:07:34] [Netty Epoll IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /169.224.26.206:64878
+[16:07:34] [Netty Epoll IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
+[16:07:34] [User Authenticator #0/INFO]: UUID of player ItsVoidMe is be0a981b-a802-3419-8e76-899cd7368d6e
+[16:07:34] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, LifeStealZ, UltimateDonutSmp, ProtocolLib, WorldGuard]
+[16:07:40] [Server thread/INFO]: ItsVoidMe[/169.224.26.206:64878] logged in with entity id 23 at ([minecraft:overworld]-1950.3186673787245, 189.0, -344.3603979312635)
+[16:07:40] [Server thread/INFO]: [packetevents] Loading block mappings for V_26_2/22...
+[16:07:41] [Server thread/INFO]: [packetevents] Finished loading block mappings for V_26_2/22 in 461.077866ms
+[16:07:41] [Server thread/INFO]: [UltimateDonutSmp] [+] ItsVoidMe joined Crystal
+[16:09:56] [Thread-19/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:13:56] [Thread-19/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:17:57] [Thread-19/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:19:43] [Server thread/INFO]: ItsVoidMe issued server command: /weather clear
+[16:19:43] [Server thread/INFO]: [ItsVoidMe: Set the weather to clear]
+[16:19:54] [Server thread/INFO]: ItsVoidMe issued server command: /region
+[16:20:06] [Server thread/INFO]: ItsVoidMe issued server command: /afk
+[16:20:32] [Server thread/INFO]: [ItsVoidMe: Set own game mode to Spectator Mode]
+[16:20:36] [Server thread/INFO]: [ItsVoidMe: Set own game mode to Creative Mode]
+[16:20:53] [Server thread/INFO]: [ItsVoidMe: Set own game mode to Spectator Mode]
+[16:20:55] [Server thread/INFO]: [ItsVoidMe: Set own game mode to Creative Mode]
+[16:21:58] [Thread-19/INFO]: [gg.playit.control.ChannelSetup] send keep alive

@@ -1,0 +1,1254 @@
+# Configuration section for Settings.
+SETTINGS:
+  # Configuration section for List Menu.
+  LIST-MENU:
+    TITLE: '&8Crates'
+    SIZE: 27
+    # The text or value for Filler. Available options: Any valid string text
+    FILLER: GRAY_STAINED_GLASS_PANE
+    # Configuration section for Content Slots.
+    CONTENT-SLOTS:
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    # The numerical value for Empty Slot. Available options: Any valid integer
+    EMPTY-SLOT: 13
+    # Configuration section for Empty.
+    EMPTY:
+      MATERIAL: BARRIER
+      DISPLAY-NAME: '&cNo Crates'
+      LORE:
+      - '&7No crates are available right now.'
+    # Configuration section for Close Button.
+    CLOSE-BUTTON:
+      SLOT: 26
+      MATERIAL: BARRIER
+      DISPLAY-NAME: '&cClose'
+      LORE:
+      - '&7Close this menu.'
+  # Configuration section for Confirm Menu.
+  CONFIRM-MENU:
+    SIZE: 27
+    # The text or value for Filler. Available options: Any valid string text
+    FILLER: GRAY_STAINED_GLASS_PANE
+    # The numerical value for Preview Slot. Available options: Any valid integer
+    PREVIEW-SLOT: 13
+    # The numerical value for Confirm Slot. Available options: Any valid integer
+    CONFIRM-SLOT: 15
+    # Configuration section for Confirm Button.
+    CONFIRM-BUTTON:
+      MATERIAL: LIME_STAINED_GLASS_PANE
+      DISPLAY-NAME: '&aConfirm'
+      LORE:
+      - '&7Claim &f{reward}&7 from'
+      - '&b{crate}&7.'
+    # Configuration section for Cancel Button.
+    CANCEL-BUTTON:
+      SLOT: 11
+      MATERIAL: RED_STAINED_GLASS_PANE
+      DISPLAY-NAME: '&cCancel'
+      LORE:
+      - '&7Return to the reward list.'
+  # Configuration section for Hologram.
+  HOLOGRAM:
+    # The decimal value for Offset Y. Available options: Any decimal number
+    OFFSET-Y: 1.6
+    # Configuration section for Lines.
+    LINES:
+    - '{crate}'
+    - '&7Right-click to open'
+    # The text or value for Key Line. Available options: Any valid string text
+    KEY-LINE: '&7Keys: &f{keys}'
+  # Configuration section for Particles.
+  PARTICLES:
+    # Determines whether Enabled is enabled or disabled. Available options: true, false
+    ENABLED: true
+    TYPE: ENCHANT
+    # The numerical value for Count. Available options: Any valid integer
+    COUNT: 4
+  # Configuration section for Gacha.
+  GACHA:
+    TITLE: '&8Rolling Reward'
+    # The text or value for Filler. Available options: Any valid string text
+    FILLER: BLACK_STAINED_GLASS_PANE
+    # Configuration section for Preview Slots.
+    PREVIEW-SLOTS:
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    # The numerical value for Pointer Slot. Available options: Any valid integer
+    POINTER-SLOT: 13
+    # The numerical value for Total Steps. Available options: Any valid integer
+    TOTAL-STEPS: 38
+    # The numerical value for Tick Interval. Available options: Any valid integer
+    TICK-INTERVAL: 2
+# Configuration section for Crates.
+CRATES:
+  common:
+    ENABLED: true
+    DISPLAY:
+      MATERIAL: CHEST
+      DISPLAY-NAME: '&fCommon Crate'
+      LORE:
+      - '&7ᴋᴇʏѕ: &f{keys}'
+      - '&aᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ ᴀɴᴅ ᴄʜᴏᴏѕᴇ 1 ʀᴇᴡᴀʀᴅ.'
+    KEY-ITEM:
+      MATERIAL: TRIPWIRE_HOOK
+      DISPLAY-NAME: '&fCommon Key'
+      LORE:
+      - '&7ᴏᴘᴇɴѕ ᴛʜᴇ &fCommon crate&7.'
+    OPEN-TYPE: CHOOSE_ONE
+    PERMISSION: ''
+    BROADCAST-ON-CLAIM: false
+    MENU:
+      OPEN-TITLE: '&8Common ᴄʀᴀᴛᴇ'
+      CONFIRM-TITLE: '&8ᴄᴏɴꜰɪʀᴍ ʀᴇᴡᴀʀᴅ'
+      SIZE: 27
+      FILLER: BLACK_STAINED_GLASS_PANE
+      BACK-SLOT: 26
+      BACK-BUTTON:
+        MATERIAL: BARRIER
+        DISPLAY-NAME: '&cʙᴀᴄᴋ'
+        LORE:
+        - '&7ʀᴇᴛᴜʀɴ ᴛᴏ ᴛʜᴇ ᴄʀᴀᴛᴇ ʟɪѕᴛ.'
+    REWARDS:
+      reward_10:
+        SLOT: 10
+        DISPLAY:
+          MATERIAL: DIAMOND_SWORD
+          DISPLAY-NAME: '&fDiamond Sword'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - sharpness:2
+          - unbreaking:2
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: DIAMOND_SWORD
+          DISPLAY-NAME: '&fDiamond Sword'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - sharpness:2
+          - unbreaking:2
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/0XLMQ7CMAxG4Z9GSCiMRXAE7sDMGViRSQyNUOzKTsX1aacMb/r0IhBwvFOjB5sXFWC8HjCUjEstwsno3W65UFXJT/+p5YB90kUagF1ETFpnFZbmEee+sKSJpNUNAsYOPpHNwu7rPwScuizyMqZvkc9Ga3+9DtdwnQAAAA==
+          REQUIRES-INVENTORY-SPACE: true
+      reward_11:
+        SLOT: 11
+        DISPLAY:
+          MATERIAL: DIAMOND_PICKAXE
+          DISPLAY-NAME: '&fDiamond Pickaxe'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - efficiency:1
+          - unbreaking:1
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: DIAMOND_PICKAXE
+          DISPLAY-NAME: '&fDiamond Pickaxe'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - efficiency:1
+          - unbreaking:1
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/1XMQQrCMBCF4adBkLhUBE/gHVx7hm5lnEx0KJmUNAV7+zar4uKtPv7nAYfTkyp1UkbNBpzvR+w14JbUhAvF+ghKKVt4Dco9/cThwHmyCmDn4TmnIZtYHT2uWyTGX7KaGjhcNpjsXYR6tU87+COJUVnXcm60bgHCvozKoAAAAA==
+          REQUIRES-INVENTORY-SPACE: true
+      reward_12:
+        SLOT: 12
+        DISPLAY:
+          MATERIAL: DIAMOND_AXE
+          DISPLAY-NAME: '&fDiamond Axe'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - sharpness:1
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: DIAMOND_AXE
+          DISPLAY-NAME: '&fDiamond Axe'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - sharpness:1
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/0XLMQoCMRCF4adBkFguegXvYO0ZbJchGdkUebNkRvD4utUWf/XxZyDh8pSQlw5vRmC6n3FsFdfeqGXIOx61STfWWb6acCr2YQA4ZORifTUqwzNu+6AsizD6BgnTDr7IWKnu2//vB4DQehGAAAAA
+          REQUIRES-INVENTORY-SPACE: true
+      reward_13:
+        SLOT: 13
+        DISPLAY:
+          MATERIAL: DIAMOND_HELMET
+          DISPLAY-NAME: '&fDiamond Helmet'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - protection:1
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: DIAMOND_HELMET
+          DISPLAY-NAME: '&fDiamond Helmet'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - protection:1
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/0WNQQrCQAxFfx0KMi4rxRt4B9eewa2ETKQDJinT9P7Vbrp4q8fjZSDh8qSgl7SlugHD/YxTLbhpNeFGn3iUSupW3pN8VSKhZ18tAHQZmV1nN7FYMsajEeOJLPQvEq6HmJuHcOwvdD82+Ax+KIQAAAA=
+          REQUIRES-INVENTORY-SPACE: true
+      reward_14:
+        SLOT: 14
+        DISPLAY:
+          MATERIAL: DIAMOND_CHESTPLATE
+          DISPLAY-NAME: '&fDiamond Chestplate'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - protection:1
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: DIAMOND_CHESTPLATE
+          DISPLAY-NAME: '&fDiamond Chestplate'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - protection:1
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/0WNsQ7CMAwFX4kqoTAWdWLnH5j5BlZkOUaNROwocf+/0KXDTafTRSDg8iSnl7SeTYHpfsYpJ9xKVuFGH3+kTMU0vXmR7vVLLgEj26oOYIiIbKWainqPmI9OlBdSL38RcD1EbebCvv8w/NgATnhsRogAAAA=
+          REQUIRES-INVENTORY-SPACE: true
+      reward_15:
+        SLOT: 15
+        DISPLAY:
+          MATERIAL: DIAMOND_LEGGINGS
+          DISPLAY-NAME: '&fDiamond Leggings'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - protection:1
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: DIAMOND_LEGGINGS
+          DISPLAY-NAME: '&fDiamond Leggings'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - protection:1
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/0WNOw4CMQwF3xIhoVCCKLgAd6DmDNsiyzHBErFXibk/n2aLqUajyUDC/kZBs/ShbsDhssNGC85NTbjTI65FqbmV+0tqVasjYcv+tgAwZWT2triJxcg4rZUYP8mi/UTCcRVL9xCO/w3Tlw8X+IANhgAAAA==
+          REQUIRES-INVENTORY-SPACE: true
+      reward_16:
+        SLOT: 16
+        DISPLAY:
+          MATERIAL: DIAMOND_BOOTS
+          DISPLAY-NAME: '&fDiamond Boots'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - protection:1
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: DIAMOND_BOOTS
+          DISPLAY-NAME: '&fDiamond Boots'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - protection:1
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/0WNMQ7CMAxFfxshVWEE0SP0Dp17hq7IOEZkiF0l5v60LB3e9PT0IhBwXchpldqyKXCbBvQ5YSxZhSu9fU6Ziml6vsy8BVzYvuoAuojIVjZTUW8RjzMR5Q+pl0ME3E+xVXNh/6/Q7fwAQiX7z4MAAAA=
+          REQUIRES-INVENTORY-SPACE: true
+  amethys:
+    ENABLED: true
+    DISPLAY:
+      MATERIAL: CHEST
+      DISPLAY-NAME: '&fAmethys Crate'
+      LORE:
+      - '&7ᴋᴇʏѕ: &f{keys}'
+      - '&aᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ ᴀɴᴅ ᴄʜᴏᴏѕᴇ 1 ʀᴇᴡᴀʀᴅ.'
+    KEY-ITEM:
+      MATERIAL: TRIPWIRE_HOOK
+      DISPLAY-NAME: '&fAmethys Key'
+      LORE:
+      - '&7ᴏᴘᴇɴѕ ᴛʜᴇ &fAmethys crate&7.'
+    OPEN-TYPE: CHOOSE_ONE
+    PERMISSION: ''
+    BROADCAST-ON-CLAIM: false
+    MENU:
+      OPEN-TITLE: '&8Amethys ᴄʀᴀᴛᴇ'
+      CONFIRM-TITLE: '&8ᴄᴏɴꜰɪʀᴍ ʀᴇᴡᴀʀᴅ'
+      SIZE: 27
+      FILLER: BLACK_STAINED_GLASS_PANE
+      BACK-SLOT: 26
+      BACK-BUTTON:
+        MATERIAL: BARRIER
+        DISPLAY-NAME: '&cʙᴀᴄᴋ'
+        LORE:
+        - '&7ʀᴇᴛᴜʀɴ ᴛᴏ ᴛʜᴇ ᴄʀᴀᴛᴇ ʟɪѕᴛ.'
+    REWARDS:
+      reward_10:
+        SLOT: 10
+        DISPLAY:
+          MATERIAL: NETHERITE_AXE
+          DISPLAY-NAME: '&x&9&B&5&9&B&6&lAmethyst Sell Axe'
+          LORE:
+          - '&x&B&D&C&3&C&7Instantly sells all items in a chest'
+          - '&x&B&D&C&3&C&7Right-click a chest to sell'
+          - ''
+          - '&x&9&B&5&9&B&6✦ Self Destruct'
+          - '&x&B&D&C&3&C&71D 0H 0M'
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - efficiency:5
+          - unbreaking:3
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: NETHERITE_AXE
+          DISPLAY-NAME: '&x&9&B&5&9&B&6&lAmethyst Sell Axe'
+          LORE:
+          - '&x&B&D&C&3&C&7Instantly sells all items in a chest'
+          - '&x&B&D&C&3&C&7Right-click a chest to sell'
+          - ''
+          - '&x&9&B&5&9&B&6✦ Self Destruct'
+          - '&x&B&D&C&3&C&71D 0H 0M'
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - efficiency:5
+          - unbreaking:3
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/72U3YrTQBTHT22raURh/UREiGzFq0A/02Tv2u2CwgriwuJdmExOmrGTmZCZwfYhfAO99aG89EmcLGp2WZb6AXs5mfM/53fO+WdcgDbcXhJNTrFSTAqA+y8duMFSeFwwgbQimT4QqHOsmMaYbLANXSqN0ADQcsGlsiilQKGVCw8biRFJhWRNEo7Qg7vNBZcVulbb7UEXN7oi9aHVgptME84otMA1IsWKW0VqT51E8hScuqiVwq39xfJwfDizYTLJjKJEn4XdUbpia8tZSbPKbXxH2+zQfy2UJkLzraeQc+URzj3bSKE8Jjzi0RyV/h0NcC1QT9+xVa59ajOvfzF4Wp4RnmNxAP6DKFpMo0Xwh0R73z9/9U6QZ97SslSGXvtMnOHSG7zyBm/OFXbhSeMbLSXXrIxTpkpOtj3Yy1maoogbA9YDa8OzRkO0rZUY69tCpixj1uLwqLlGQXPrjaLWXuVd9ypBGx5cUjCxqhEuXGGWMcqsclubHi78JNQoLYtYkAL/Zsitf17zvLDfttZtdtfcm2/wwrQvk6X2YXDh3luTWJiFWa+ZPiXcoOrAC2PXUdT1pDBaFeUB+Zk8rlcV46ZkVd0zfPjy7ZMD+zvi9ba0NCdHx8fx/P2RA/0d8fKjwAr6CQ5IFA4Tn4SDkT+eDCM/xFngh1FE09k4CNMAHXi+I5l97vrRaBQm4yj0M5yhP5nQiR+G2dRPg2mAmM0Ihkndzg+KSzi2MwUAAA==
+          AMETHYST-DURATION: 86400
+          REQUIRES-INVENTORY-SPACE: true
+      reward_11:
+        SLOT: 11
+        DISPLAY:
+          MATERIAL: NETHERITE_PICKAXE
+          DISPLAY-NAME: '&x&9&B&5&9&B&6&lAmethyst Drill'
+          LORE:
+          - '&x&B&D&C&3&C&7Breaks &d9 blocks &7per strike'
+          - '&x&B&D&C&3&C&7Powered by amethyst energy'
+          - ''
+          - '&x&9&B&5&9&B&6✦ Self Destruct'
+          - '&x&B&D&C&3&C&71D 0H 0M'
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - efficiency:5
+          - fortune:3
+          - unbreaking:3
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: NETHERITE_PICKAXE
+          DISPLAY-NAME: '&x&9&B&5&9&B&6&lAmethyst Drill'
+          LORE:
+          - '&x&B&D&C&3&C&7Breaks &d9 blocks &7per strike'
+          - '&x&B&D&C&3&C&7Powered by amethyst energy'
+          - ''
+          - '&x&9&B&5&9&B&6✦ Self Destruct'
+          - '&x&B&D&C&3&C&71D 0H 0M'
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - efficiency:5
+          - fortune:3
+          - unbreaking:3
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/71UTW8TMRCdkIQmC1QKXxIgpEUN4rRSvrPbG2kOIBWpAqnXldeeTUy89sprq82V3wFXfhRHfgleULutoioBBEdr3vN7nplnD6AOd+bEkFPUBVcS4MGrFtziDJ5lXCLVJDWHEs0SNTcY55yuyDnWoUmVlQYAah54VGW5kihN4cGjimZlopGsSCIQ2rBfFYTS6Dlusw1NPDealId6DW5zQwSnUAPPSoZaOAZzp0aiBINWKeqosHcwmx8Nj6YOppLUFpSYn7B7hdF85bxqZRdLh28YdzvszUoXhQ87C9wVfLE0cW51LnBHlXbkJ0LR6zoXRS9H7f/iXYo0FpqsLxEAV3tR+1e9eHqizlAj85O1TzJXXhfGR4l6cdVKC+AvDEWzcTSb7Gio8/3zV/8DitSfo0NYav53S1r9ud974/feXRH24Em1rUYpYXgeM17kgqzb0FlyxlDG1dqXDavD84pDjNNKrEtMphhPuQsXPK7KKOmSSJOV3JsS491EqEOnKqRKGyux1K/Dw42buFxslDBNOeXuxnUZQbgWWWoLo7JYut34nebX/nT8+68vlnCuuRDXRrBpi7l/yoP7JzZxTmZ2teLmlAiLRQNeWjejrBRT0poiyw8v1jsu5xfjec51+WD4+OXbpxYcbMGbdY7QnL9/e3zcgu4WsDpzCYJugj0Shf0kIGFvEAxH/SgIcToJwiiibDqchGzi4v9iy2Xu6+0Oxv1h2mNpMEoH42DUn5IgDCcY4DgZTDHFcERZ+ZYf3yGd6L8FAAA=
+          AMETHYST-DURATION: 86400
+          REQUIRES-INVENTORY-SPACE: true
+      reward_12:
+        SLOT: 12
+        DISPLAY:
+          MATERIAL: BUCKET
+          DISPLAY-NAME: '&x&9&B&5&9&B&6&lAmethyst Bucket'
+          LORE:
+          - '&x&B&D&C&3&C&7Drains &d27 water blocks &7at once'
+          - '&x&B&D&C&3&C&7Right-click water to drain'
+          - ''
+          - '&x&9&B&5&9&B&6✦ Self Destruct'
+          - '&x&B&D&C&3&C&71D 0H 0M'
+          AMOUNT: 1
+          ENCHANTMENTS: []
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: BUCKET
+          DISPLAY-NAME: '&x&9&B&5&9&B&6&lAmethyst Bucket'
+          LORE:
+          - '&x&B&D&C&3&C&7Drains &d27 water blocks &7at once'
+          - '&x&B&D&C&3&C&7Right-click water to drain'
+          - ''
+          - '&x&9&B&5&9&B&6✦ Self Destruct'
+          - '&x&B&D&C&3&C&71D 0H 0M'
+          AMOUNT: 1
+          ENCHANTMENTS: []
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/71UXW/TMBS9pe2Who9tIJBAQgraEE+R2qVtmr2RFgkJISE+9hrZjtOaOHbk2Nr6R3iCV34Uj/wSnGlqWiHUAoJH5557z/HJPXYB2nBzhjQ6p6piUgDce+bADZbCYcEEJQpl+gwbklPdhi6RRmgAaLngElmUUlChKxfuN1gjsKIoR5hT6MGdpsCloq7t7fagSy+1QvWh3YI9phFnBFrgGpFSxW1Hak8dLHkKTk1qW2H/OJ5Ng2loYRJnpiJIX8FuV1oxq26hpJkvLL6j7XTYnynEROXBzgS3OJsvdFIaVXK6I8vhaehdWIjyMJck36BbKUHak4LQFVFnrtByVQZY96P1r/x49La+nU/s5PxaspZeWpu0JsUB+AtBUTyK4vGOgo6+f/7qvaM882bUIgzR/9sSZzDz+i+9/us1YhceNhurpeSalUnKqpKjZQ+OFixNqUia1a8Na8Pjpgdpy4WNpkkhU5Yxmyp40JSpIAskdFH3/io1G3EiptKySAQq6O+Y0vrT33LwvLDflpX24qvQb3jzs67Uvhwu3H1jsJUSmzxn+hxxQ6sOPDXWvKJmk8LoqijP0PXopDY2oZclU8t63z5++fbJgeMteL0sKezFH6avXrx34GQLWl4IquAE0z6KJgPso0n/1A+Gg8if0HDsT6KIpGEwnqRjG8wnW4bZ1/BkiAMcItL3s2hA/GE2HPgoGAd+hrNwhDOEwlFWX+YH5CkdnlIFAAA=
+          AMETHYST-DURATION: 86400
+          REQUIRES-INVENTORY-SPACE: true
+      reward_13:
+        SLOT: 13
+        DISPLAY:
+          MATERIAL: NETHERITE_AXE
+          DISPLAY-NAME: '&x&9&B&5&9&B&6&lAmethyst Tree Chopper'
+          LORE:
+          - '&x&B&D&C&3&C&7Chops entire trees &dinstantly'
+          - '&x&B&D&C&3&C&7Vein-style breaking'
+          - ''
+          - '&x&9&B&5&9&B&6✦ Self Destruct'
+          - '&x&B&D&C&3&C&71D 0H 0M'
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - efficiency:10
+          - unbreaking:3
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: NETHERITE_AXE
+          DISPLAY-NAME: '&x&9&B&5&9&B&6&lAmethyst Tree Chopper'
+          LORE:
+          - '&x&B&D&C&3&C&7Chops entire trees &dinstantly'
+          - '&x&B&D&C&3&C&7Vein-style breaking'
+          - ''
+          - '&x&9&B&5&9&B&6✦ Self Destruct'
+          - '&x&B&D&C&3&C&71D 0H 0M'
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - efficiency:10
+          - unbreaking:3
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/71UTW8TMRCdNAndLB9SKQVxQFrUIk4rJSTd7PZGEqReEBWgXFf2erYx8dorf4jmv9ArP4ojvwRvhUirqmoAwcWSPfP83sz4OQRow90ZsWSO2nAlAXZfBrDFGTypuMRCk9IeSbQL1NxiTs6wDd1COWkBoBVCWKiqVhKlNSHsrSFOUo1kSahA6MGDdUAojaHHdnvQxTOrSbPZasEdbongBbQgdJKhFh7B/K5DlWAQNKQeCtv7k9l0OB37NEVLZwpiL9LuG6v50uvUyp0ufH7H+tthd7pQtYm8PK4xshrRRLAx2T3BTxc2r52uBW7I2OPSWCKtWP06Arhca+uf1TpHLmNjVwKji+ZzeXpJQwDwF0qyyWE2STZUsvP9y9foA4oymqHPcIX9370IBrOofxz1314iDuHp+hlapYTldc64qQVZ9WBnwRlDma/fc9OwNjxbY4j1XNR5G1SK8ZJ7x8DjdRhlsfCDrxrsTVYIbwK04dE1RDM/L+FKCMuSF9wjVxcVXfFc4YxVVS5Jhb/T5NafjnnvdeXPVsZGH72xosZqNeorHb+ujvm/JoSHJ456QRO3XHI7J8Kh6cAL50dSNZxKOmuq+oj8JMibceV4VnPd1A2fzr+dB7B/S75d1Qjb0+N3Jydv3gdwcEu6+iy9+gOKfZKlAxqTtP8qHo4GWZziOInTLCvYeJikLMEAnt9ymf9AD5Cmo4z2/U3jpIxHdJTEdIB+IWyYHKaIBaNNNT8Aj7vUIYUFAAA=
+          AMETHYST-DURATION: 86400
+          REQUIRES-INVENTORY-SPACE: true
+      reward_14:
+        SLOT: 14
+        DISPLAY:
+          MATERIAL: POTION
+          DISPLAY-NAME: '&x&9&B&5&9&B&6&lShard Booster'
+          LORE:
+          - '&d4x &7Shard Multiplier'
+          - '&x&B&D&C&3&C&7Duration: &d60 minutes'
+          - ''
+          - '&x&B&D&C&3&C&7Drink to &dactivate'
+          - ''
+          - '&x&9&B&5&9&B&6✦ Self Destruct'
+          - '&x&B&D&C&3&C&759M 24S'
+          AMOUNT: 1
+          ENCHANTMENTS: []
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: POTION
+          DISPLAY-NAME: '&x&9&B&5&9&B&6&lShard Booster'
+          LORE:
+          - '&d4x &7Shard Multiplier'
+          - '&x&B&D&C&3&C&7Duration: &d60 minutes'
+          - ''
+          - '&x&B&D&C&3&C&7Drink to &dactivate'
+          - ''
+          - '&x&9&B&5&9&B&6✦ Self Destruct'
+          - '&x&B&D&C&3&C&759M 24S'
+          AMOUNT: 1
+          ENCHANTMENTS: []
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/71VXW/TMBS9XbstDQw2EEg8IAVtiKdIXdvlY290ReJlGqJor5FjO4tpEkfONVt/CS975ofxS7CZtnagsXXSeIx9js+5x743LkAbHo0JkmOuGiErgOfvHFgRDDZLUXGqSIb7tUSz1YZVKnWFANBywaWyrGXFK2xceDHH6ipVnExJWnDowpP5RiEVdw13vQur/AwVsR8rLVgTSApBoQWurhhXhWEw89VJZcHAsaKGCo8LcZJjUmtVF9xgZZrphhL8jd1oUIkpx1xJfZIbUgeNBLSHZx7MFS6XNyc5Ucw71AWKuhBcXYl0ThSZXeEA7md1fXs0PhgchHd06Y61Ijbg/UWzDxCHG/Q8cx8aebNQowPwvyrtjpWoph7KBy7UIRTFN4P5Z5mtJcqMR3vxKLij/NbP8x/ehBeZN+YGoSne8KSWcbBU0Ot78aHXH04WdF149WdDJ1RWaBvYgbWLFXg6x5waCXWdhlLalkmYaOqCzLqwlQvGuD3ochbYmNvwes4haBym5s0lpWQiM93WwMv5Nq9oTiosLfemMXJtvlDdoCyTipR8mShb973MjYthMZKysXksBvq3K2YGqQvPPunUGBnp6VTgMSk0bzrw1k6b0mpJ04FNWe+bCjCfNZjYWBN+Vgs1s2/06/n3wIHtW/A4q7kx9/H953EyOjqafPnw2YGdW0jytDI17KS8R+JoN/VJ1Ov7g+Fu7Ec8DPwojikLB0HEAu7Am1sOM/+InTDkNO4HoR9SFvnDoJf5MaGRn3KShYNBPxvuMlvTLyc75vdoBgAA
+          AMETHYST-DURATION: 3600
+          REQUIRES-INVENTORY-SPACE: true
+      reward_15:
+        SLOT: 15
+        DISPLAY:
+          MATERIAL: NETHERITE_SHOVEL
+          DISPLAY-NAME: '&x&9&B&5&9&B&6&lAmethyst Shovel'
+          LORE:
+          - '&x&B&D&C&3&C&7Breaks &d9 blocks &7per strike'
+          - '&x&B&D&C&3&C&7Only for soft terrain blocks'
+          - ''
+          - '&x&9&B&5&9&B&6✦ Self Destruct'
+          - '&x&B&D&C&3&C&71D 0H 0M'
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - efficiency:5
+          - fortune:3
+          - unbreaking:3
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: NETHERITE_SHOVEL
+          DISPLAY-NAME: '&x&9&B&5&9&B&6&lAmethyst Shovel'
+          LORE:
+          - '&x&B&D&C&3&C&7Breaks &d9 blocks &7per strike'
+          - '&x&B&D&C&3&C&7Only for soft terrain blocks'
+          - ''
+          - '&x&9&B&5&9&B&6✦ Self Destruct'
+          - '&x&B&D&C&3&C&71D 0H 0M'
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - efficiency:5
+          - fortune:3
+          - unbreaking:3
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/71UTW/TQBCdkLRNzJfKlwQCyahFnCwlTZPYvZEGqQdQkSr1aq2942TJetdaz0LzX+DKkR/EkV/CupQ6VVWlgOC4O+/NezuzMx5AE25OGLFjNKXQCuD+yzbcEBye5EJhalhGewpphkYQxuVMf0DZhLVUW0UA0PDAS3VeaIWKSg8e1iyrEoNszhKJ0IE7dUBqg57jrnVgDU/IsOrQbMC6ICZFCg3wrOJopGNwd2olWnJoV6KOChtb48l+f3/kYDrJbJkyOoXdLsmIubNqtJ3OHL5FLjtsjCsXpQ/XFrglxXRGcWFNIfGaKp3IT6ROL+r8CnoFGv8n71ykNTVscY4AWK5F41/V4umhkgs/086NzsgnNIYJdeZ8yUwb4C8sReNBNB5e09Lm909f/COUmT9Bh7Ap/e+itHsTv3vgd98uCXvwuP6vpLUkUcRclIVkiw5szgTnqOL641cFa8KzmsPIaSXWjUyuuciEmy54VIdRpTOmKK+4V82MdxWhCZt1wDWTrMJKvwkPLmUSanophFkmUuEyLqohhAtDm9qSdB4rluPvFL/xp+2/+yp3d4uS/KPT1XKhB5d9cbepPLj3zibOytjO54KOmbRYtuCFdU3KKzWtLJV5scfOUsdVA2M8KYSpXgzvP3/72oatFXhaFAjrRweHx6/ftGF7BVp/VGhgO8Eui8JeErCwuxP0d3tREOJoGIRRlPJRfxjyoVsBz1ckc9t3e6ebJYPRsBdkPAyD3QR7QRIxHuBgwLJ+N2IjllWP+QGXbupYwgUAAA==
+          AMETHYST-DURATION: 86400
+          REQUIRES-INVENTORY-SPACE: true
+  prime:
+    ENABLED: true
+    DISPLAY:
+      MATERIAL: CHEST
+      DISPLAY-NAME: '&fPrime Crate'
+      LORE:
+      - '&7ᴋᴇʏѕ: &f{keys}'
+      - '&aᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ ᴀɴᴅ ᴄʜᴏᴏѕᴇ 1 ʀᴇᴡᴀʀᴅ.'
+    KEY-ITEM:
+      MATERIAL: TRIPWIRE_HOOK
+      DISPLAY-NAME: '&fPrime Key'
+      LORE:
+      - '&7ᴏᴘᴇɴѕ ᴛʜᴇ &fPrime crate&7.'
+    OPEN-TYPE: CHOOSE_ONE
+    PERMISSION: ''
+    BROADCAST-ON-CLAIM: false
+    MENU:
+      OPEN-TITLE: '&8Prime ᴄʀᴀᴛᴇ'
+      CONFIRM-TITLE: '&8ᴄᴏɴꜰɪʀᴍ ʀᴇᴡᴀʀᴅ'
+      SIZE: 27
+      FILLER: BLACK_STAINED_GLASS_PANE
+      BACK-SLOT: 26
+      BACK-BUTTON:
+        MATERIAL: BARRIER
+        DISPLAY-NAME: '&cʙᴀᴄᴋ'
+        LORE:
+        - '&7ʀᴇᴛᴜʀɴ ᴛᴏ ᴛʜᴇ ᴄʀᴀᴛᴇ ʟɪѕᴛ.'
+    REWARDS:
+      reward_10:
+        SLOT: 10
+        DISPLAY:
+          MATERIAL: NETHERITE_SPEAR
+          DISPLAY-NAME: '&fNetherite Spear'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - lunge:3
+          - unbreaking:3
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: NETHERITE_SPEAR
+          DISPLAY-NAME: '&fNetherite Spear'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - lunge:3
+          - unbreaking:3
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/0XLMQ7CMBBE0QELCZmCAoTECbgDdc5AixazJBZ4HNnr+5NULqaZp+8Bh8MgJg8tNWYCp9se2/jGNUVqKPKxO9UmLdH0WWeV4rALudEAbDx8yGnOVFr1uPRIGSahpRUcjh1+jaMurXM497fxVVS+keNKy/7D6w1amwAAAA==
+          REQUIRES-INVENTORY-SPACE: true
+      reward_11:
+        SLOT: 11
+        DISPLAY:
+          MATERIAL: DIAMOND_HELMET
+          DISPLAY-NAME: '&fDiamond Helmet'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - aqua_affinity:1
+          - mending:1
+          - unbreaking:3
+          - protection:4
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: DIAMOND_HELMET
+          DISPLAY-NAME: '&fDiamond Helmet'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - aqua_affinity:1
+          - mending:1
+          - unbreaking:3
+          - protection:4
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/1WOvQ7CMBCDDQEJhQEhft+Ad2DmGVirI7nSCHIp6XXg7Sl0iBi8+LMtW8BgeSGlK+cuJAE2pwWmweMYg7DLVOvZB4pJfNXwM7IazF3qRQFMLKxLsU3Cop3BrnQytxRy5VL3Da4s9oWxuIZE41haFzA4Psj9u2xwKD69eqqoroMEfY90W2ibk7LT33vM/lAvt8z0GDfNoA/02FO48QAAAA==
+          REQUIRES-INVENTORY-SPACE: true
+      reward_12:
+        SLOT: 12
+        DISPLAY:
+          MATERIAL: DIAMOND_CHESTPLATE
+          DISPLAY-NAME: '&fDiamond Chestplate'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - mending:1
+          - protection:4
+          - unbreaking:3
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: DIAMOND_CHESTPLATE
+          DISPLAY-NAME: '&fDiamond Chestplate'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - mending:1
+          - protection:4
+          - unbreaking:3
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/1WOOw4CMRBDDQGBQoX4VPTcgZoz0K6GZGAjyCRKZu/PLhQRhRs/27IFDDZXUrpxqSEJsDuvMQ8epxiEXaGHXnygmMR3rueq+U3KBkuXBlEAMwvrUsxJWLQaHFqvcKZQOpfqFFxZHBtjcT2Jxl9p28Do+CDPadlg3/xB7oXp9UPmD+WSlJ1+72Mx6gM0yeBm1wAAAA==
+          REQUIRES-INVENTORY-SPACE: true
+      reward_13:
+        SLOT: 13
+        DISPLAY:
+          MATERIAL: DIAMOND_LEGGINGS
+          DISPLAY-NAME: '&fDiamond Leggings'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - mending:1
+          - unbreaking:3
+          - protection:4
+          - swift_sneak:3
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: DIAMOND_LEGGINGS
+          DISPLAY-NAME: '&fDiamond Leggings'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - mending:1
+          - unbreaking:3
+          - protection:4
+          - swift_sneak:3
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/1WOPQ7CMAyFHwQkFAaE+Bm4AHdg5gysVUjcEkGcKnHF9UnpEHXw8j5/9tOAwvZuxDwoZR8ZOFw3WHqHS/BMNplWbs6bENk1H+o6z11WWNs4sABYaGgbQx+ZWAo4VStRb3xqbMzj4k7jXBmxfRmWMEn7CkriyovxssKx5n2KQlb+DbGaoYGficx7stSsQv76VprMBY+szA8omOc58QAAAA==
+          REQUIRES-INVENTORY-SPACE: true
+      reward_14:
+        SLOT: 14
+        DISPLAY:
+          MATERIAL: DIAMOND_BOOTS
+          DISPLAY-NAME: '&fDiamond Boots'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - mending:1
+          - unbreaking:3
+          - protection:4
+          - feather_falling:4
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: DIAMOND_BOOTS
+          DISPLAY-NAME: '&fDiamond Boots'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - mending:1
+          - unbreaking:3
+          - protection:4
+          - feather_falling:4
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/13OPQ7CMAwFYENAQmFAiD9xAu7AzBlYKzdxIaKxK9e9Py0dIjF4eZ+fZQ/gYPtAwydpn4QBDrcNLFOES05MQbGxe0yYhWNVi1jvYB1kYAOAhQcfJHfCxBOcSkWpw6RVkH5a3Hk4FyMOb2TLc2lfYExi4td02cG15A2hvUmrBtt29pWDY/FOxSjY7/0/GrhWws/ccuN8AeBmiK7yAAAA
+          REQUIRES-INVENTORY-SPACE: true
+      reward_15:
+        SLOT: 15
+        DISPLAY:
+          MATERIAL: GOLDEN_APPLE
+          DISPLAY-NAME: '&fGolden Apple'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 16
+          ENCHANTMENTS: []
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: GOLDEN_APPLE
+          DISPLAY-NAME: '&fGolden Apple'
+          LORE: []
+          AMOUNT: 16
+          ENCHANTMENTS: []
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/+NiYGBm4HZJLEkMSy0qzszPY2AQVudgYMpMYRDLzcxLTS5KTCuxSs/PSUnNi08sKMhJZWZgTc4vzSthYGAQYAAAhkKglT8AAAA=
+          REQUIRES-INVENTORY-SPACE: true
+      reward_16:
+        SLOT: 16
+        DISPLAY:
+          MATERIAL: ENCHANTED_GOLDEN_APPLE
+          DISPLAY-NAME: '&fEnchanted Golden Apple'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 8
+          ENCHANTMENTS: []
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: ENCHANTED_GOLDEN_APPLE
+          DISPLAY-NAME: '&fEnchanted Golden Apple'
+          LORE: []
+          AMOUNT: 8
+          ENCHANTMENTS: []
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/wXBQQqAIBAF0E8SSC27QLvu0LoztJVBpxJsRmy6v+9NgMN8kNHJ7csqwLJ5DDlhfbNwbHTZzhIfEuMUbi2JJVCthR3GqL8YAI8OuNsTtEkAAAA=
+          REQUIRES-INVENTORY-SPACE: true
+      reward_5:
+        SLOT: 5
+        DISPLAY:
+          MATERIAL: WIND_CHARGE
+          DISPLAY-NAME: '&fWind Charge'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 32
+          ENCHANTMENTS: []
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: WIND_CHARGE
+          DISPLAY-NAME: '&fWind Charge'
+          LORE: []
+          AMOUNT: 32
+          ENCHANTMENTS: []
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/+NiYGBm4HZJLEkMSy0qzszPY2AQVudgYMpMYRDNzcxLTS5KTCuxKs/MS4lPzkgsSk9lZmBNzi/NK2FgYFBgAADUq4blPgAAAA==
+          REQUIRES-INVENTORY-SPACE: true
+      reward_3:
+        SLOT: 3
+        DISPLAY:
+          MATERIAL: SPLASH_POTION
+          DISPLAY-NAME: '&fSplash Potion'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS: []
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: SPLASH_POTION
+          DISPLAY-NAME: '&fSplash Potion'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS: []
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/02MQQqDMBBFf5WKxGWh4gm8g+ueodswxFgDcSaYKb1+FRe6/f+9Z4ASzYuU3n7NQRh49DWKMKJdAnu30qRDTpHybJPoRpS4O/myArgZGCdLEvas2aA7lYO1Tlj3r0Z1LHheslF+dqIYA3+22h/GhUQcjAAAAA==
+          REQUIRES-INVENTORY-SPACE: true
+      reward_4:
+        SLOT: 4
+        DISPLAY:
+          MATERIAL: MACE
+          DISPLAY-NAME: '&fMace'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - wind_burst:1
+          - unbreaking:3
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: MACE
+          DISPLAY-NAME: '&fMace'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - wind_burst:1
+          - unbreaking:3
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/1XOOwoCQRCE4dJBkBFMFK/gHYw9w6bS29tqI1Mj88Dry5osxt9PUREI2F2lyWCleiZwOG+x9gn75DQtcm+XJGoBG82dDcAqImpO70xjqxGnpTTqU9jSDAHHBT7O6Tb2Un8Df9Q5FpOX84H5DfAFBC81r5UAAAA=
+          REQUIRES-INVENTORY-SPACE: true
+      reward_22:
+        SLOT: 22
+        DISPLAY:
+          MATERIAL: SHIELD
+          DISPLAY-NAME: '&fShield'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - mending:1
+          - unbreaking:3
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: SHIELD
+          DISPLAY-NAME: '&fShield'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - mending:1
+          - unbreaking:3
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/0WLMQ4CMQwEFywkFBoQiC/wB2reQO9LDGdBHJT4/n93okixzcxsAAiHBzs/pTYtBpxve2w14ZjVJFZ++b2NKt9E2MUymQPYBIRY8q+YmLeAa2/F4sjmeRWEUxcLSWrv9U24dD7ZUIU/f0XLZjZcvUGUAAAA
+          REQUIRES-INVENTORY-SPACE: true
+  potions:
+    ENABLED: true
+    DISPLAY:
+      MATERIAL: CHEST
+      DISPLAY-NAME: '&fPotions Crate'
+      LORE:
+      - '&7ᴋᴇʏѕ: &f{keys}'
+      - '&aᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ ᴀɴᴅ ᴄʜᴏᴏѕᴇ 1 ʀᴇᴡᴀʀᴅ.'
+    KEY-ITEM:
+      MATERIAL: TRIPWIRE_HOOK
+      DISPLAY-NAME: '&fPotions Key'
+      LORE:
+      - '&7ᴏᴘᴇɴѕ ᴛʜᴇ &fPotions crate&7.'
+    OPEN-TYPE: CHOOSE_ONE
+    PERMISSION: ''
+    BROADCAST-ON-CLAIM: false
+    MENU:
+      OPEN-TITLE: '&8Potions ᴄʀᴀᴛᴇ'
+      CONFIRM-TITLE: '&8ᴄᴏɴꜰɪʀᴍ ʀᴇᴡᴀʀᴅ'
+      SIZE: 27
+      FILLER: BLACK_STAINED_GLASS_PANE
+      BACK-SLOT: 26
+      BACK-BUTTON:
+        MATERIAL: BARRIER
+        DISPLAY-NAME: '&cʙᴀᴄᴋ'
+        LORE:
+        - '&7ʀᴇᴛᴜʀɴ ᴛᴏ ᴛʜᴇ ᴄʀᴀᴛᴇ ʟɪѕᴛ.'
+    REWARDS:
+      reward_9:
+        SLOT: 9
+        DISPLAY:
+          MATERIAL: SPLASH_POTION
+          DISPLAY-NAME: '&fSplash Potion'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS: []
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: SPLASH_POTION
+          DISPLAY-NAME: '&fSplash Potion'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS: []
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/0XMsQ7CMAwE0IMKVIWRAbGw8g/M/QbWyDIuRGrtKDb/T1GHrnfvLgEdTgMFPaV5MQXO9x778sJlLircaIyH14n8k6vFIjoc2L4aAHYJiW2upqLhCddtstrMpvHvehzXBLfNTKbvPJYmuYkXD1KW5fUHJndvXZQAAAA=
+          REQUIRES-INVENTORY-SPACE: true
+      reward_10:
+        SLOT: 10
+        DISPLAY:
+          MATERIAL: SPLASH_POTION
+          DISPLAY-NAME: '&fSplash Potion'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS: []
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: SPLASH_POTION
+          DISPLAY-NAME: '&fSplash Potion'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS: []
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/02MQQ6CQBAEGwmGLEcPxBf4B8++getmso6yEWY2zBi/L4SDXrurKgA1uhs5DbxYVgFOlxaHfEc/Z+G00MOvViayMRb1lajRJH2LA6gCQtK5qLC4BZx/ys7GpOLb1+K4L//ZSeUZP0wvYbM19wX/Br5AjQAAAA==
+          REQUIRES-INVENTORY-SPACE: true
+      reward_11:
+        SLOT: 11
+        DISPLAY:
+          MATERIAL: SPLASH_POTION
+          DISPLAY-NAME: '&fSplash Potion'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS: []
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: SPLASH_POTION
+          DISPLAY-NAME: '&fSplash Potion'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS: []
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/0XMQQqDMBQE0KlSkQhuuiiewDu49gzdhvBNaVD/D8n3/lVcZDvzZgxQo5uduo9POQgDr7FFFRa898CekvvqlOPm8s9G0VPUeJIcrAAeBoZkj8KeNRsMZXJbS8J6dS2aO0FfzHbQer78AReZv/KEAAAA
+          REQUIRES-INVENTORY-SPACE: true
+      reward_12:
+        SLOT: 12
+        DISPLAY:
+          MATERIAL: SPLASH_POTION
+          DISPLAY-NAME: '&fSplash Potion'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS: []
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: SPLASH_POTION
+          DISPLAY-NAME: '&fSplash Potion'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS: []
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/02MMQ6DMBAEN0EgZMoUhBfkD6l5A611Mg5YgjvLPv4PiCK0uzNjgAJNT0qDTzkIA69PjWcY0a6BvUv002+OC+XZRtGDKFA62VgBPAyMkzUKe9Zs0P2Vi7VOWM+vRnUteN+ymoQnO3taAk9Hbwc24pZRjgAAAA==
+          REQUIRES-INVENTORY-SPACE: true
+      reward_13:
+        SLOT: 13
+        DISPLAY:
+          MATERIAL: SPLASH_POTION
+          DISPLAY-NAME: '&fSplash Potion'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS: []
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: SPLASH_POTION
+          DISPLAY-NAME: '&fSplash Potion'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS: []
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/02MMQ6DMBAEFxAIOSUF8IL8gZo3pLVOxoAluLPsy/9DRJG0uzNjgAqPmZRePuUgDHTPFmVY0J+BvUu06pTjQXm3UfQiKtRO3qwACgPj5IzCnjUbjD/lZq0T1u/XorkXDH9ZTcKbPTzFwNvV+wD2tAP4jgAAAA==
+          REQUIRES-INVENTORY-SPACE: true
+      reward_14:
+        SLOT: 14
+        DISPLAY:
+          MATERIAL: SPLASH_POTION
+          DISPLAY-NAME: '&fSplash Potion'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS: []
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: SPLASH_POTION
+          DISPLAY-NAME: '&fSplash Potion'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS: []
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/0XMwQ6CMBAE0EGCIfXowRg/wH/wzDdwbWqtuknZbdiVhL8Hw4HrzJtxQI1TFyz0aVQSBs73Fgd64TIQpziGtz205KBfX8RWUaOJ8mMDUDm4KEMRTmzqcN0nm/VR2P5di+OW4LabLPzxxBMpPSmTzevlAnbDhiiRAAAA
+          REQUIRES-INVENTORY-SPACE: true
+      reward_15:
+        SLOT: 15
+        DISPLAY:
+          MATERIAL: SPLASH_POTION
+          DISPLAY-NAME: '&fSplash Potion'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS: []
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: SPLASH_POTION
+          DISPLAY-NAME: '&fSplash Potion'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS: []
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/02MOw7CQAwFH0RB0VJSRBTU3IGaM6RdWYsJKxF75TX3J58C2jczLwANjndyGthqVgFO1w77/EA/ZeFk9PRbLW+qr1jUZ6NBm/QjDmAXEJJORYXFa8D5l2xuTCq+sA6HbcHl79ZNZYzGIwsbrRj4ApzMmOGTAAAA
+          REQUIRES-INVENTORY-SPACE: true
+      reward_16:
+        SLOT: 16
+        DISPLAY:
+          MATERIAL: SPLASH_POTION
+          DISPLAY-NAME: '&fSplash Potion'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS: []
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: SPLASH_POTION
+          DISPLAY-NAME: '&fSplash Potion'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS: []
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/02MMQ6DMBAEN1hByJQporyAP1DzBlrLMg5YgjvLd/l/QBTQ7s6MBQzawasfY5HEBLy6BlWa8N4SxVD8V3vJq5fFZdadMHgG/pECeFjYwFtmiqRi8bmUk3WBSY+vQX0u9+zKNDvREmnWZc/9AahePMCNAAAA
+          REQUIRES-INVENTORY-SPACE: true
+      reward_17:
+        SLOT: 17
+        DISPLAY:
+          MATERIAL: SPLASH_POTION
+          DISPLAY-NAME: '&fSplash Potion'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS: []
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: SPLASH_POTION
+          DISPLAY-NAME: '&fSplash Potion'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS: []
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/0XMMQ6DMBAEwCUWEXIqRBHlBflDat5Ai06OAUtwZ3HH/0NE4XZ3dj3g8OjJaIi7JmGgeze4pS+eW+IYdprso3klXcYsdgqHOsjBBqDy8EG2LBzZ1ONVJpcdg7D9uwb3K0FbzBJpTTyfRz9l7SWXhwAAAA==
+          REQUIRES-INVENTORY-SPACE: true
+      reward_1:
+        SLOT: 1
+        DISPLAY:
+          MATERIAL: TIDE_ARMOR_TRIM_SMITHING_TEMPLATE
+          DISPLAY-NAME: '&fTide Armor Trim Smithing Template'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS: []
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: TIDE_ARMOR_TRIM_SMITHING_TEMPLATE
+          DISPLAY-NAME: '&fTide Armor Trim Smithing Template'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS: []
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/wXBQQ5AQAwF0M9EIiwdwsINrJ3BdtLMFE10Rqru770BCBg3ctrZXqkFmOYerWQsKoWT0eGrS+ZIptWim2h8VfySckZnfW5yDuhS/YoDaPADhJH1+1QAAAA=
+          REQUIRES-INVENTORY-SPACE: true
+      reward_2:
+        SLOT: 2
+        DISPLAY:
+          MATERIAL: HOST_ARMOR_TRIM_SMITHING_TEMPLATE
+          DISPLAY-NAME: '&fHost Armor Trim Smithing Template'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS: []
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: HOST_ARMOR_TRIM_SMITHING_TEMPLATE
+          DISPLAY-NAME: '&fHost Armor Trim Smithing Template'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS: []
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/wXBQQ5AQAwF0M9EIiwdwsINrJ3BdtKMQRPtSKfu770BCBg3ctqzVS4KTHOPlg8swpqT0enrXapHMikW3VhiFfab9Yqe5X3Ic0CXyqcOoMEPjd0FjVQAAAA=
+          REQUIRES-INVENTORY-SPACE: true
+      reward_3:
+        SLOT: 3
+        DISPLAY:
+          MATERIAL: RIB_ARMOR_TRIM_SMITHING_TEMPLATE
+          DISPLAY-NAME: '&fRib Armor Trim Smithing Template'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS: []
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: RIB_ARMOR_TRIM_SMITHING_TEMPLATE
+          DISPLAY-NAME: '&fRib Armor Trim Smithing Template'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS: []
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/wXBQQ5AQAwF0M9EIiwdQuII1s5gO6lRNNEZqbq/9zogoF/IaWV7pWRgGFvUsmNSyZyMDp9NtkimxaKbaHxV/JJ8Rmd9bnIOaFL5sgOo8AOtPDmAUwAAAA==
+          REQUIRES-INVENTORY-SPACE: true
+      reward_4:
+        SLOT: 4
+        DISPLAY:
+          MATERIAL: SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE
+          DISPLAY-NAME: '&fSilence Armor Trim Smithing Template'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS: []
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE
+          DISPLAY-NAME: '&fSilence Armor Trim Smithing Template'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS: []
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/wXBQQqDQAwF0F+Hgtilh3DXA3TdM7gNYRptwGQkE+/vexNQ8Ppy8irRtTkwLyMG/eFt6lKDt/x0PcSrEIe1oAw16qb5V98pxc6DUwqetV2eAB64AbW8nB1XAAAA
+          REQUIRES-INVENTORY-SPACE: true
+      reward_5:
+        SLOT: 5
+        DISPLAY:
+          MATERIAL: NETHERITE_UPGRADE_SMITHING_TEMPLATE
+          DISPLAY-NAME: '&fNetherite Upgrade Smithing Template'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 2
+          ENCHANTMENTS: []
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: NETHERITE_UPGRADE_SMITHING_TEMPLATE
+          DISPLAY-NAME: '&fNetherite Upgrade Smithing Template'
+          LORE: []
+          AMOUNT: 2
+          ENCHANTMENTS: []
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/wXBwQmAMAwF0I8iiB4dwpMLeHYGryXY2AZsWmLc3/cmoMd8kNPJ9kpVYFlHdBKxFVG+jG7flT2ziXP4WjKKHN4inkVTcC7tIecew1U/dQAdfjDIEO5WAAAA
+          REQUIRES-INVENTORY-SPACE: true
+      reward_6:
+        SLOT: 6
+        DISPLAY:
+          MATERIAL: BREEZE_ROD
+          DISPLAY-NAME: '&fBreeze Rod'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 32
+          ENCHANTMENTS: []
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: BREEZE_ROD
+          DISPLAY-NAME: '&fBreeze Rod'
+          LORE: []
+          AMOUNT: 32
+          ENCHANTMENTS: []
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/+NiYGBm4HZJLEkMSy0qzszPY2AQVudgYMpMYRDJzcxLTS5KTCuxSipKTa1KjS/KT2FmYE3OL80rYWBgUGAAAErsUu49AAAA
+          REQUIRES-INVENTORY-SPACE: true
+      reward_7:
+        SLOT: 7
+        DISPLAY:
+          MATERIAL: BLAZE_ROD
+          DISPLAY-NAME: '&fBlaze Rod'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 32
+          ENCHANTMENTS: []
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: BLAZE_ROD
+          DISPLAY-NAME: '&fBlaze Rod'
+          LORE: []
+          AMOUNT: 32
+          ENCHANTMENTS: []
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/+NiYGBm4HZJLEkMSy0qzszPY2AQVudgYMpMYRDOzcxLTS5KTCuxSspJrEqNL8pPYWZgTc4vzSthYGBQYAAAwHzRqDwAAAA=
+          REQUIRES-INVENTORY-SPACE: true
+  legends:
+    ENABLED: true
+    DISPLAY:
+      MATERIAL: CHEST
+      DISPLAY-NAME: '&fLegends Crate'
+      LORE:
+      - '&7ᴋᴇʏѕ: &f{keys}'
+      - '&aᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ ᴀɴᴅ ᴄʜᴏᴏѕᴇ 1 ʀᴇᴡᴀʀᴅ.'
+    KEY-ITEM:
+      MATERIAL: TRIPWIRE_HOOK
+      DISPLAY-NAME: '&fLegends Key'
+      LORE:
+      - '&7ᴏᴘᴇɴѕ ᴛʜᴇ &fLegends crate&7.'
+    OPEN-TYPE: CHOOSE_ONE
+    PERMISSION: ''
+    BROADCAST-ON-CLAIM: false
+    MENU:
+      OPEN-TITLE: '&8Legends ᴄʀᴀᴛᴇ'
+      CONFIRM-TITLE: '&8ᴄᴏɴꜰɪʀᴍ ʀᴇᴡᴀʀᴅ'
+      SIZE: 27
+      FILLER: BLACK_STAINED_GLASS_PANE
+      BACK-SLOT: 26
+      BACK-BUTTON:
+        MATERIAL: BARRIER
+        DISPLAY-NAME: '&cʙᴀᴄᴋ'
+        LORE:
+        - '&7ʀᴇᴛᴜʀɴ ᴛᴏ ᴛʜᴇ ᴄʀᴀᴛᴇ ʟɪѕᴛ.'
+    REWARDS:
+      reward_10:
+        SLOT: 10
+        DISPLAY:
+          MATERIAL: NETHERITE_CHESTPLATE
+          DISPLAY-NAME: '&fNetherite Chestplate'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - mending:1
+          - protection:4
+          - unbreaking:3
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: NETHERITE_CHESTPLATE
+          DISPLAY-NAME: '&fNetherite Chestplate'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - mending:1
+          - protection:4
+          - unbreaking:3
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/1XPwU7DMAwG4J9laFWQJtCAI1fegTPPsGtlUo9Ga5zIcd+fdj2EXf35/2V7wOHpm4zOrDVmAU6fHXZxwEeKwkHpYl/CNrJG4z6MXK1MZOzwGPIsBuDBw4ecShYWqw5vLalcKGofcl0XDx7vzVjCSGJpC700WCZDlN+12eG1zWf5UabrRu6OimbjYLcHsIfHsZlpTB26tBytkSY8Nwq5FNYOh0K2qPyPDbPwUvYH+gmP/yIBAAA=
+          REQUIRES-INVENTORY-SPACE: true
+      reward_9:
+        SLOT: 9
+        DISPLAY:
+          MATERIAL: NETHERITE_HELMET
+          DISPLAY-NAME: '&fNetherite Helmet'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - aqua_affinity:1
+          - mending:1
+          - protection:4
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: NETHERITE_HELMET
+          DISPLAY-NAME: '&fNetherite Helmet'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - aqua_affinity:1
+          - mending:1
+          - protection:4
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/03PQU7DQAwF0A8pYjRIbRHQSr0Ad2DNGbqNrIlDLHU804mz6O2bkMV06+f/ZXugwdsvGZ25jJIU+Ph2eJYOpyjKoVBvP8o2cBHjduBLZGvwEtKkBuDJw4cUc1JWGxt81VThTFLakMZlcedxqMYaBlKLa+i9wjzpRP+W5gbHOqfrRC31vajYbdXPqrkk42D/92MDj201KxIdXCSbX6AL9pVCypmLw2smm1UfY92kPJfdAaTm12IhAQAA
+          REQUIRES-INVENTORY-SPACE: true
+      reward_11:
+        SLOT: 11
+        DISPLAY:
+          MATERIAL: NETHERITE_LEGGINGS
+          DISPLAY-NAME: '&fNetherite Leggings'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - mending:1
+          - unbreaking:3
+          - protection:4
+          - swift_sneak:3
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: NETHERITE_LEGGINGS
+          DISPLAY-NAME: '&fNetherite Leggings'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - mending:1
+          - unbreaking:3
+          - protection:4
+          - swift_sneak:3
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/1XPTU4DMQwF4AdDxSiV2iIKK/bcgTVn6HbkZtxpRONEjke9Phm6CN368/OPAzqsv8nowFpCEuD1s8djGPERg7BXOtmXsJ1Zg/Fw4WkKMpUOK59mMQAPDs6nmJOwWIW3llPOFHTwqSyNW4f3Ziz+TGLxFnppUCtjXbFM7rBv9azJ2NvfjXi6o1mOyvRzS3V3J5RrONlQpPJicNg0NA2xRx/J6nd0wa6RTzmz9njOZFXlf2ycheuwX9gc7eY8AQAA
+          REQUIRES-INVENTORY-SPACE: true
+      reward_12:
+        SLOT: 12
+        DISPLAY:
+          MATERIAL: NETHERITE_BOOTS
+          DISPLAY-NAME: '&fNetherite Boots'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - mending:1
+          - feather_falling:4
+          - unbreaking:3
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: NETHERITE_BOOTS
+          DISPLAY-NAME: '&fNetherite Boots'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - mending:1
+          - feather_falling:4
+          - unbreaking:3
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/03PQY7CMAwF0A9hRBUkYMSAxAm4A2vOwLYyqUujaZwode9Pqy7C1s//y7aAwe5BSk/Og48CnG4V1r7BNXhhl6nVu7B2nL1y/YpRB4MfF0dRACsL62JIUVhmOJdQ5kQ+1y4O8+LB4lKMxXUkGpbQb4Fp0nh5z83m+4KWaT6hbqnvF98Y/BUf5ZWZ/hcysNgX0+xDhSqQTj9Qj2MhF1PiXGGbSCeV71gzCk9lHzwfLIwiAQAA
+          REQUIRES-INVENTORY-SPACE: true
+      reward_13:
+        SLOT: 13
+        DISPLAY:
+          MATERIAL: GOLDEN_APPLE
+          DISPLAY-NAME: '&fGolden Apple'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 32
+          ENCHANTMENTS: []
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: GOLDEN_APPLE
+          DISPLAY-NAME: '&fGolden Apple'
+          LORE: []
+          AMOUNT: 32
+          ENCHANTMENTS: []
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/+NiYGBm4HZJLEkMSy0qzszPY2AQVudgYMpMYRDLzcxLTS5KTCuxSs/PSUnNi08sKMhJZWZgTc4vzSthYGBQYAAAdXTmSj8AAAA=
+          REQUIRES-INVENTORY-SPACE: true
+      reward_14:
+        SLOT: 14
+        DISPLAY:
+          MATERIAL: ENCHANTED_GOLDEN_APPLE
+          DISPLAY-NAME: '&fEnchanted Golden Apple'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 20
+          ENCHANTMENTS: []
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: ENCHANTED_GOLDEN_APPLE
+          DISPLAY-NAME: '&fEnchanted Golden Apple'
+          LORE: []
+          AMOUNT: 20
+          ENCHANTMENTS: []
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/wXBwQmAMAwF0I9FED3qAN7cwbMzeC0hjVqoaalx/743Ag7TQUan1C9mBeZtQBcD1jeqcKXLdlF+SE2Cv3MKop5KSeLQc/7VACxo5YZkUkkAAAA=
+          REQUIRES-INVENTORY-SPACE: true
+      reward_15:
+        SLOT: 15
+        DISPLAY:
+          MATERIAL: TRIDENT
+          DISPLAY-NAME: '&fTrident'
+          LORE:
+          - '&7ᴄʜᴏᴏѕᴇ ᴛʜɪѕ ʀᴇᴡᴀʀᴅ.'
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - riptide:3
+          - unbreaking:3
+        GRANT:
+          TYPE: ITEM
+          MATERIAL: TRIDENT
+          DISPLAY-NAME: '&fTrident'
+          LORE: []
+          AMOUNT: 1
+          ENCHANTMENTS:
+          - riptide:3
+          - unbreaking:3
+          ITEM-DATA: ITEM_BYTES_V1:H4sIAAAAAAAA/02NMQ7CQAwEFywkdKkQEV/gD9S8gd65mGCh80WO838uVSi2mV3tJIDQPTn4Jb5oNeB6P+OoIy5FTbLzOx7hOooF4ZTragHgkJByLXO1xpeE2z4Wyx+2KFtB6PditcGFv2pTOyD6F7jO0RQbb/kBEobWtJUAAAA=
+          REQUIRES-INVENTORY-SPACE: true

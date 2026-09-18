@@ -1,0 +1,83 @@
+#   ___________     __                   ________                       .___
+#   \__    ___/____/  |_  ____   _____  /  _____/ __ _______ _______  __| _/
+#     |    | /  _ \   __\/ __ \ /     \/   \  ___|  |  \__  \\_  __ \/ __ |
+#     |    |(  <_> )  | \  ___/|  Y Y  \    \_\  \  |  // __ \|  | \/ /_/ |
+#     |____| \____/|__|  \___  >__|_|  /\______  /____/(____  /__|  \____ |
+#                            \/      \/        \/           \/           \/
+
+# API: Whether the API should be enabled.
+api: true
+
+# Server Name: The name of the server. (Used for alerts, webhooks, API, etc.)
+server: Default
+
+# Name of the root command for TotemGuard. (This requires a server restart to take effect.)
+command: totemguard
+
+# Aliases for the root command. This allows using shorter commands. (Requires a server restart to take effect.)
+command-aliases:
+- tg
+
+# Bypass: Whether players with the permission 'totemguard.bypass' can bypass checks.
+bypass: false
+
+# Console Alerts: Whether the console should receive alerts.
+console-alerts: true
+
+# Announce client brand: Whether the client brand should be announced upon a player joining.
+announce-client-brand: false
+
+# Announces that a player is being checked by a staff member using `/tg check <player>` for those with alerts enabled.
+announce-check-command: true
+
+# Redis Configuration
+redis:
+  # Enable and/or disable Redis.
+  enabled: false
+
+  # Sync Alerts: Whether alerts should be synced across servers.
+  sync-alerts: true
+
+  # Channel: The redis channel the packets will be sent over.
+  channel: totemguard
+  host: localhost
+  port: 6379
+  username: default
+  password: yourPassword
+
+# Database Settings:
+database:
+  # Database Type: The type of database to use. (h2, mysql, mariadb)
+  -type: h2
+
+  # Database Host: The host of the database.
+  -host: localhost
+
+  # Database Port: The port of the database.
+  -port: 3306
+
+  # Database Name: The name of the database.
+  -name: TotemGuard
+
+  # Database Username: The username of the database.
+  -username: root
+
+  # Database Password: The password of the database.
+  -password: password
+
+  # Database Connection Pool Size: The size of the connection pool.
+  connection-pool-size: 4
+
+# Update Checker Settings:
+update-checker:
+  # Enable and/or disable the update checker.
+  enabled: true
+
+  # Print to Console: Prints the update message to the console.
+  print-to-console: true
+
+  # Notify In-Game: Notifies players with the permission in-game.
+  notify-in-game: true
+
+# Debug: Enables debug mode (Advanced Users Only).
+debug: false
