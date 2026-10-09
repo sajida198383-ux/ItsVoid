@@ -1,0 +1,138 @@
+name: Minecraft Server
+
+on:
+  workflow_dispatch:
+
+jobs:
+  server:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Accept EULA
+        run: echo "eula=true" > eula.txt
+
+      - name: Start Paper
+        run: |
+          mkfifo mc-console
+
+          java -Xms4G -Xmx16G -jar paper-26.2-121.jar nogui < mc-console > server.log 2>&1 &
+          SERVER_PID=$!
+
+          exec 3>mc-console
+
+          echo "Waiting for Paper and LuckPerms..."
+
+          for i in {1..90}; do
+            if grep -q "Done (" server.log && grep -q "LuckPerms" server.log; then
+              break
+            fi
+            sleep 2
+          done
+
+          sleep 5
+
+          echo "Creating ranks..."
+
+          for group in player member vip vipplus elite mvp mvpplus legend legendplus titan titanplus helper trialmod moderator seniormod admin senioradmin manager headadmin owner
+          do
+            printf 'lp creategroup %s\n' "$group" >&3
+          done
+
+          sleep 3
+
+          printf 'lp group member parent set player\n' >&3
+          printf 'lp group vip parent set member\n' >&3
+          printf 'lp group vipplus parent set vip\n' >&3
+          printf 'lp group elite parent set vipplus\n' >&3
+          printf 'lp group mvp parent set elite\n' >&3
+          printf 'lp group mvpplus parent set mvp\n' >&3
+          printf 'lp group legend parent set mvpplus\n' >&3
+          printf 'lp group legendplus parent set legend\n' >&3
+          printf 'lp group titan parent set legendplus\n' >&3
+          printf 'lp group titanplus parent set titan\n' >&3
+
+          printf 'lp group helper parent set titanplus\n' >&3
+          printf 'lp group trialmod parent set helper\n' >&3
+          printf 'lp group moderator parent set trialmod\n' >&3
+          printf 'lp group seniormod parent set moderator\n' >&3
+          printf 'lp group admin parent set seniormod\n' >&3
+          printf 'lp group senioradmin parent set admin\n' >&3
+          printf 'lp group manager parent set senioradmin\n' >&3
+          printf 'lp group headadmin parent set manager\n' >&3
+          printf 'lp group owner parent set headadmin\n' >&3
+
+          printf 'lp group player meta setprefix 1 "&7[Player] &f"\n' >&3
+          printf 'lp group member meta setprefix 2 "&a[Member] &f"\n' >&3
+          printf 'lp group vip meta setprefix 3 "&e[VIP] &f"\n' >&3
+          printf 'lp group vipplus meta setprefix 4 "&6[VIP+] &f"\n' >&3
+          printf 'lp group elite meta setprefix 5 "&b[Elite] &f"\n' >&3
+          printf 'lp group mvp meta setprefix 6 "&3[MVP] &f"\n' >&3
+          printf 'lp group mvpplus meta setprefix 7 "&9[MVP+] &f"\n' >&3
+          printf 'lp group legend meta setprefix 8 "&d[Legend] &f"\n' >&3
+          printf 'lp group legendplus meta setprefix 9 "&5[Legend+] &f"\n' >&3
+          printf 'lp group titan meta setprefix 10 "&c[Titan] &f"\n' >&3
+          printf 'lp group titanplus meta setprefix 11 "&4[Titan+] &f"\n' >&3
+          printf 'lp group helper meta setprefix 12 "&a[Helper] &f"\n' >&3
+          printf 'lp group trialmod meta setprefix 13 "&2[TrialMod] &f"\n' >&3
+          printf 'lp group moderator meta setprefix 14 "&9[Mod] &f"\n' >&3
+          printf 'lp group seniormod meta setprefix 15 "&1[SeniorMod] &f"\n' >&3
+          printf 'lp group admin meta setprefix 16 "&c[Admin] &f"\n' >&3
+          printf 'lp group senioradmin meta setprefix 17 "&4[SeniorAdmin] &f"\n' >&3
+          printf 'lp group manager meta setprefix 18 "&6[Manager] &f"\n' >&3
+          printf 'lp group headadmin meta setprefix 19 "&5[HeadAdmin] &f"\n' >&3
+          printf 'lp group owner meta setprefix 20 "&4&l[Owner] &f"\n' >&3
+
+          for i in {1..20}; do
+            case $i in
+              1) group=player ;;
+              2) group=member ;;
+              3) group=vip ;;
+              4) group=vipplus ;;
+              5) group=elite ;;
+              6) group=mvp ;;
+              7) group=mvpplus ;;
+              8) group=legend ;;
+              9) group=legendplus ;;
+              10) group=titan ;;
+              11) group=titanplus ;;
+              12) group=helper ;;
+              13) group=trialmod ;;
+              14) group=moderator ;;
+              15) group=seniormod ;;
+              16) group=admin ;;
+              17) group=senioradmin ;;
+              18) group=manager ;;
+              19) group=headadmin ;;
+              20) group=owner ;;
+            esac
+            printf 'lp group %s setweight %s\n' "$group" "$i" >&3
+          done
+
+          printf 'lp group member permission set essentials.home true\n' >&3
+          printf 'lp group member permission set essentials.sethome true\n' >&3
+          printf 'lp group member permission set essentials.tpa true\n' >&3
+          printf 'lp group member permission set essentials.tpaccept true\n' >&3
+
+          printf 'lp group helper permission set essentials.kick true\n' >&3
+          printf 'lp group moderator permission set essentials.mute true\n' >&3
+          printf 'lp group moderator permission set essentials.tempmute true\n' >&3
+          printf 'lp group admin permission set essentials.ban true\n' >&3
+          printf 'lp group admin permission set essentials.tempban true\n' >&3
+
+          printf 'lp group owner permission set * true\n' >&3
+
+          sleep 5
+
+          echo "20 RANKS CREATED SUCCESSFULLY"
+
+          printf 'stop\n' >&3
+          wait "$SERVER_PID" || true

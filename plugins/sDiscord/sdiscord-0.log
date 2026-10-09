@@ -1,0 +1,1499 @@
+[2026-10-07 11:51:20] [INFO] SQLite storage ready (storage.db)
+[2026-10-07 11:51:20] [INFO] module enabled: storage
+[2026-10-07 11:51:20] [INFO] module enabled: security
+[2026-10-07 11:51:20] [INFO] PlaceholderAPI expansion registered
+[2026-10-07 11:51:20] [INFO] module enabled: api
+[2026-10-07 11:51:20] [WARN] module skipped: discord (no bot token configured (config.yml token) — set it and run /sdiscord reload, no restart needed)
+[2026-10-07 11:51:20] [INFO] module enabled: linking
+[2026-10-07 11:51:20] [INFO] module enabled: chat
+[2026-10-07 11:51:20] [INFO] module enabled: console
+[2026-10-07 11:51:20] [INFO] module enabled: reports
+[2026-10-07 11:51:20] [INFO] module enabled: gui
+[2026-10-07 11:51:20] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-07 11:51:20] [INFO] module enabled: autorole
+[2026-10-07 11:51:20] [INFO] module enabled: staff
+[2026-10-07 11:51:20] [INFO] module enabled: audit
+[2026-10-07 11:51:20] [INFO] multi-server network disabled
+[2026-10-07 11:51:20] [INFO] module enabled: proxy
+[2026-10-07 11:51:20] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-07 11:51:20] [INFO] module enabled: voicerewards
+[2026-10-07 11:51:32] [INFO] ================ Discord status ================
+[2026-10-07 11:51:32] [INFO] Bot: the Discord module is NOT running. It was skipped (token missing or too short in config.yml — a bot token is ~70 characters) or disabled in modules.yml. Run /sdiscord status after fixing it.
+[2026-10-07 11:51:32] [INFO] =================================================
+[2026-10-07 12:04:15] [INFO] SQLite storage ready (storage.db)
+[2026-10-07 12:04:15] [INFO] module enabled: storage
+[2026-10-07 12:04:15] [INFO] module enabled: security
+[2026-10-07 12:04:15] [INFO] PlaceholderAPI expansion registered
+[2026-10-07 12:04:15] [INFO] module enabled: api
+[2026-10-07 12:04:15] [INFO] [Discord] downloading library 1/12 (68 KB) — one time only, it is cached afterwards
+[2026-10-07 12:04:15] [INFO] module enabled: discord
+[2026-10-07 12:04:15] [INFO] module enabled: linking
+[2026-10-07 12:04:15] [INFO] module enabled: chat
+[2026-10-07 12:04:15] [INFO] module enabled: console
+[2026-10-07 12:04:15] [INFO] module enabled: reports
+[2026-10-07 12:04:15] [INFO] module enabled: gui
+[2026-10-07 12:04:15] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-07 12:04:15] [INFO] module enabled: autorole
+[2026-10-07 12:04:15] [INFO] module enabled: staff
+[2026-10-07 12:04:15] [INFO] module enabled: audit
+[2026-10-07 12:04:15] [INFO] multi-server network disabled
+[2026-10-07 12:04:15] [INFO] module enabled: proxy
+[2026-10-07 12:04:15] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-07 12:04:15] [INFO] module enabled: voicerewards
+[2026-10-07 12:04:15] [INFO] [Discord] downloading library 2/12 (10 KB) — one time only, it is cached afterwards
+[2026-10-07 12:04:15] [INFO] [Discord] downloading library 3/12 (122 KB) — one time only, it is cached afterwards
+[2026-10-07 12:04:15] [INFO] [Discord] downloading library 4/12 (938 KB) — one time only, it is cached afterwards
+[2026-10-07 12:04:15] [INFO] [Discord] downloading library 5/12 (1683 KB) — one time only, it is cached afterwards
+[2026-10-07 12:04:15] [INFO] [Discord] downloading library 6/12 (383 KB) — one time only, it is cached afterwards
+[2026-10-07 12:04:15] [INFO] [Discord] downloading library 7/12 (912 KB) — one time only, it is cached afterwards
+[2026-10-07 12:04:15] [INFO] [Discord] downloading library 8/12 (2500 KB) — one time only, it is cached afterwards
+[2026-10-07 12:04:15] [INFO] [Discord] downloading library 9/12 (580 KB) — one time only, it is cached afterwards
+[2026-10-07 12:04:15] [INFO] [Discord] downloading library 10/12 (1668 KB) — one time only, it is cached afterwards
+[2026-10-07 12:04:16] [INFO] [Discord] downloading library 11/12 (82 KB) — one time only, it is cached afterwards
+[2026-10-07 12:04:16] [INFO] [Discord] downloading library 12/12 (3138 KB) — one time only, it is cached afterwards
+[2026-10-07 12:04:16] [INFO] [Discord] 12 libraries downloaded, 12 ready (1246 ms)
+[2026-10-07 12:04:17] [INFO] Discord connected as My Minecraft Server
+[2026-10-07 12:04:17] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 12:04:17] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 12:04:18] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 12:04:27] [INFO] ================ Discord status ================
+[2026-10-07 12:04:27] [INFO] Bot: connected as My Minecraft Server (uptime 9s)
+[2026-10-07 12:04:27] [INFO] Connection: (CONNECTED, ping 106 ms, 1 guilds)
+[2026-10-07 12:04:27] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 12:04:27] [INFO] Intents: ok
+[2026-10-07 12:04:27] [INFO] Chat relay MC->Discord: enabled, target channel: https://discord.com/channels/1532782075181011055/1557145790059913297
+[2026-10-07 12:04:27] [INFO] =================================================
+[2026-10-07 12:06:27] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 12:06:28] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 12:07:52] [INFO] SQLite storage ready (storage.db)
+[2026-10-07 12:07:52] [INFO] module enabled: storage
+[2026-10-07 12:07:52] [INFO] module enabled: security
+[2026-10-07 12:07:52] [INFO] PlaceholderAPI expansion registered
+[2026-10-07 12:07:52] [INFO] module enabled: api
+[2026-10-07 12:07:52] [INFO] module enabled: linking
+[2026-10-07 12:07:52] [INFO] module enabled: chat
+[2026-10-07 12:07:52] [INFO] module enabled: console
+[2026-10-07 12:07:52] [INFO] module enabled: reports
+[2026-10-07 12:07:52] [INFO] module enabled: gui
+[2026-10-07 12:07:52] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-07 12:07:52] [INFO] module enabled: autorole
+[2026-10-07 12:07:52] [INFO] module enabled: staff
+[2026-10-07 12:07:52] [INFO] module enabled: audit
+[2026-10-07 12:07:52] [INFO] multi-server network disabled
+[2026-10-07 12:07:52] [INFO] module enabled: proxy
+[2026-10-07 12:07:52] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-07 12:07:52] [INFO] module enabled: voicerewards
+[2026-10-07 12:07:52] [INFO] reload complete: Discord connection kept alive (14/14 modules)
+[2026-10-07 12:08:47] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 12:08:47] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 12:08:47] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 12:08:47] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 12:12:58] [INFO] SQLite storage ready (storage.db)
+[2026-10-07 12:12:58] [INFO] module enabled: storage
+[2026-10-07 12:12:58] [INFO] module enabled: security
+[2026-10-07 12:12:58] [INFO] PlaceholderAPI expansion registered
+[2026-10-07 12:12:58] [INFO] module enabled: api
+[2026-10-07 12:12:58] [INFO] module enabled: linking
+[2026-10-07 12:12:58] [INFO] module enabled: chat
+[2026-10-07 12:12:58] [INFO] module enabled: console
+[2026-10-07 12:12:58] [INFO] module enabled: reports
+[2026-10-07 12:12:58] [INFO] module enabled: gui
+[2026-10-07 12:12:58] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-07 12:12:58] [INFO] module enabled: autorole
+[2026-10-07 12:12:58] [INFO] module enabled: staff
+[2026-10-07 12:12:58] [INFO] module enabled: audit
+[2026-10-07 12:12:58] [INFO] multi-server network disabled
+[2026-10-07 12:12:58] [INFO] module enabled: proxy
+[2026-10-07 12:12:58] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-07 12:12:58] [INFO] module enabled: voicerewards
+[2026-10-07 12:12:58] [INFO] reload complete: Discord connection kept alive (14/14 modules)
+[2026-10-07 12:14:57] [INFO] SQLite storage ready (storage.db)
+[2026-10-07 12:14:57] [INFO] module enabled: storage
+[2026-10-07 12:14:57] [INFO] module enabled: security
+[2026-10-07 12:14:57] [INFO] PlaceholderAPI expansion registered
+[2026-10-07 12:14:57] [INFO] module enabled: api
+[2026-10-07 12:14:57] [INFO] module enabled: discord
+[2026-10-07 12:14:57] [INFO] module enabled: linking
+[2026-10-07 12:14:57] [INFO] module enabled: chat
+[2026-10-07 12:14:57] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 26 ms)
+[2026-10-07 12:14:57] [INFO] module enabled: console
+[2026-10-07 12:14:57] [INFO] module enabled: reports
+[2026-10-07 12:14:57] [INFO] module enabled: gui
+[2026-10-07 12:14:57] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-07 12:14:57] [INFO] module enabled: autorole
+[2026-10-07 12:14:57] [INFO] module enabled: staff
+[2026-10-07 12:14:57] [INFO] module enabled: audit
+[2026-10-07 12:14:57] [INFO] multi-server network disabled
+[2026-10-07 12:14:57] [INFO] module enabled: proxy
+[2026-10-07 12:14:57] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-07 12:14:57] [INFO] module enabled: voicerewards
+[2026-10-07 12:14:59] [INFO] Discord connected as My Minecraft Server
+[2026-10-07 12:14:59] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 12:15:09] [INFO] ================ Discord status ================
+[2026-10-07 12:15:09] [INFO] Bot: connected as My Minecraft Server (uptime 10s)
+[2026-10-07 12:15:09] [INFO] Connection: (CONNECTED, ping 110 ms, 1 guilds)
+[2026-10-07 12:15:09] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 12:15:09] [INFO] Intents: ok
+[2026-10-07 12:15:09] [INFO] Chat relay MC->Discord: enabled, target channel: 1557145790059913297
+[2026-10-07 12:15:09] [INFO] =================================================
+[2026-10-07 12:16:23] [INFO] [chat] [Discord] abbas_go0770: ✅ Server has started
+[2026-10-07 12:16:32] [INFO] [chat] [Discord] abbas_go0770: say ia
+[2026-10-07 12:17:19] [INFO] [chat] [Discord] abbas_go0770: تلعب ببجي؟
+[2026-10-07 12:18:08] [INFO] [chat] [Discord] abbas_go0770: s
+[2026-10-07 15:30:39] [INFO] SQLite storage ready (storage.db)
+[2026-10-07 15:30:40] [INFO] module enabled: storage
+[2026-10-07 15:30:40] [INFO] module enabled: security
+[2026-10-07 15:30:40] [INFO] PlaceholderAPI expansion registered
+[2026-10-07 15:30:40] [INFO] module enabled: api
+[2026-10-07 15:30:40] [INFO] module enabled: discord
+[2026-10-07 15:30:40] [INFO] module enabled: linking
+[2026-10-07 15:30:40] [INFO] module enabled: chat
+[2026-10-07 15:30:40] [INFO] module enabled: console
+[2026-10-07 15:30:40] [INFO] module enabled: reports
+[2026-10-07 15:30:40] [INFO] module enabled: gui
+[2026-10-07 15:30:40] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-07 15:30:40] [INFO] module enabled: autorole
+[2026-10-07 15:30:40] [INFO] module enabled: staff
+[2026-10-07 15:30:40] [INFO] module enabled: audit
+[2026-10-07 15:30:40] [INFO] multi-server network disabled
+[2026-10-07 15:30:40] [INFO] module enabled: proxy
+[2026-10-07 15:30:40] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-07 15:30:40] [INFO] module enabled: voicerewards
+[2026-10-07 15:30:41] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 1462 ms)
+[2026-10-07 15:30:42] [INFO] Discord connected as My Minecraft Server
+[2026-10-07 15:30:42] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 15:30:42] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 15:30:43] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 15:30:52] [INFO] ================ Discord status ================
+[2026-10-07 15:30:52] [INFO] Bot: connected as My Minecraft Server (uptime 9s)
+[2026-10-07 15:30:52] [INFO] Connection: (CONNECTED, ping 108 ms, 1 guilds)
+[2026-10-07 15:30:52] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 15:30:52] [INFO] Intents: ok
+[2026-10-07 15:30:52] [INFO] Chat relay MC->Discord: enabled, target channel: https://discord.com/channels/1532782075181011055/1557145790059913297
+[2026-10-07 15:30:52] [INFO] =================================================
+[2026-10-07 15:53:12] [INFO] SQLite storage ready (storage.db)
+[2026-10-07 15:53:12] [INFO] module enabled: storage
+[2026-10-07 15:53:12] [INFO] module enabled: security
+[2026-10-07 15:53:12] [INFO] PlaceholderAPI expansion registered
+[2026-10-07 15:53:12] [INFO] module enabled: api
+[2026-10-07 15:53:12] [INFO] module enabled: discord
+[2026-10-07 15:53:12] [INFO] module enabled: linking
+[2026-10-07 15:53:12] [INFO] module enabled: chat
+[2026-10-07 15:53:13] [INFO] module enabled: console
+[2026-10-07 15:53:13] [INFO] module enabled: reports
+[2026-10-07 15:53:13] [INFO] module enabled: gui
+[2026-10-07 15:53:13] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 32 ms)
+[2026-10-07 15:53:13] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-07 15:53:13] [INFO] module enabled: autorole
+[2026-10-07 15:53:13] [INFO] module enabled: staff
+[2026-10-07 15:53:13] [INFO] module enabled: audit
+[2026-10-07 15:53:13] [INFO] multi-server network disabled
+[2026-10-07 15:53:13] [INFO] module enabled: proxy
+[2026-10-07 15:53:13] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-07 15:53:13] [INFO] module enabled: voicerewards
+[2026-10-07 15:53:15] [INFO] Discord connected as My Minecraft Server
+[2026-10-07 15:53:15] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 15:53:15] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 15:53:15] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 15:53:25] [INFO] ================ Discord status ================
+[2026-10-07 15:53:25] [INFO] Bot: connected as My Minecraft Server (uptime 9s)
+[2026-10-07 15:53:25] [INFO] Connection: (CONNECTED, ping 108 ms, 1 guilds)
+[2026-10-07 15:53:25] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 15:53:25] [INFO] Intents: ok
+[2026-10-07 15:53:25] [INFO] Chat relay MC->Discord: enabled, target channel: https://discord.com/channels/1532782075181011055/1557145790059913297
+[2026-10-07 15:53:25] [INFO] =================================================
+[2026-10-07 15:54:04] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 15:54:04] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 15:54:59] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 15:54:59] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:29:28] [INFO] SQLite storage ready (storage.db)
+[2026-10-07 16:29:28] [INFO] module enabled: storage
+[2026-10-07 16:29:28] [INFO] module enabled: security
+[2026-10-07 16:29:28] [INFO] PlaceholderAPI expansion registered
+[2026-10-07 16:29:28] [INFO] module enabled: api
+[2026-10-07 16:29:28] [INFO] module enabled: discord
+[2026-10-07 16:29:28] [INFO] module enabled: linking
+[2026-10-07 16:29:28] [INFO] module enabled: chat
+[2026-10-07 16:29:28] [INFO] module enabled: console
+[2026-10-07 16:29:28] [INFO] module enabled: reports
+[2026-10-07 16:29:28] [INFO] module enabled: gui
+[2026-10-07 16:29:28] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-07 16:29:28] [INFO] module enabled: autorole
+[2026-10-07 16:29:28] [INFO] module enabled: staff
+[2026-10-07 16:29:28] [INFO] module enabled: audit
+[2026-10-07 16:29:28] [INFO] multi-server network disabled
+[2026-10-07 16:29:28] [INFO] module enabled: proxy
+[2026-10-07 16:29:28] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-07 16:29:28] [INFO] module enabled: voicerewards
+[2026-10-07 16:29:30] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 2010 ms)
+[2026-10-07 16:29:32] [INFO] Discord connected as My Minecraft Server
+[2026-10-07 16:29:32] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:29:32] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:29:32] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 16:29:40] [INFO] ================ Discord status ================
+[2026-10-07 16:29:40] [INFO] Bot: connected as My Minecraft Server (uptime 8s)
+[2026-10-07 16:29:40] [INFO] Connection: (CONNECTED, ping 105 ms, 1 guilds)
+[2026-10-07 16:29:40] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 16:29:40] [INFO] Intents: ok
+[2026-10-07 16:29:40] [INFO] Chat relay MC->Discord: enabled, target channel: https://discord.com/channels/1532782075181011055/1557145790059913297
+[2026-10-07 16:29:40] [INFO] =================================================
+[2026-10-07 16:30:17] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:30:17] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:31:51] [INFO] SQLite storage ready (storage.db)
+[2026-10-07 16:31:51] [INFO] module enabled: storage
+[2026-10-07 16:31:51] [INFO] module enabled: security
+[2026-10-07 16:31:51] [INFO] PlaceholderAPI expansion registered
+[2026-10-07 16:31:51] [INFO] module enabled: api
+[2026-10-07 16:31:51] [INFO] module enabled: linking
+[2026-10-07 16:31:51] [INFO] module enabled: chat
+[2026-10-07 16:31:51] [INFO] module enabled: console
+[2026-10-07 16:31:51] [INFO] module enabled: reports
+[2026-10-07 16:31:51] [INFO] module enabled: gui
+[2026-10-07 16:31:51] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-07 16:31:51] [INFO] module enabled: autorole
+[2026-10-07 16:31:51] [INFO] module enabled: staff
+[2026-10-07 16:31:51] [INFO] module enabled: audit
+[2026-10-07 16:31:51] [INFO] multi-server network disabled
+[2026-10-07 16:31:51] [INFO] module enabled: proxy
+[2026-10-07 16:31:51] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-07 16:31:51] [INFO] module enabled: voicerewards
+[2026-10-07 16:31:51] [INFO] reload complete: Discord connection kept alive (14/14 modules)
+[2026-10-07 16:34:45] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:34:45] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:34:45] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:34:45] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:35:36] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:35:36] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:35:36] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:35:36] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:36:38] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:36:38] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:36:38] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:36:38] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:37:25] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:37:25] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:37:25] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:37:25] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:42:03] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:42:03] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:42:03] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:42:03] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:52:29] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:52:29] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:52:29] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:52:29] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:52:39] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:52:39] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:52:39] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:52:39] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:54:14] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:54:14] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:54:14] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:54:14] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:58:05] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:58:05] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:58:06] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 16:58:06] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:00:50] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:00:50] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:01:13] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:01:13] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:01:13] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:01:13] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:01:57] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:01:57] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:01:57] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:01:57] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:03:26] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:03:26] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:03:26] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:03:26] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:04:27] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:04:27] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:04:27] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:04:27] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:06:19] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:06:19] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:06:19] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:06:19] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:07:39] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:07:39] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:07:40] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:07:40] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:08:12] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:08:12] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:08:12] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:08:12] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:09:06] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:09:06] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:09:06] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:09:06] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:09:37] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:09:37] [WARN] [Discord] cannot send an embed to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:09:37] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:09:37] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:10:37] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:10:37] [WARN] [Discord] cannot send to channel https://discord.com/channels/1532782075181011055/1557145790059913297 — not visible to the bot (wrong ID in channels.yml, or the bot lacks access to it)
+[2026-10-07 17:21:25] [INFO] SQLite storage ready (storage.db)
+[2026-10-07 17:21:25] [INFO] module enabled: storage
+[2026-10-07 17:21:25] [INFO] module enabled: security
+[2026-10-07 17:21:25] [INFO] PlaceholderAPI expansion registered
+[2026-10-07 17:21:25] [INFO] module enabled: api
+[2026-10-07 17:21:25] [INFO] module enabled: discord
+[2026-10-07 17:21:25] [INFO] module enabled: linking
+[2026-10-07 17:21:25] [INFO] module enabled: chat
+[2026-10-07 17:21:25] [INFO] module enabled: console
+[2026-10-07 17:21:25] [INFO] module enabled: reports
+[2026-10-07 17:21:25] [INFO] module enabled: gui
+[2026-10-07 17:21:25] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-07 17:21:25] [INFO] module enabled: autorole
+[2026-10-07 17:21:25] [INFO] module enabled: staff
+[2026-10-07 17:21:25] [INFO] module enabled: audit
+[2026-10-07 17:21:25] [INFO] multi-server network disabled
+[2026-10-07 17:21:25] [INFO] module enabled: proxy
+[2026-10-07 17:21:25] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 36 ms)
+[2026-10-07 17:21:25] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-07 17:21:25] [INFO] module enabled: voicerewards
+[2026-10-07 17:21:27] [INFO] Discord connected as My Minecraft Server
+[2026-10-07 17:21:27] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 17:21:37] [INFO] ================ Discord status ================
+[2026-10-07 17:21:37] [INFO] Bot: connected as My Minecraft Server (uptime 10s)
+[2026-10-07 17:21:37] [INFO] Connection: (CONNECTED, ping 110 ms, 1 guilds)
+[2026-10-07 17:21:37] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 17:21:37] [INFO] Intents: ok
+[2026-10-07 17:21:37] [INFO] Chat relay MC->Discord: enabled, target channel: 1557145790059913297
+[2026-10-07 17:21:37] [INFO] =================================================
+[2026-10-07 17:22:02] [INFO] [chat] [Discord] abbas_go0770: stop
+[2026-10-07 17:22:02] [INFO] [console] Command executed: `stop` (abbas_go0770)
+[2026-10-07 17:22:02] [WARN] [Discord] reaction failed: InsufficientPermissionException: Cannot perform action due to a lack of Permission. Missing permission: MESSAGE_ADD_REACTION
+[2026-10-07 17:23:00] [INFO] SQLite storage ready (storage.db)
+[2026-10-07 17:23:00] [INFO] module enabled: storage
+[2026-10-07 17:23:00] [INFO] module enabled: security
+[2026-10-07 17:23:00] [INFO] PlaceholderAPI expansion registered
+[2026-10-07 17:23:00] [INFO] module enabled: api
+[2026-10-07 17:23:00] [INFO] module enabled: discord
+[2026-10-07 17:23:00] [INFO] module enabled: linking
+[2026-10-07 17:23:00] [INFO] module enabled: chat
+[2026-10-07 17:23:00] [INFO] module enabled: console
+[2026-10-07 17:23:00] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 19 ms)
+[2026-10-07 17:23:00] [INFO] module enabled: reports
+[2026-10-07 17:23:00] [INFO] module enabled: gui
+[2026-10-07 17:23:00] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-07 17:23:00] [INFO] module enabled: autorole
+[2026-10-07 17:23:00] [INFO] module enabled: staff
+[2026-10-07 17:23:00] [INFO] module enabled: audit
+[2026-10-07 17:23:00] [INFO] multi-server network disabled
+[2026-10-07 17:23:00] [INFO] module enabled: proxy
+[2026-10-07 17:23:00] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-07 17:23:00] [INFO] module enabled: voicerewards
+[2026-10-07 17:23:02] [INFO] Discord connected as My Minecraft Server
+[2026-10-07 17:23:02] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 17:23:12] [INFO] ================ Discord status ================
+[2026-10-07 17:23:12] [INFO] Bot: connected as My Minecraft Server (uptime 10s)
+[2026-10-07 17:23:12] [INFO] Connection: (CONNECTED, ping 108 ms, 1 guilds)
+[2026-10-07 17:23:12] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 17:23:12] [INFO] Intents: ok
+[2026-10-07 17:23:12] [INFO] Chat relay MC->Discord: enabled, target channel: 1557145790059913297
+[2026-10-07 17:23:12] [INFO] =================================================
+[2026-10-07 17:24:01] [INFO] [chat] [Discord] abbas_go0770: stop
+[2026-10-07 17:24:01] [INFO] [console] Command executed: `stop` (abbas_go0770)
+[2026-10-07 17:24:01] [WARN] [Discord] reaction failed: InsufficientPermissionException: Cannot perform action due to a lack of Permission. Missing permission: MESSAGE_ADD_REACTION
+[2026-10-07 17:30:31] [INFO] SQLite storage ready (storage.db)
+[2026-10-07 17:30:31] [INFO] module enabled: storage
+[2026-10-07 17:30:31] [INFO] module enabled: security
+[2026-10-07 17:30:31] [INFO] PlaceholderAPI expansion registered
+[2026-10-07 17:30:31] [INFO] module enabled: api
+[2026-10-07 17:30:31] [INFO] module enabled: discord
+[2026-10-07 17:30:31] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 15 ms)
+[2026-10-07 17:30:31] [INFO] module enabled: linking
+[2026-10-07 17:30:31] [INFO] module enabled: chat
+[2026-10-07 17:30:31] [INFO] module enabled: console
+[2026-10-07 17:30:31] [INFO] module enabled: reports
+[2026-10-07 17:30:31] [INFO] module enabled: gui
+[2026-10-07 17:30:31] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-07 17:30:31] [INFO] module enabled: autorole
+[2026-10-07 17:30:31] [INFO] module enabled: staff
+[2026-10-07 17:30:31] [INFO] module enabled: audit
+[2026-10-07 17:30:31] [INFO] multi-server network disabled
+[2026-10-07 17:30:31] [INFO] module enabled: proxy
+[2026-10-07 17:30:31] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-07 17:30:31] [INFO] module enabled: voicerewards
+[2026-10-07 17:30:33] [INFO] Discord connected as My Minecraft Server
+[2026-10-07 17:30:33] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 17:30:43] [INFO] ================ Discord status ================
+[2026-10-07 17:30:43] [INFO] Bot: connected as My Minecraft Server (uptime 10s)
+[2026-10-07 17:30:43] [INFO] Connection: (CONNECTED, ping 111 ms, 1 guilds)
+[2026-10-07 17:30:43] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 17:30:43] [INFO] Intents: ok
+[2026-10-07 17:30:43] [INFO] Chat relay MC->Discord: enabled, target channel: 1557145790059913297
+[2026-10-07 17:30:43] [INFO] =================================================
+[2026-10-07 17:33:26] [INFO] [chat] [Discord] abbas_go0770: stop
+[2026-10-07 17:33:26] [INFO] [console] Command executed: `stop` (abbas_go0770)
+[2026-10-07 17:33:26] [WARN] [Discord] reaction failed: InsufficientPermissionException: Cannot perform action due to a lack of Permission. Missing permission: MESSAGE_ADD_REACTION
+[2026-10-07 18:00:11] [INFO] SQLite storage ready (storage.db)
+[2026-10-07 18:00:11] [INFO] module enabled: storage
+[2026-10-07 18:00:11] [INFO] module enabled: security
+[2026-10-07 18:00:11] [INFO] PlaceholderAPI expansion registered
+[2026-10-07 18:00:11] [INFO] module enabled: api
+[2026-10-07 18:00:11] [INFO] module enabled: discord
+[2026-10-07 18:00:11] [INFO] module enabled: linking
+[2026-10-07 18:00:11] [INFO] module enabled: chat
+[2026-10-07 18:00:11] [INFO] module enabled: console
+[2026-10-07 18:00:11] [INFO] module enabled: reports
+[2026-10-07 18:00:11] [INFO] module enabled: gui
+[2026-10-07 18:00:11] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-07 18:00:11] [INFO] module enabled: autorole
+[2026-10-07 18:00:11] [INFO] module enabled: staff
+[2026-10-07 18:00:11] [INFO] module enabled: audit
+[2026-10-07 18:00:11] [INFO] multi-server network disabled
+[2026-10-07 18:00:11] [INFO] module enabled: proxy
+[2026-10-07 18:00:11] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 25 ms)
+[2026-10-07 18:00:11] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-07 18:00:11] [INFO] module enabled: voicerewards
+[2026-10-07 18:00:13] [INFO] Discord connected as My Minecraft Server
+[2026-10-07 18:00:13] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 18:00:23] [INFO] ================ Discord status ================
+[2026-10-07 18:00:23] [INFO] Bot: connected as My Minecraft Server (uptime 10s)
+[2026-10-07 18:00:23] [INFO] Connection: (CONNECTED, ping 109 ms, 1 guilds)
+[2026-10-07 18:00:23] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 18:00:23] [INFO] Intents: ok
+[2026-10-07 18:00:23] [INFO] Chat relay MC->Discord: enabled, target channel: 1557145790059913297
+[2026-10-07 18:00:23] [INFO] =================================================
+[2026-10-07 18:02:57] [INFO] SQLite storage ready (storage.db)
+[2026-10-07 18:02:57] [INFO] module enabled: storage
+[2026-10-07 18:02:57] [INFO] module enabled: security
+[2026-10-07 18:02:57] [INFO] PlaceholderAPI expansion registered
+[2026-10-07 18:02:57] [INFO] module enabled: api
+[2026-10-07 18:02:57] [INFO] module enabled: linking
+[2026-10-07 18:02:57] [INFO] module enabled: chat
+[2026-10-07 18:02:57] [INFO] module enabled: console
+[2026-10-07 18:02:57] [INFO] module enabled: reports
+[2026-10-07 18:02:57] [INFO] module enabled: gui
+[2026-10-07 18:02:57] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-07 18:02:57] [INFO] module enabled: autorole
+[2026-10-07 18:02:57] [INFO] module enabled: staff
+[2026-10-07 18:02:57] [INFO] module enabled: audit
+[2026-10-07 18:02:57] [INFO] multi-server network disabled
+[2026-10-07 18:02:57] [INFO] module enabled: proxy
+[2026-10-07 18:02:57] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-07 18:02:57] [INFO] module enabled: voicerewards
+[2026-10-07 18:02:57] [INFO] reload complete: Discord connection kept alive (14/14 modules)
+[2026-10-07 18:03:44] [INFO] SQLite storage ready (storage.db)
+[2026-10-07 18:03:44] [INFO] module enabled: storage
+[2026-10-07 18:03:44] [INFO] module enabled: security
+[2026-10-07 18:03:44] [INFO] PlaceholderAPI expansion registered
+[2026-10-07 18:03:44] [INFO] module enabled: api
+[2026-10-07 18:03:44] [INFO] module enabled: linking
+[2026-10-07 18:03:44] [INFO] module enabled: chat
+[2026-10-07 18:03:44] [INFO] module enabled: console
+[2026-10-07 18:03:44] [INFO] module enabled: reports
+[2026-10-07 18:03:44] [INFO] module enabled: gui
+[2026-10-07 18:03:44] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-07 18:03:44] [INFO] module enabled: autorole
+[2026-10-07 18:03:44] [INFO] module enabled: staff
+[2026-10-07 18:03:44] [INFO] module enabled: audit
+[2026-10-07 18:03:44] [INFO] multi-server network disabled
+[2026-10-07 18:03:44] [INFO] module enabled: proxy
+[2026-10-07 18:03:44] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-07 18:03:44] [INFO] module enabled: voicerewards
+[2026-10-07 18:03:44] [INFO] reload complete: Discord connection kept alive (14/14 modules)
+[2026-10-07 18:03:55] [INFO] [chat] [Discord] abbas_go0770: s
+[2026-10-07 18:04:04] [INFO] [chat] [Discord] abbas_go0770: سلام عليكم
+[2026-10-07 18:04:31] [INFO] [console] Command executed: `say تمام` (abbas_go0770)
+[2026-10-07 18:04:31] [WARN] [Discord] reaction failed: InsufficientPermissionException: Cannot perform action due to a lack of Permission. Missing permission: MESSAGE_ADD_REACTION
+[2026-10-07 18:04:31] [INFO] [console] Command executed: `say تمام` (abbas_go0770)
+[2026-10-07 18:04:31] [WARN] [Discord] reaction failed: InsufficientPermissionException: Cannot perform action due to a lack of Permission. Missing permission: MESSAGE_ADD_REACTION
+[2026-10-07 18:04:31] [INFO] [console] Command executed: `say تمام` (abbas_go0770)
+[2026-10-07 18:04:31] [WARN] [Discord] reaction failed: InsufficientPermissionException: Cannot perform action due to a lack of Permission. Missing permission: MESSAGE_ADD_REACTION
+[2026-10-07 18:11:04] [INFO] SQLite storage ready (storage.db)
+[2026-10-07 18:11:04] [INFO] module enabled: storage
+[2026-10-07 18:11:04] [INFO] module enabled: security
+[2026-10-07 18:11:04] [INFO] PlaceholderAPI expansion registered
+[2026-10-07 18:11:04] [INFO] module enabled: api
+[2026-10-07 18:11:04] [INFO] module enabled: discord
+[2026-10-07 18:11:04] [INFO] module enabled: linking
+[2026-10-07 18:11:04] [INFO] module enabled: chat
+[2026-10-07 18:11:04] [INFO] module enabled: console
+[2026-10-07 18:11:04] [INFO] module enabled: reports
+[2026-10-07 18:11:04] [INFO] module enabled: gui
+[2026-10-07 18:11:04] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-07 18:11:04] [INFO] module enabled: autorole
+[2026-10-07 18:11:04] [INFO] module enabled: staff
+[2026-10-07 18:11:04] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 28 ms)
+[2026-10-07 18:11:04] [INFO] module enabled: audit
+[2026-10-07 18:11:04] [INFO] multi-server network disabled
+[2026-10-07 18:11:04] [INFO] module enabled: proxy
+[2026-10-07 18:11:04] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-07 18:11:04] [INFO] module enabled: voicerewards
+[2026-10-07 18:11:06] [INFO] Discord connected as My Minecraft Server
+[2026-10-07 18:11:06] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 18:11:16] [INFO] ================ Discord status ================
+[2026-10-07 18:11:16] [INFO] Bot: connected as My Minecraft Server (uptime 10s)
+[2026-10-07 18:11:16] [INFO] Connection: (CONNECTED, ping 111 ms, 1 guilds)
+[2026-10-07 18:11:16] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 18:11:16] [INFO] Intents: ok
+[2026-10-07 18:11:16] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-07 18:11:16] [INFO] =================================================
+[2026-10-07 18:11:22] [INFO] [chat] [Discord] yusef05951: .
+[2026-10-07 18:14:52] [INFO] [chat] [Discord] abbas_go0770: ههه
+[2026-10-07 18:15:32] [INFO] [chat] [Discord] abbas_go0770: صار شفته بل كونسول
+[2026-10-07 18:18:36] [INFO] SQLite storage ready (storage.db)
+[2026-10-07 18:18:36] [INFO] module enabled: storage
+[2026-10-07 18:18:36] [INFO] module enabled: security
+[2026-10-07 18:18:36] [INFO] PlaceholderAPI expansion registered
+[2026-10-07 18:18:36] [INFO] module enabled: api
+[2026-10-07 18:18:36] [INFO] module enabled: discord
+[2026-10-07 18:18:36] [INFO] module enabled: linking
+[2026-10-07 18:18:36] [INFO] module enabled: chat
+[2026-10-07 18:18:36] [INFO] module enabled: console
+[2026-10-07 18:18:36] [INFO] module enabled: reports
+[2026-10-07 18:18:36] [INFO] module enabled: gui
+[2026-10-07 18:18:36] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-07 18:18:36] [INFO] module enabled: autorole
+[2026-10-07 18:18:36] [INFO] module enabled: staff
+[2026-10-07 18:18:36] [INFO] module enabled: audit
+[2026-10-07 18:18:36] [INFO] multi-server network disabled
+[2026-10-07 18:18:36] [INFO] module enabled: proxy
+[2026-10-07 18:18:36] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 21 ms)
+[2026-10-07 18:18:36] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-07 18:18:36] [INFO] module enabled: voicerewards
+[2026-10-07 18:18:37] [INFO] Discord connected as My Minecraft Server
+[2026-10-07 18:18:38] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 18:18:48] [INFO] ================ Discord status ================
+[2026-10-07 18:18:48] [INFO] Bot: connected as My Minecraft Server (uptime 10s)
+[2026-10-07 18:18:48] [INFO] Connection: (CONNECTED, ping 105 ms, 1 guilds)
+[2026-10-07 18:18:48] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 18:18:48] [INFO] Intents: ok
+[2026-10-07 18:18:48] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-07 18:18:48] [INFO] =================================================
+[2026-10-07 19:08:00] [INFO] SQLite storage ready (storage.db)
+[2026-10-07 19:08:00] [INFO] module enabled: storage
+[2026-10-07 19:08:00] [INFO] module enabled: security
+[2026-10-07 19:08:00] [INFO] PlaceholderAPI expansion registered
+[2026-10-07 19:08:00] [INFO] module enabled: api
+[2026-10-07 19:08:00] [INFO] module enabled: discord
+[2026-10-07 19:08:00] [INFO] module enabled: linking
+[2026-10-07 19:08:00] [INFO] module enabled: chat
+[2026-10-07 19:08:00] [INFO] module enabled: console
+[2026-10-07 19:08:00] [INFO] module enabled: reports
+[2026-10-07 19:08:00] [INFO] module enabled: gui
+[2026-10-07 19:08:00] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-07 19:08:00] [INFO] module enabled: autorole
+[2026-10-07 19:08:00] [INFO] module enabled: staff
+[2026-10-07 19:08:00] [INFO] module enabled: audit
+[2026-10-07 19:08:00] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 30 ms)
+[2026-10-07 19:08:00] [INFO] multi-server network disabled
+[2026-10-07 19:08:00] [INFO] module enabled: proxy
+[2026-10-07 19:08:00] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-07 19:08:00] [INFO] module enabled: voicerewards
+[2026-10-07 19:08:02] [INFO] Discord connected as My Minecraft Server
+[2026-10-07 19:08:02] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 19:08:12] [INFO] ================ Discord status ================
+[2026-10-07 19:08:12] [INFO] Bot: connected as My Minecraft Server (uptime 10s)
+[2026-10-07 19:08:12] [INFO] Connection: (CONNECTED, ping 106 ms, 1 guilds)
+[2026-10-07 19:08:12] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 19:08:12] [INFO] Intents: ok
+[2026-10-07 19:08:12] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-07 19:08:12] [INFO] =================================================
+[2026-10-07 20:11:01] [INFO] SQLite storage ready (storage.db)
+[2026-10-07 20:11:01] [INFO] module enabled: storage
+[2026-10-07 20:11:01] [INFO] module enabled: security
+[2026-10-07 20:11:01] [INFO] PlaceholderAPI expansion registered
+[2026-10-07 20:11:01] [INFO] module enabled: api
+[2026-10-07 20:11:01] [INFO] module enabled: discord
+[2026-10-07 20:11:01] [INFO] module enabled: linking
+[2026-10-07 20:11:01] [INFO] module enabled: chat
+[2026-10-07 20:11:01] [INFO] module enabled: console
+[2026-10-07 20:11:01] [INFO] module enabled: reports
+[2026-10-07 20:11:01] [INFO] module enabled: gui
+[2026-10-07 20:11:01] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-07 20:11:01] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 30 ms)
+[2026-10-07 20:11:01] [INFO] module enabled: autorole
+[2026-10-07 20:11:01] [INFO] module enabled: staff
+[2026-10-07 20:11:01] [INFO] module enabled: audit
+[2026-10-07 20:11:01] [INFO] multi-server network disabled
+[2026-10-07 20:11:01] [INFO] module enabled: proxy
+[2026-10-07 20:11:01] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-07 20:11:01] [INFO] module enabled: voicerewards
+[2026-10-07 20:11:03] [INFO] Discord connected as My Minecraft Server
+[2026-10-07 20:11:03] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 20:11:13] [INFO] ================ Discord status ================
+[2026-10-07 20:11:13] [INFO] Bot: connected as My Minecraft Server (uptime 10s)
+[2026-10-07 20:11:13] [INFO] Connection: (CONNECTED, ping 105 ms, 1 guilds)
+[2026-10-07 20:11:13] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 20:11:13] [INFO] Intents: ok
+[2026-10-07 20:11:13] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-07 20:11:13] [INFO] =================================================
+[2026-10-07 20:24:43] [INFO] SQLite storage ready (storage.db)
+[2026-10-07 20:24:43] [INFO] module enabled: storage
+[2026-10-07 20:24:43] [INFO] module enabled: security
+[2026-10-07 20:24:43] [INFO] PlaceholderAPI expansion registered
+[2026-10-07 20:24:43] [INFO] module enabled: api
+[2026-10-07 20:24:43] [INFO] module enabled: discord
+[2026-10-07 20:24:43] [INFO] module enabled: linking
+[2026-10-07 20:24:43] [INFO] module enabled: chat
+[2026-10-07 20:24:43] [INFO] module enabled: console
+[2026-10-07 20:24:43] [INFO] module enabled: reports
+[2026-10-07 20:24:43] [INFO] module enabled: gui
+[2026-10-07 20:24:43] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 23 ms)
+[2026-10-07 20:24:43] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-07 20:24:43] [INFO] module enabled: autorole
+[2026-10-07 20:24:43] [INFO] module enabled: staff
+[2026-10-07 20:24:43] [INFO] module enabled: audit
+[2026-10-07 20:24:43] [INFO] multi-server network disabled
+[2026-10-07 20:24:43] [INFO] module enabled: proxy
+[2026-10-07 20:24:43] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-07 20:24:43] [INFO] module enabled: voicerewards
+[2026-10-07 20:24:44] [INFO] Discord connected as My Minecraft Server
+[2026-10-07 20:24:44] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 20:24:55] [INFO] ================ Discord status ================
+[2026-10-07 20:24:55] [INFO] Bot: connected as My Minecraft Server (uptime 10s)
+[2026-10-07 20:24:55] [INFO] Connection: (CONNECTED, ping 105 ms, 1 guilds)
+[2026-10-07 20:24:55] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 20:24:55] [INFO] Intents: ok
+[2026-10-07 20:24:55] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-07 20:24:55] [INFO] =================================================
+[2026-10-07 21:21:28] [INFO] SQLite storage ready (storage.db)
+[2026-10-07 21:21:28] [INFO] module enabled: storage
+[2026-10-07 21:21:28] [INFO] module enabled: security
+[2026-10-07 21:21:28] [INFO] PlaceholderAPI expansion registered
+[2026-10-07 21:21:28] [INFO] module enabled: api
+[2026-10-07 21:21:28] [INFO] module enabled: discord
+[2026-10-07 21:21:28] [INFO] module enabled: linking
+[2026-10-07 21:21:28] [INFO] module enabled: chat
+[2026-10-07 21:21:28] [INFO] module enabled: console
+[2026-10-07 21:21:28] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 23 ms)
+[2026-10-07 21:21:28] [INFO] module enabled: reports
+[2026-10-07 21:21:28] [INFO] module enabled: gui
+[2026-10-07 21:21:28] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-07 21:21:28] [INFO] module enabled: autorole
+[2026-10-07 21:21:28] [INFO] module enabled: staff
+[2026-10-07 21:21:28] [INFO] module enabled: audit
+[2026-10-07 21:21:28] [INFO] multi-server network disabled
+[2026-10-07 21:21:28] [INFO] module enabled: proxy
+[2026-10-07 21:21:28] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-07 21:21:28] [INFO] module enabled: voicerewards
+[2026-10-07 21:21:30] [INFO] Discord connected as My Minecraft Server
+[2026-10-07 21:21:30] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 21:21:40] [INFO] ================ Discord status ================
+[2026-10-07 21:21:40] [INFO] Bot: connected as My Minecraft Server (uptime 10s)
+[2026-10-07 21:21:40] [INFO] Connection: (CONNECTED, ping 106 ms, 1 guilds)
+[2026-10-07 21:21:40] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 21:21:40] [INFO] Intents: ok
+[2026-10-07 21:21:40] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-07 21:21:40] [INFO] =================================================
+[2026-10-07 21:33:36] [INFO] SQLite storage ready (storage.db)
+[2026-10-07 21:33:36] [INFO] module enabled: storage
+[2026-10-07 21:33:36] [INFO] module enabled: security
+[2026-10-07 21:33:36] [INFO] PlaceholderAPI expansion registered
+[2026-10-07 21:33:36] [INFO] module enabled: api
+[2026-10-07 21:33:36] [INFO] module enabled: discord
+[2026-10-07 21:33:36] [INFO] module enabled: linking
+[2026-10-07 21:33:36] [INFO] module enabled: chat
+[2026-10-07 21:33:36] [INFO] module enabled: console
+[2026-10-07 21:33:36] [INFO] module enabled: reports
+[2026-10-07 21:33:36] [INFO] module enabled: gui
+[2026-10-07 21:33:36] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 25 ms)
+[2026-10-07 21:33:36] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-07 21:33:36] [INFO] module enabled: autorole
+[2026-10-07 21:33:36] [INFO] module enabled: staff
+[2026-10-07 21:33:36] [INFO] module enabled: audit
+[2026-10-07 21:33:36] [INFO] multi-server network disabled
+[2026-10-07 21:33:36] [INFO] module enabled: proxy
+[2026-10-07 21:33:36] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-07 21:33:36] [INFO] module enabled: voicerewards
+[2026-10-07 21:33:37] [INFO] Discord connected as My Minecraft Server
+[2026-10-07 21:33:38] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 21:33:48] [INFO] ================ Discord status ================
+[2026-10-07 21:33:48] [INFO] Bot: connected as My Minecraft Server (uptime 10s)
+[2026-10-07 21:33:48] [INFO] Connection: (CONNECTED, ping 108 ms, 1 guilds)
+[2026-10-07 21:33:48] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 21:33:48] [INFO] Intents: ok
+[2026-10-07 21:33:48] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-07 21:33:48] [INFO] =================================================
+[2026-10-07 22:04:22] [INFO] SQLite storage ready (storage.db)
+[2026-10-07 22:04:22] [INFO] module enabled: storage
+[2026-10-07 22:04:22] [INFO] module enabled: security
+[2026-10-07 22:04:22] [INFO] PlaceholderAPI expansion registered
+[2026-10-07 22:04:22] [INFO] module enabled: api
+[2026-10-07 22:04:22] [INFO] module enabled: discord
+[2026-10-07 22:04:22] [INFO] module enabled: linking
+[2026-10-07 22:04:22] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 16 ms)
+[2026-10-07 22:04:22] [INFO] module enabled: chat
+[2026-10-07 22:04:22] [INFO] module enabled: console
+[2026-10-07 22:04:22] [INFO] module enabled: reports
+[2026-10-07 22:04:22] [INFO] module enabled: gui
+[2026-10-07 22:04:22] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-07 22:04:22] [INFO] module enabled: autorole
+[2026-10-07 22:04:22] [INFO] module enabled: staff
+[2026-10-07 22:04:22] [INFO] module enabled: audit
+[2026-10-07 22:04:22] [INFO] multi-server network disabled
+[2026-10-07 22:04:22] [INFO] module enabled: proxy
+[2026-10-07 22:04:22] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-07 22:04:22] [INFO] module enabled: voicerewards
+[2026-10-07 22:04:24] [INFO] Discord connected as My Minecraft Server
+[2026-10-07 22:04:24] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 22:04:34] [INFO] ================ Discord status ================
+[2026-10-07 22:04:34] [INFO] Bot: connected as My Minecraft Server (uptime 10s)
+[2026-10-07 22:04:34] [INFO] Connection: (CONNECTED, ping 106 ms, 1 guilds)
+[2026-10-07 22:04:34] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 22:04:34] [INFO] Intents: ok
+[2026-10-07 22:04:34] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-07 22:04:34] [INFO] =================================================
+[2026-10-07 22:08:23] [INFO] SQLite storage ready (storage.db)
+[2026-10-07 22:08:23] [INFO] module enabled: storage
+[2026-10-07 22:08:23] [INFO] module enabled: security
+[2026-10-07 22:08:23] [INFO] PlaceholderAPI expansion registered
+[2026-10-07 22:08:23] [INFO] module enabled: api
+[2026-10-07 22:08:23] [INFO] module enabled: discord
+[2026-10-07 22:08:23] [INFO] module enabled: linking
+[2026-10-07 22:08:23] [INFO] module enabled: chat
+[2026-10-07 22:08:23] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 18 ms)
+[2026-10-07 22:08:23] [INFO] module enabled: console
+[2026-10-07 22:08:23] [INFO] module enabled: reports
+[2026-10-07 22:08:23] [INFO] module enabled: gui
+[2026-10-07 22:08:23] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-07 22:08:23] [INFO] module enabled: autorole
+[2026-10-07 22:08:23] [INFO] module enabled: staff
+[2026-10-07 22:08:23] [INFO] module enabled: audit
+[2026-10-07 22:08:23] [INFO] multi-server network disabled
+[2026-10-07 22:08:23] [INFO] module enabled: proxy
+[2026-10-07 22:08:23] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-07 22:08:23] [INFO] module enabled: voicerewards
+[2026-10-07 22:08:25] [INFO] Discord connected as My Minecraft Server
+[2026-10-07 22:08:25] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 22:08:35] [INFO] ================ Discord status ================
+[2026-10-07 22:08:35] [INFO] Bot: connected as My Minecraft Server (uptime 10s)
+[2026-10-07 22:08:35] [INFO] Connection: (CONNECTED, ping 106 ms, 1 guilds)
+[2026-10-07 22:08:35] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 22:08:35] [INFO] Intents: ok
+[2026-10-07 22:08:35] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-07 22:08:35] [INFO] =================================================
+[2026-10-07 22:18:26] [INFO] SQLite storage ready (storage.db)
+[2026-10-07 22:18:26] [INFO] module enabled: storage
+[2026-10-07 22:18:26] [INFO] module enabled: security
+[2026-10-07 22:18:26] [INFO] PlaceholderAPI expansion registered
+[2026-10-07 22:18:26] [INFO] module enabled: api
+[2026-10-07 22:18:26] [INFO] module enabled: discord
+[2026-10-07 22:18:26] [INFO] module enabled: linking
+[2026-10-07 22:18:26] [INFO] module enabled: chat
+[2026-10-07 22:18:26] [INFO] module enabled: console
+[2026-10-07 22:18:26] [INFO] module enabled: reports
+[2026-10-07 22:18:26] [INFO] module enabled: gui
+[2026-10-07 22:18:26] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-07 22:18:26] [INFO] module enabled: autorole
+[2026-10-07 22:18:26] [INFO] module enabled: staff
+[2026-10-07 22:18:26] [INFO] module enabled: audit
+[2026-10-07 22:18:26] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 45 ms)
+[2026-10-07 22:18:26] [INFO] multi-server network disabled
+[2026-10-07 22:18:26] [INFO] module enabled: proxy
+[2026-10-07 22:18:26] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-07 22:18:26] [INFO] module enabled: voicerewards
+[2026-10-07 22:18:28] [INFO] Discord connected as My Minecraft Server
+[2026-10-07 22:18:28] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 22:18:38] [INFO] ================ Discord status ================
+[2026-10-07 22:18:38] [INFO] Bot: connected as My Minecraft Server (uptime 10s)
+[2026-10-07 22:18:38] [INFO] Connection: (CONNECTED, ping 108 ms, 1 guilds)
+[2026-10-07 22:18:38] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 22:18:38] [INFO] Intents: ok
+[2026-10-07 22:18:38] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-07 22:18:38] [INFO] =================================================
+[2026-10-07 22:31:11] [INFO] SQLite storage ready (storage.db)
+[2026-10-07 22:31:11] [INFO] module enabled: storage
+[2026-10-07 22:31:11] [INFO] module enabled: security
+[2026-10-07 22:31:11] [INFO] PlaceholderAPI expansion registered
+[2026-10-07 22:31:11] [INFO] module enabled: api
+[2026-10-07 22:31:11] [INFO] module enabled: discord
+[2026-10-07 22:31:11] [INFO] module enabled: linking
+[2026-10-07 22:31:11] [INFO] module enabled: chat
+[2026-10-07 22:31:11] [INFO] module enabled: console
+[2026-10-07 22:31:11] [INFO] module enabled: reports
+[2026-10-07 22:31:11] [INFO] module enabled: gui
+[2026-10-07 22:31:11] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 19 ms)
+[2026-10-07 22:31:11] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-07 22:31:11] [INFO] module enabled: autorole
+[2026-10-07 22:31:11] [INFO] module enabled: staff
+[2026-10-07 22:31:11] [INFO] module enabled: audit
+[2026-10-07 22:31:11] [INFO] multi-server network disabled
+[2026-10-07 22:31:11] [INFO] module enabled: proxy
+[2026-10-07 22:31:11] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-07 22:31:11] [INFO] module enabled: voicerewards
+[2026-10-07 22:31:13] [INFO] Discord connected as My Minecraft Server
+[2026-10-07 22:31:13] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 22:31:23] [INFO] ================ Discord status ================
+[2026-10-07 22:31:23] [INFO] Bot: connected as My Minecraft Server (uptime 10s)
+[2026-10-07 22:31:23] [INFO] Connection: (CONNECTED, ping 104 ms, 1 guilds)
+[2026-10-07 22:31:23] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 22:31:23] [INFO] Intents: ok
+[2026-10-07 22:31:23] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-07 22:31:23] [INFO] =================================================
+[2026-10-07 22:33:03] [INFO] SQLite storage ready (storage.db)
+[2026-10-07 22:33:03] [INFO] module enabled: storage
+[2026-10-07 22:33:03] [INFO] module enabled: security
+[2026-10-07 22:33:03] [INFO] PlaceholderAPI expansion registered
+[2026-10-07 22:33:03] [INFO] module enabled: api
+[2026-10-07 22:33:03] [INFO] module enabled: discord
+[2026-10-07 22:33:03] [INFO] module enabled: linking
+[2026-10-07 22:33:03] [INFO] module enabled: chat
+[2026-10-07 22:33:03] [INFO] module enabled: console
+[2026-10-07 22:33:03] [INFO] module enabled: reports
+[2026-10-07 22:33:03] [INFO] module enabled: gui
+[2026-10-07 22:33:03] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-07 22:33:03] [INFO] module enabled: autorole
+[2026-10-07 22:33:03] [INFO] module enabled: staff
+[2026-10-07 22:33:03] [INFO] module enabled: audit
+[2026-10-07 22:33:03] [INFO] multi-server network disabled
+[2026-10-07 22:33:03] [INFO] module enabled: proxy
+[2026-10-07 22:33:03] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 21 ms)
+[2026-10-07 22:33:03] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-07 22:33:03] [INFO] module enabled: voicerewards
+[2026-10-07 22:33:05] [INFO] Discord connected as My Minecraft Server
+[2026-10-07 22:33:06] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 22:33:15] [INFO] ================ Discord status ================
+[2026-10-07 22:33:15] [INFO] Bot: connected as My Minecraft Server (uptime 10s)
+[2026-10-07 22:33:15] [INFO] Connection: (CONNECTED, ping 105 ms, 1 guilds)
+[2026-10-07 22:33:15] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 22:33:15] [INFO] Intents: ok
+[2026-10-07 22:33:15] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-07 22:33:15] [INFO] =================================================
+[2026-10-07 22:55:30] [INFO] SQLite storage ready (storage.db)
+[2026-10-07 22:55:30] [INFO] module enabled: storage
+[2026-10-07 22:55:30] [INFO] module enabled: security
+[2026-10-07 22:55:30] [INFO] PlaceholderAPI expansion registered
+[2026-10-07 22:55:30] [INFO] module enabled: api
+[2026-10-07 22:55:30] [INFO] module enabled: discord
+[2026-10-07 22:55:30] [INFO] module enabled: linking
+[2026-10-07 22:55:31] [INFO] module enabled: chat
+[2026-10-07 22:55:31] [INFO] module enabled: console
+[2026-10-07 22:55:31] [INFO] module enabled: reports
+[2026-10-07 22:55:31] [INFO] module enabled: gui
+[2026-10-07 22:55:31] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-07 22:55:31] [INFO] module enabled: autorole
+[2026-10-07 22:55:31] [INFO] module enabled: staff
+[2026-10-07 22:55:31] [INFO] module enabled: audit
+[2026-10-07 22:55:31] [INFO] multi-server network disabled
+[2026-10-07 22:55:31] [INFO] module enabled: proxy
+[2026-10-07 22:55:31] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 37 ms)
+[2026-10-07 22:55:31] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-07 22:55:31] [INFO] module enabled: voicerewards
+[2026-10-07 22:55:32] [INFO] Discord connected as My Minecraft Server
+[2026-10-07 22:55:33] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 22:55:43] [INFO] ================ Discord status ================
+[2026-10-07 22:55:43] [INFO] Bot: connected as My Minecraft Server (uptime 10s)
+[2026-10-07 22:55:43] [INFO] Connection: (CONNECTED, ping 107 ms, 1 guilds)
+[2026-10-07 22:55:43] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-07 22:55:43] [INFO] Intents: ok
+[2026-10-07 22:55:43] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-07 22:55:43] [INFO] =================================================
+[2026-10-08 13:27:04] [INFO] SQLite storage ready (storage.db)
+[2026-10-08 13:27:04] [INFO] module enabled: storage
+[2026-10-08 13:27:04] [INFO] module enabled: security
+[2026-10-08 13:27:04] [INFO] PlaceholderAPI expansion registered
+[2026-10-08 13:27:04] [INFO] module enabled: api
+[2026-10-08 13:27:04] [INFO] module enabled: discord
+[2026-10-08 13:27:04] [INFO] module enabled: linking
+[2026-10-08 13:27:04] [INFO] module enabled: chat
+[2026-10-08 13:27:04] [INFO] module enabled: console
+[2026-10-08 13:27:04] [INFO] module enabled: reports
+[2026-10-08 13:27:04] [INFO] module enabled: gui
+[2026-10-08 13:27:04] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-08 13:27:04] [INFO] module enabled: autorole
+[2026-10-08 13:27:04] [INFO] module enabled: staff
+[2026-10-08 13:27:04] [INFO] module enabled: audit
+[2026-10-08 13:27:04] [INFO] multi-server network disabled
+[2026-10-08 13:27:04] [INFO] module enabled: proxy
+[2026-10-08 13:27:04] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-08 13:27:04] [INFO] module enabled: voicerewards
+[2026-10-08 13:27:06] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 1736 ms)
+[2026-10-08 13:27:07] [INFO] Discord connected as My Minecraft Server
+[2026-10-08 13:27:08] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 13:27:16] [INFO] ================ Discord status ================
+[2026-10-08 13:27:16] [INFO] Bot: connected as My Minecraft Server (uptime 8s)
+[2026-10-08 13:27:16] [INFO] Connection: (CONNECTED, ping 103 ms, 1 guilds)
+[2026-10-08 13:27:16] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 13:27:16] [INFO] Intents: ok
+[2026-10-08 13:27:16] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-08 13:27:16] [INFO] =================================================
+[2026-10-08 13:29:30] [INFO] SQLite storage ready (storage.db)
+[2026-10-08 13:29:30] [INFO] module enabled: storage
+[2026-10-08 13:29:30] [INFO] module enabled: security
+[2026-10-08 13:29:30] [INFO] PlaceholderAPI expansion registered
+[2026-10-08 13:29:30] [INFO] module enabled: api
+[2026-10-08 13:29:30] [INFO] module enabled: discord
+[2026-10-08 13:29:30] [INFO] module enabled: linking
+[2026-10-08 13:29:30] [INFO] module enabled: chat
+[2026-10-08 13:29:30] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 13 ms)
+[2026-10-08 13:29:30] [INFO] module enabled: console
+[2026-10-08 13:29:30] [INFO] module enabled: reports
+[2026-10-08 13:29:30] [INFO] module enabled: gui
+[2026-10-08 13:29:30] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-08 13:29:30] [INFO] module enabled: autorole
+[2026-10-08 13:29:30] [INFO] module enabled: staff
+[2026-10-08 13:29:30] [INFO] module enabled: audit
+[2026-10-08 13:29:30] [INFO] multi-server network disabled
+[2026-10-08 13:29:30] [INFO] module enabled: proxy
+[2026-10-08 13:29:30] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-08 13:29:30] [INFO] module enabled: voicerewards
+[2026-10-08 13:29:31] [INFO] Discord connected as My Minecraft Server
+[2026-10-08 13:29:32] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 13:29:42] [INFO] ================ Discord status ================
+[2026-10-08 13:29:42] [INFO] Bot: connected as My Minecraft Server (uptime 10s)
+[2026-10-08 13:29:42] [INFO] Connection: (CONNECTED, ping 108 ms, 1 guilds)
+[2026-10-08 13:29:42] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 13:29:42] [INFO] Intents: ok
+[2026-10-08 13:29:42] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-08 13:29:42] [INFO] =================================================
+[2026-10-08 13:40:36] [INFO] SQLite storage ready (storage.db)
+[2026-10-08 13:40:36] [INFO] module enabled: storage
+[2026-10-08 13:40:36] [INFO] module enabled: security
+[2026-10-08 13:40:36] [INFO] PlaceholderAPI expansion registered
+[2026-10-08 13:40:36] [INFO] module enabled: api
+[2026-10-08 13:40:36] [INFO] module enabled: discord
+[2026-10-08 13:40:36] [INFO] module enabled: linking
+[2026-10-08 13:40:36] [INFO] module enabled: chat
+[2026-10-08 13:40:36] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 21 ms)
+[2026-10-08 13:40:36] [INFO] module enabled: console
+[2026-10-08 13:40:36] [INFO] module enabled: reports
+[2026-10-08 13:40:36] [INFO] module enabled: gui
+[2026-10-08 13:40:36] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-08 13:40:36] [INFO] module enabled: autorole
+[2026-10-08 13:40:36] [INFO] module enabled: staff
+[2026-10-08 13:40:36] [INFO] module enabled: audit
+[2026-10-08 13:40:36] [INFO] multi-server network disabled
+[2026-10-08 13:40:36] [INFO] module enabled: proxy
+[2026-10-08 13:40:36] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-08 13:40:36] [INFO] module enabled: voicerewards
+[2026-10-08 13:40:38] [INFO] Discord connected as My Minecraft Server
+[2026-10-08 13:40:38] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 13:40:48] [INFO] ================ Discord status ================
+[2026-10-08 13:40:48] [INFO] Bot: connected as My Minecraft Server (uptime 10s)
+[2026-10-08 13:40:48] [INFO] Connection: (CONNECTED, ping 109 ms, 1 guilds)
+[2026-10-08 13:40:48] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 13:40:48] [INFO] Intents: ok
+[2026-10-08 13:40:48] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-08 13:40:48] [INFO] =================================================
+[2026-10-08 13:52:58] [INFO] SQLite storage ready (storage.db)
+[2026-10-08 13:52:58] [INFO] module enabled: storage
+[2026-10-08 13:52:58] [INFO] module enabled: security
+[2026-10-08 13:52:58] [INFO] PlaceholderAPI expansion registered
+[2026-10-08 13:52:58] [INFO] module enabled: api
+[2026-10-08 13:52:58] [INFO] module enabled: discord
+[2026-10-08 13:52:58] [INFO] module enabled: linking
+[2026-10-08 13:52:58] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 19 ms)
+[2026-10-08 13:52:58] [INFO] module enabled: chat
+[2026-10-08 13:52:58] [INFO] module enabled: console
+[2026-10-08 13:52:58] [INFO] module enabled: reports
+[2026-10-08 13:52:58] [INFO] module enabled: gui
+[2026-10-08 13:52:58] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-08 13:52:58] [INFO] module enabled: autorole
+[2026-10-08 13:52:58] [INFO] module enabled: staff
+[2026-10-08 13:52:58] [INFO] module enabled: audit
+[2026-10-08 13:52:58] [INFO] multi-server network disabled
+[2026-10-08 13:52:58] [INFO] module enabled: proxy
+[2026-10-08 13:52:58] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-08 13:52:58] [INFO] module enabled: voicerewards
+[2026-10-08 13:53:00] [INFO] Discord connected as My Minecraft Server
+[2026-10-08 13:53:00] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 13:53:10] [INFO] ================ Discord status ================
+[2026-10-08 13:53:10] [INFO] Bot: connected as My Minecraft Server (uptime 10s)
+[2026-10-08 13:53:10] [INFO] Connection: (CONNECTED, ping 104 ms, 1 guilds)
+[2026-10-08 13:53:10] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 13:53:10] [INFO] Intents: ok
+[2026-10-08 13:53:10] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-08 13:53:10] [INFO] =================================================
+[2026-10-08 14:04:19] [INFO] SQLite storage ready (storage.db)
+[2026-10-08 14:04:19] [INFO] module enabled: storage
+[2026-10-08 14:04:19] [INFO] module enabled: security
+[2026-10-08 14:04:19] [INFO] PlaceholderAPI expansion registered
+[2026-10-08 14:04:19] [INFO] module enabled: api
+[2026-10-08 14:04:19] [INFO] module enabled: discord
+[2026-10-08 14:04:19] [INFO] module enabled: linking
+[2026-10-08 14:04:19] [INFO] module enabled: chat
+[2026-10-08 14:04:19] [INFO] module enabled: console
+[2026-10-08 14:04:19] [INFO] module enabled: reports
+[2026-10-08 14:04:19] [INFO] module enabled: gui
+[2026-10-08 14:04:19] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-08 14:04:19] [INFO] module enabled: autorole
+[2026-10-08 14:04:19] [INFO] module enabled: staff
+[2026-10-08 14:04:19] [INFO] module enabled: audit
+[2026-10-08 14:04:19] [INFO] multi-server network disabled
+[2026-10-08 14:04:19] [INFO] module enabled: proxy
+[2026-10-08 14:04:19] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 37 ms)
+[2026-10-08 14:04:19] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-08 14:04:19] [INFO] module enabled: voicerewards
+[2026-10-08 14:04:21] [INFO] Discord connected as My Minecraft Server
+[2026-10-08 14:04:21] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 14:04:31] [INFO] ================ Discord status ================
+[2026-10-08 14:04:31] [INFO] Bot: connected as My Minecraft Server (uptime 10s)
+[2026-10-08 14:04:31] [INFO] Connection: (CONNECTED, ping 103 ms, 1 guilds)
+[2026-10-08 14:04:31] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 14:04:31] [INFO] Intents: ok
+[2026-10-08 14:04:31] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-08 14:04:31] [INFO] =================================================
+[2026-10-08 14:10:25] [INFO] SQLite storage ready (storage.db)
+[2026-10-08 14:10:25] [INFO] module enabled: storage
+[2026-10-08 14:10:25] [INFO] module enabled: security
+[2026-10-08 14:10:25] [INFO] PlaceholderAPI expansion registered
+[2026-10-08 14:10:25] [INFO] module enabled: api
+[2026-10-08 14:10:25] [INFO] module enabled: discord
+[2026-10-08 14:10:25] [INFO] module enabled: linking
+[2026-10-08 14:10:25] [INFO] module enabled: chat
+[2026-10-08 14:10:25] [INFO] module enabled: console
+[2026-10-08 14:10:25] [INFO] module enabled: reports
+[2026-10-08 14:10:25] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 44 ms)
+[2026-10-08 14:10:25] [INFO] module enabled: gui
+[2026-10-08 14:10:25] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-08 14:10:25] [INFO] module enabled: autorole
+[2026-10-08 14:10:25] [INFO] module enabled: staff
+[2026-10-08 14:10:25] [INFO] module enabled: audit
+[2026-10-08 14:10:25] [INFO] multi-server network disabled
+[2026-10-08 14:10:25] [INFO] module enabled: proxy
+[2026-10-08 14:10:25] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-08 14:10:25] [INFO] module enabled: voicerewards
+[2026-10-08 14:10:28] [INFO] Discord connected as My Minecraft Server
+[2026-10-08 14:10:28] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 14:10:37] [INFO] ================ Discord status ================
+[2026-10-08 14:10:37] [INFO] Bot: connected as My Minecraft Server (uptime 9s)
+[2026-10-08 14:10:37] [INFO] Connection: (CONNECTED, ping 108 ms, 1 guilds)
+[2026-10-08 14:10:37] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 14:10:37] [INFO] Intents: ok
+[2026-10-08 14:10:37] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-08 14:10:37] [INFO] =================================================
+[2026-10-08 16:33:27] [INFO] SQLite storage ready (storage.db)
+[2026-10-08 16:33:27] [INFO] module enabled: storage
+[2026-10-08 16:33:27] [INFO] module enabled: security
+[2026-10-08 16:33:27] [INFO] PlaceholderAPI expansion registered
+[2026-10-08 16:33:27] [INFO] module enabled: api
+[2026-10-08 16:33:27] [INFO] module enabled: discord
+[2026-10-08 16:33:27] [INFO] module enabled: linking
+[2026-10-08 16:33:27] [INFO] module enabled: chat
+[2026-10-08 16:33:27] [INFO] module enabled: console
+[2026-10-08 16:33:27] [INFO] module enabled: reports
+[2026-10-08 16:33:27] [INFO] module enabled: gui
+[2026-10-08 16:33:27] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-08 16:33:27] [INFO] module enabled: autorole
+[2026-10-08 16:33:27] [INFO] module enabled: staff
+[2026-10-08 16:33:27] [INFO] module enabled: audit
+[2026-10-08 16:33:27] [INFO] multi-server network disabled
+[2026-10-08 16:33:27] [INFO] module enabled: proxy
+[2026-10-08 16:33:27] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-08 16:33:27] [INFO] module enabled: voicerewards
+[2026-10-08 16:33:29] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 1355 ms)
+[2026-10-08 16:33:30] [INFO] Discord connected as My Minecraft Server
+[2026-10-08 16:33:30] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 16:33:39] [INFO] ================ Discord status ================
+[2026-10-08 16:33:39] [INFO] Bot: connected as My Minecraft Server (uptime 9s)
+[2026-10-08 16:33:39] [INFO] Connection: (CONNECTED, ping 106 ms, 1 guilds)
+[2026-10-08 16:33:39] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 16:33:39] [INFO] Intents: ok
+[2026-10-08 16:33:39] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-08 16:33:39] [INFO] =================================================
+[2026-10-08 18:16:44] [INFO] SQLite storage ready (storage.db)
+[2026-10-08 18:16:44] [INFO] module enabled: storage
+[2026-10-08 18:16:44] [INFO] module enabled: security
+[2026-10-08 18:16:44] [INFO] PlaceholderAPI expansion registered
+[2026-10-08 18:16:44] [INFO] module enabled: api
+[2026-10-08 18:16:44] [INFO] module enabled: discord
+[2026-10-08 18:16:44] [INFO] module enabled: linking
+[2026-10-08 18:16:44] [INFO] module enabled: chat
+[2026-10-08 18:16:44] [INFO] module enabled: console
+[2026-10-08 18:16:44] [INFO] module enabled: reports
+[2026-10-08 18:16:44] [INFO] module enabled: gui
+[2026-10-08 18:16:44] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-08 18:16:44] [INFO] module enabled: autorole
+[2026-10-08 18:16:44] [INFO] module enabled: staff
+[2026-10-08 18:16:44] [INFO] module enabled: audit
+[2026-10-08 18:16:44] [INFO] multi-server network disabled
+[2026-10-08 18:16:44] [INFO] module enabled: proxy
+[2026-10-08 18:16:44] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-08 18:16:44] [INFO] module enabled: voicerewards
+[2026-10-08 18:16:44] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 111 ms)
+[2026-10-08 18:16:47] [INFO] Discord connected as My Minecraft Server
+[2026-10-08 18:16:47] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 18:16:56] [INFO] ================ Discord status ================
+[2026-10-08 18:16:56] [INFO] Bot: connected as My Minecraft Server (uptime 8s)
+[2026-10-08 18:16:56] [INFO] Connection: (CONNECTED, ping 106 ms, 1 guilds)
+[2026-10-08 18:16:56] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 18:16:56] [INFO] Intents: ok
+[2026-10-08 18:16:56] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-08 18:16:56] [INFO] =================================================
+[2026-10-08 18:30:59] [INFO] SQLite storage ready (storage.db)
+[2026-10-08 18:30:59] [INFO] module enabled: storage
+[2026-10-08 18:30:59] [INFO] module enabled: security
+[2026-10-08 18:30:59] [INFO] PlaceholderAPI expansion registered
+[2026-10-08 18:30:59] [INFO] module enabled: api
+[2026-10-08 18:30:59] [INFO] module enabled: discord
+[2026-10-08 18:30:59] [INFO] module enabled: linking
+[2026-10-08 18:30:59] [INFO] module enabled: chat
+[2026-10-08 18:30:59] [INFO] module enabled: console
+[2026-10-08 18:30:59] [INFO] module enabled: reports
+[2026-10-08 18:30:59] [INFO] module enabled: gui
+[2026-10-08 18:30:59] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-08 18:30:59] [INFO] module enabled: autorole
+[2026-10-08 18:30:59] [INFO] module enabled: staff
+[2026-10-08 18:30:59] [INFO] module enabled: audit
+[2026-10-08 18:30:59] [INFO] multi-server network disabled
+[2026-10-08 18:30:59] [INFO] module enabled: proxy
+[2026-10-08 18:30:59] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 25 ms)
+[2026-10-08 18:30:59] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-08 18:30:59] [INFO] module enabled: voicerewards
+[2026-10-08 18:31:00] [INFO] Discord connected as My Minecraft Server
+[2026-10-08 18:31:01] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 18:31:11] [INFO] ================ Discord status ================
+[2026-10-08 18:31:11] [INFO] Bot: connected as My Minecraft Server (uptime 10s)
+[2026-10-08 18:31:11] [INFO] Connection: (CONNECTED, ping 110 ms, 1 guilds)
+[2026-10-08 18:31:11] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 18:31:11] [INFO] Intents: ok
+[2026-10-08 18:31:11] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-08 18:31:11] [INFO] =================================================
+[2026-10-08 18:36:36] [INFO] SQLite storage ready (storage.db)
+[2026-10-08 18:36:36] [INFO] module enabled: storage
+[2026-10-08 18:36:36] [INFO] module enabled: security
+[2026-10-08 18:36:36] [INFO] PlaceholderAPI expansion registered
+[2026-10-08 18:36:36] [INFO] module enabled: api
+[2026-10-08 18:36:36] [INFO] module enabled: discord
+[2026-10-08 18:36:36] [INFO] module enabled: linking
+[2026-10-08 18:36:36] [INFO] module enabled: chat
+[2026-10-08 18:36:36] [INFO] module enabled: console
+[2026-10-08 18:36:36] [INFO] module enabled: reports
+[2026-10-08 18:36:36] [INFO] module enabled: gui
+[2026-10-08 18:36:36] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-08 18:36:36] [INFO] module enabled: autorole
+[2026-10-08 18:36:36] [INFO] module enabled: staff
+[2026-10-08 18:36:36] [INFO] module enabled: audit
+[2026-10-08 18:36:36] [INFO] multi-server network disabled
+[2026-10-08 18:36:36] [INFO] module enabled: proxy
+[2026-10-08 18:36:36] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 38 ms)
+[2026-10-08 18:36:36] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-08 18:36:36] [INFO] module enabled: voicerewards
+[2026-10-08 18:36:39] [INFO] Discord connected as My Minecraft Server
+[2026-10-08 18:36:39] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 18:36:48] [INFO] ================ Discord status ================
+[2026-10-08 18:36:48] [INFO] Bot: connected as My Minecraft Server (uptime 9s)
+[2026-10-08 18:36:48] [INFO] Connection: (CONNECTED, ping 112 ms, 1 guilds)
+[2026-10-08 18:36:48] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 18:36:48] [INFO] Intents: ok
+[2026-10-08 18:36:48] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-08 18:36:48] [INFO] =================================================
+[2026-10-08 18:47:37] [INFO] SQLite storage ready (storage.db)
+[2026-10-08 18:47:37] [INFO] module enabled: storage
+[2026-10-08 18:47:37] [INFO] module enabled: security
+[2026-10-08 18:47:37] [INFO] PlaceholderAPI expansion registered
+[2026-10-08 18:47:37] [INFO] module enabled: api
+[2026-10-08 18:47:37] [INFO] module enabled: discord
+[2026-10-08 18:47:37] [INFO] module enabled: linking
+[2026-10-08 18:47:37] [INFO] module enabled: chat
+[2026-10-08 18:47:37] [INFO] module enabled: console
+[2026-10-08 18:47:37] [INFO] module enabled: reports
+[2026-10-08 18:47:37] [INFO] module enabled: gui
+[2026-10-08 18:47:37] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-08 18:47:37] [INFO] module enabled: autorole
+[2026-10-08 18:47:37] [INFO] module enabled: staff
+[2026-10-08 18:47:37] [INFO] module enabled: audit
+[2026-10-08 18:47:37] [INFO] multi-server network disabled
+[2026-10-08 18:47:37] [INFO] module enabled: proxy
+[2026-10-08 18:47:37] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-08 18:47:37] [INFO] module enabled: voicerewards
+[2026-10-08 18:47:37] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 31 ms)
+[2026-10-08 18:47:39] [INFO] Discord connected as My Minecraft Server
+[2026-10-08 18:47:39] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 18:47:49] [INFO] ================ Discord status ================
+[2026-10-08 18:47:49] [INFO] Bot: connected as My Minecraft Server (uptime 10s)
+[2026-10-08 18:47:49] [INFO] Connection: (CONNECTED, ping 112 ms, 1 guilds)
+[2026-10-08 18:47:49] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 18:47:49] [INFO] Intents: ok
+[2026-10-08 18:47:49] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-08 18:47:49] [INFO] =================================================
+[2026-10-08 19:05:26] [INFO] [console] Command executed: `say هاي` (abbas_go0770)
+[2026-10-08 19:05:26] [WARN] [Discord] reaction failed: InsufficientPermissionException: Cannot perform action due to a lack of Permission. Missing permission: MESSAGE_ADD_REACTION
+[2026-10-08 19:05:56] [INFO] [chat] [Discord] abbas_go0770: خذلك فوريو
+[2026-10-08 19:28:40] [INFO] SQLite storage ready (storage.db)
+[2026-10-08 19:28:40] [INFO] module enabled: storage
+[2026-10-08 19:28:40] [INFO] module enabled: security
+[2026-10-08 19:28:40] [INFO] PlaceholderAPI expansion registered
+[2026-10-08 19:28:40] [INFO] module enabled: api
+[2026-10-08 19:28:40] [INFO] module enabled: discord
+[2026-10-08 19:28:40] [INFO] module enabled: linking
+[2026-10-08 19:28:40] [INFO] module enabled: chat
+[2026-10-08 19:28:40] [INFO] module enabled: console
+[2026-10-08 19:28:40] [INFO] module enabled: reports
+[2026-10-08 19:28:40] [INFO] module enabled: gui
+[2026-10-08 19:28:40] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-08 19:28:40] [INFO] module enabled: autorole
+[2026-10-08 19:28:40] [INFO] module enabled: staff
+[2026-10-08 19:28:40] [INFO] module enabled: audit
+[2026-10-08 19:28:40] [INFO] multi-server network disabled
+[2026-10-08 19:28:40] [INFO] module enabled: proxy
+[2026-10-08 19:28:40] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-08 19:28:40] [INFO] module enabled: voicerewards
+[2026-10-08 19:28:41] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 93 ms)
+[2026-10-08 19:28:42] [INFO] Discord connected as My Minecraft Server
+[2026-10-08 19:28:43] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 19:28:52] [INFO] ================ Discord status ================
+[2026-10-08 19:28:52] [INFO] Bot: connected as My Minecraft Server (uptime 10s)
+[2026-10-08 19:28:52] [INFO] Connection: (CONNECTED, ping 107 ms, 1 guilds)
+[2026-10-08 19:28:52] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 19:28:52] [INFO] Intents: ok
+[2026-10-08 19:28:52] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-08 19:28:52] [INFO] =================================================
+[2026-10-08 19:50:08] [INFO] SQLite storage ready (storage.db)
+[2026-10-08 19:50:08] [INFO] module enabled: storage
+[2026-10-08 19:50:08] [INFO] module enabled: security
+[2026-10-08 19:50:08] [INFO] PlaceholderAPI expansion registered
+[2026-10-08 19:50:08] [INFO] module enabled: api
+[2026-10-08 19:50:08] [INFO] module enabled: discord
+[2026-10-08 19:50:08] [INFO] module enabled: linking
+[2026-10-08 19:50:08] [INFO] module enabled: chat
+[2026-10-08 19:50:08] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 16 ms)
+[2026-10-08 19:50:08] [INFO] module enabled: console
+[2026-10-08 19:50:08] [INFO] module enabled: reports
+[2026-10-08 19:50:08] [INFO] module enabled: gui
+[2026-10-08 19:50:08] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-08 19:50:08] [INFO] module enabled: autorole
+[2026-10-08 19:50:08] [INFO] module enabled: staff
+[2026-10-08 19:50:08] [INFO] module enabled: audit
+[2026-10-08 19:50:08] [INFO] multi-server network disabled
+[2026-10-08 19:50:08] [INFO] module enabled: proxy
+[2026-10-08 19:50:08] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-08 19:50:08] [INFO] module enabled: voicerewards
+[2026-10-08 19:50:10] [INFO] Discord connected as My Minecraft Server
+[2026-10-08 19:50:10] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 19:50:20] [INFO] ================ Discord status ================
+[2026-10-08 19:50:20] [INFO] Bot: connected as My Minecraft Server (uptime 10s)
+[2026-10-08 19:50:20] [INFO] Connection: (CONNECTED, ping 105 ms, 1 guilds)
+[2026-10-08 19:50:20] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 19:50:20] [INFO] Intents: ok
+[2026-10-08 19:50:20] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-08 19:50:20] [INFO] =================================================
+[2026-10-08 19:54:30] [INFO] SQLite storage ready (storage.db)
+[2026-10-08 19:54:30] [INFO] module enabled: storage
+[2026-10-08 19:54:30] [INFO] module enabled: security
+[2026-10-08 19:54:30] [INFO] PlaceholderAPI expansion registered
+[2026-10-08 19:54:30] [INFO] module enabled: api
+[2026-10-08 19:54:30] [INFO] module enabled: discord
+[2026-10-08 19:54:30] [INFO] module enabled: linking
+[2026-10-08 19:54:30] [INFO] module enabled: chat
+[2026-10-08 19:54:30] [INFO] module enabled: console
+[2026-10-08 19:54:30] [INFO] module enabled: reports
+[2026-10-08 19:54:30] [INFO] module enabled: gui
+[2026-10-08 19:54:30] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 16 ms)
+[2026-10-08 19:54:30] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-08 19:54:30] [INFO] module enabled: autorole
+[2026-10-08 19:54:30] [INFO] module enabled: staff
+[2026-10-08 19:54:30] [INFO] module enabled: audit
+[2026-10-08 19:54:30] [INFO] multi-server network disabled
+[2026-10-08 19:54:30] [INFO] module enabled: proxy
+[2026-10-08 19:54:30] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-08 19:54:30] [INFO] module enabled: voicerewards
+[2026-10-08 19:54:32] [INFO] Discord connected as My Minecraft Server
+[2026-10-08 19:54:32] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 19:54:42] [INFO] ================ Discord status ================
+[2026-10-08 19:54:42] [INFO] Bot: connected as My Minecraft Server (uptime 10s)
+[2026-10-08 19:54:42] [INFO] Connection: (CONNECTED, ping 108 ms, 1 guilds)
+[2026-10-08 19:54:42] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 19:54:42] [INFO] Intents: ok
+[2026-10-08 19:54:42] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-08 19:54:42] [INFO] =================================================
+[2026-10-08 20:26:10] [INFO] SQLite storage ready (storage.db)
+[2026-10-08 20:26:10] [INFO] module enabled: storage
+[2026-10-08 20:26:10] [INFO] module enabled: security
+[2026-10-08 20:26:10] [INFO] PlaceholderAPI expansion registered
+[2026-10-08 20:26:10] [INFO] module enabled: api
+[2026-10-08 20:26:10] [INFO] module enabled: discord
+[2026-10-08 20:26:10] [INFO] module enabled: linking
+[2026-10-08 20:26:10] [INFO] module enabled: chat
+[2026-10-08 20:26:10] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 27 ms)
+[2026-10-08 20:26:10] [INFO] module enabled: console
+[2026-10-08 20:26:10] [INFO] module enabled: reports
+[2026-10-08 20:26:10] [INFO] module enabled: gui
+[2026-10-08 20:26:10] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-08 20:26:10] [INFO] module enabled: autorole
+[2026-10-08 20:26:10] [INFO] module enabled: staff
+[2026-10-08 20:26:10] [INFO] module enabled: audit
+[2026-10-08 20:26:10] [INFO] multi-server network disabled
+[2026-10-08 20:26:10] [INFO] module enabled: proxy
+[2026-10-08 20:26:10] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-08 20:26:10] [INFO] module enabled: voicerewards
+[2026-10-08 20:26:11] [INFO] Discord connected as My Minecraft Server
+[2026-10-08 20:26:12] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 20:26:22] [INFO] ================ Discord status ================
+[2026-10-08 20:26:22] [INFO] Bot: connected as My Minecraft Server (uptime 10s)
+[2026-10-08 20:26:22] [INFO] Connection: (CONNECTED, ping 115 ms, 1 guilds)
+[2026-10-08 20:26:22] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 20:26:22] [INFO] Intents: ok
+[2026-10-08 20:26:22] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-08 20:26:22] [INFO] =================================================
+[2026-10-08 22:48:49] [INFO] SQLite storage ready (storage.db)
+[2026-10-08 22:48:49] [INFO] module enabled: storage
+[2026-10-08 22:48:49] [INFO] module enabled: security
+[2026-10-08 22:48:49] [INFO] PlaceholderAPI expansion registered
+[2026-10-08 22:48:49] [INFO] module enabled: api
+[2026-10-08 22:48:49] [INFO] module enabled: discord
+[2026-10-08 22:48:49] [INFO] module enabled: linking
+[2026-10-08 22:48:49] [INFO] module enabled: chat
+[2026-10-08 22:48:49] [INFO] module enabled: console
+[2026-10-08 22:48:49] [INFO] module enabled: reports
+[2026-10-08 22:48:49] [INFO] module enabled: gui
+[2026-10-08 22:48:49] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-08 22:48:49] [INFO] module enabled: autorole
+[2026-10-08 22:48:49] [INFO] module enabled: staff
+[2026-10-08 22:48:49] [INFO] module enabled: audit
+[2026-10-08 22:48:49] [INFO] multi-server network disabled
+[2026-10-08 22:48:49] [INFO] module enabled: proxy
+[2026-10-08 22:48:49] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-08 22:48:49] [INFO] module enabled: voicerewards
+[2026-10-08 22:48:49] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 119 ms)
+[2026-10-08 22:48:50] [INFO] Discord connected as My Minecraft Server
+[2026-10-08 22:48:51] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 22:49:01] [INFO] ================ Discord status ================
+[2026-10-08 22:49:01] [INFO] Bot: connected as My Minecraft Server (uptime 10s)
+[2026-10-08 22:49:01] [INFO] Connection: (CONNECTED, ping 107 ms, 1 guilds)
+[2026-10-08 22:49:01] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 22:49:01] [INFO] Intents: ok
+[2026-10-08 22:49:01] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-08 22:49:01] [INFO] =================================================
+[2026-10-08 22:51:45] [INFO] SQLite storage ready (storage.db)
+[2026-10-08 22:51:45] [INFO] module enabled: storage
+[2026-10-08 22:51:45] [INFO] module enabled: security
+[2026-10-08 22:51:45] [INFO] PlaceholderAPI expansion registered
+[2026-10-08 22:51:45] [INFO] module enabled: api
+[2026-10-08 22:51:45] [INFO] module enabled: discord
+[2026-10-08 22:51:45] [INFO] module enabled: linking
+[2026-10-08 22:51:45] [INFO] module enabled: chat
+[2026-10-08 22:51:45] [INFO] module enabled: console
+[2026-10-08 22:51:45] [INFO] module enabled: reports
+[2026-10-08 22:51:45] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 26 ms)
+[2026-10-08 22:51:45] [INFO] module enabled: gui
+[2026-10-08 22:51:45] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-08 22:51:45] [INFO] module enabled: autorole
+[2026-10-08 22:51:45] [INFO] module enabled: staff
+[2026-10-08 22:51:45] [INFO] module enabled: audit
+[2026-10-08 22:51:45] [INFO] multi-server network disabled
+[2026-10-08 22:51:45] [INFO] module enabled: proxy
+[2026-10-08 22:51:45] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-08 22:51:45] [INFO] module enabled: voicerewards
+[2026-10-08 22:51:47] [INFO] Discord connected as My Minecraft Server
+[2026-10-08 22:51:48] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 22:51:57] [INFO] ================ Discord status ================
+[2026-10-08 22:51:57] [INFO] Bot: connected as My Minecraft Server (uptime 10s)
+[2026-10-08 22:51:57] [INFO] Connection: (CONNECTED, ping 114 ms, 1 guilds)
+[2026-10-08 22:51:57] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 22:51:57] [INFO] Intents: ok
+[2026-10-08 22:51:57] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-08 22:51:57] [INFO] =================================================
+[2026-10-08 23:14:26] [INFO] SQLite storage ready (storage.db)
+[2026-10-08 23:14:26] [INFO] module enabled: storage
+[2026-10-08 23:14:26] [INFO] module enabled: security
+[2026-10-08 23:14:26] [INFO] PlaceholderAPI expansion registered
+[2026-10-08 23:14:26] [INFO] module enabled: api
+[2026-10-08 23:14:26] [INFO] module enabled: discord
+[2026-10-08 23:14:26] [INFO] module enabled: linking
+[2026-10-08 23:14:26] [INFO] module enabled: chat
+[2026-10-08 23:14:26] [INFO] module enabled: console
+[2026-10-08 23:14:26] [INFO] module enabled: reports
+[2026-10-08 23:14:26] [INFO] module enabled: gui
+[2026-10-08 23:14:26] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-08 23:14:26] [INFO] module enabled: autorole
+[2026-10-08 23:14:26] [INFO] module enabled: staff
+[2026-10-08 23:14:26] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 17 ms)
+[2026-10-08 23:14:26] [INFO] module enabled: audit
+[2026-10-08 23:14:26] [INFO] multi-server network disabled
+[2026-10-08 23:14:26] [INFO] module enabled: proxy
+[2026-10-08 23:14:26] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-08 23:14:26] [INFO] module enabled: voicerewards
+[2026-10-08 23:14:28] [INFO] Discord connected as My Minecraft Server
+[2026-10-08 23:14:28] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 23:14:38] [INFO] ================ Discord status ================
+[2026-10-08 23:14:38] [INFO] Bot: connected as My Minecraft Server (uptime 10s)
+[2026-10-08 23:14:38] [INFO] Connection: (CONNECTED, ping 112 ms, 1 guilds)
+[2026-10-08 23:14:38] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 23:14:38] [INFO] Intents: ok
+[2026-10-08 23:14:38] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-08 23:14:38] [INFO] =================================================
+[2026-10-08 23:22:56] [INFO] SQLite storage ready (storage.db)
+[2026-10-08 23:22:56] [INFO] module enabled: storage
+[2026-10-08 23:22:56] [INFO] module enabled: security
+[2026-10-08 23:22:56] [INFO] PlaceholderAPI expansion registered
+[2026-10-08 23:22:56] [INFO] module enabled: api
+[2026-10-08 23:22:56] [INFO] module enabled: discord
+[2026-10-08 23:22:56] [INFO] module enabled: linking
+[2026-10-08 23:22:56] [INFO] module enabled: chat
+[2026-10-08 23:22:56] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 17 ms)
+[2026-10-08 23:22:56] [INFO] module enabled: console
+[2026-10-08 23:22:56] [INFO] module enabled: reports
+[2026-10-08 23:22:56] [INFO] module enabled: gui
+[2026-10-08 23:22:56] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-08 23:22:56] [INFO] module enabled: autorole
+[2026-10-08 23:22:56] [INFO] module enabled: staff
+[2026-10-08 23:22:56] [INFO] module enabled: audit
+[2026-10-08 23:22:56] [INFO] multi-server network disabled
+[2026-10-08 23:22:56] [INFO] module enabled: proxy
+[2026-10-08 23:22:56] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-08 23:22:56] [INFO] module enabled: voicerewards
+[2026-10-08 23:22:58] [INFO] Discord connected as My Minecraft Server
+[2026-10-08 23:22:59] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 23:23:08] [INFO] ================ Discord status ================
+[2026-10-08 23:23:08] [INFO] Bot: connected as My Minecraft Server (uptime 9s)
+[2026-10-08 23:23:08] [INFO] Connection: (CONNECTED, ping 111 ms, 1 guilds)
+[2026-10-08 23:23:08] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 23:23:08] [INFO] Intents: ok
+[2026-10-08 23:23:08] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-08 23:23:08] [INFO] =================================================
+[2026-10-08 23:28:10] [INFO] SQLite storage ready (storage.db)
+[2026-10-08 23:28:10] [INFO] module enabled: storage
+[2026-10-08 23:28:10] [INFO] module enabled: security
+[2026-10-08 23:28:10] [INFO] PlaceholderAPI expansion registered
+[2026-10-08 23:28:10] [INFO] module enabled: api
+[2026-10-08 23:28:10] [INFO] module enabled: discord
+[2026-10-08 23:28:10] [INFO] module enabled: linking
+[2026-10-08 23:28:10] [INFO] module enabled: chat
+[2026-10-08 23:28:10] [INFO] module enabled: console
+[2026-10-08 23:28:10] [INFO] module enabled: reports
+[2026-10-08 23:28:10] [INFO] module enabled: gui
+[2026-10-08 23:28:10] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-08 23:28:10] [INFO] module enabled: autorole
+[2026-10-08 23:28:10] [INFO] module enabled: staff
+[2026-10-08 23:28:10] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 17 ms)
+[2026-10-08 23:28:10] [INFO] module enabled: audit
+[2026-10-08 23:28:10] [INFO] multi-server network disabled
+[2026-10-08 23:28:10] [INFO] module enabled: proxy
+[2026-10-08 23:28:10] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-08 23:28:10] [INFO] module enabled: voicerewards
+[2026-10-08 23:28:12] [INFO] Discord connected as My Minecraft Server
+[2026-10-08 23:28:12] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 23:28:22] [INFO] ================ Discord status ================
+[2026-10-08 23:28:22] [INFO] Bot: connected as My Minecraft Server (uptime 9s)
+[2026-10-08 23:28:22] [INFO] Connection: (CONNECTED, ping 122 ms, 1 guilds)
+[2026-10-08 23:28:22] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 23:28:22] [INFO] Intents: ok
+[2026-10-08 23:28:22] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-08 23:28:22] [INFO] =================================================
+[2026-10-08 23:44:11] [INFO] SQLite storage ready (storage.db)
+[2026-10-08 23:44:11] [INFO] module enabled: storage
+[2026-10-08 23:44:11] [INFO] module enabled: security
+[2026-10-08 23:44:11] [INFO] PlaceholderAPI expansion registered
+[2026-10-08 23:44:11] [INFO] module enabled: api
+[2026-10-08 23:44:11] [INFO] module enabled: discord
+[2026-10-08 23:44:11] [INFO] module enabled: linking
+[2026-10-08 23:44:11] [INFO] module enabled: chat
+[2026-10-08 23:44:11] [INFO] [Discord] 12 libraries ready (cached, integrity verified in 12 ms)
+[2026-10-08 23:44:11] [INFO] module enabled: console
+[2026-10-08 23:44:11] [INFO] module enabled: reports
+[2026-10-08 23:44:11] [INFO] module enabled: gui
+[2026-10-08 23:44:11] [WARN] autorole has no mappings configured (features.yml autorole.groups / autorole.permissions)
+[2026-10-08 23:44:11] [INFO] module enabled: autorole
+[2026-10-08 23:44:11] [INFO] module enabled: staff
+[2026-10-08 23:44:11] [INFO] module enabled: audit
+[2026-10-08 23:44:11] [INFO] multi-server network disabled
+[2026-10-08 23:44:11] [INFO] module enabled: proxy
+[2026-10-08 23:44:11] [INFO] voice rewards: no AFK voice channel configured yet — set voiceRewards.voiceChannelId in features.yml and run /sdiscord reload
+[2026-10-08 23:44:11] [INFO] module enabled: voicerewards
+[2026-10-08 23:44:12] [INFO] Discord connected as My Minecraft Server
+[2026-10-08 23:44:13] [INFO] slash: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 23:44:23] [INFO] ================ Discord status ================
+[2026-10-08 23:44:23] [INFO] Bot: connected as My Minecraft Server (uptime 10s)
+[2026-10-08 23:44:23] [INFO] Connection: (CONNECTED, ping 113 ms, 1 guilds)
+[2026-10-08 23:44:23] [INFO] Slash commands: 3 commands — if they do not appear when typing / in Discord, press Ctrl+R there to refresh (guild 1532782075181011055)
+[2026-10-08 23:44:23] [INFO] Intents: ok
+[2026-10-08 23:44:23] [INFO] Chat relay MC->Discord: enabled, target channel: 1557452811485061201
+[2026-10-08 23:44:23] [INFO] =================================================

@@ -1,0 +1,39 @@
+name: RankKits
+version: 1.0.0
+main: net.itsvoid.rankkits.RankKits
+api-version: '1.21'
+description: Daily kits gated by explicit rank permissions.
+commands:
+  kit:
+    description: Claim a kit available to your rank.
+    usage: /kit <name>
+    aliases:
+      - kits
+permissions:
+  rankkits.kit.vip:
+    description: Allows claiming the VIP kit.
+    default: false
+  rankkits.kit.vipplus:
+    description: Allows claiming the VIP+ kit.
+    default: false
+  rankkits.kit.elite:
+    description: Allows claiming the Elite kit.
+    default: false
+  rankkits.kit.mvp:
+    description: Allows claiming the MVP kit.
+    default: false
+  rankkits.kit.mvpplus:
+    description: Allows claiming the MVP+ kit.
+    default: false
+  rankkits.kit.legend:
+    description: Allows claiming the Legend kit.
+    default: false
+  rankkits.kit.legendplus:
+    description: Allows claiming the Legend+ kit.
+    default: false
+  rankkits.kit.titan:
+    description: Allows claiming the Titan kit.
+    default: false
+  rankkits.kit.titanplus:
+    description: Allows claiming the Titan+ kit.
+    default: false

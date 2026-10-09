@@ -1,0 +1,27 @@
+# AutoBroadcaster Configuration
+
+# The prefix for all plugin messages
+prefix: "<gray>[<gradient:#ff0000:#ff7f00>AutoBroadcaster</gradient>] <reset>"
+
+# Messages that are broadcasted at a specific interval.
+# interval_seconds: How often in seconds the messages should be broadcasted (minimum 10).
+# random_order: If true, picks a random message. If false, goes in order.
+# target_worlds: List of worlds to broadcast to. Leave empty for all worlds.
+# required_permission: If set, only players with this permission will see the message. Leave empty for everyone.
+interval_messages:
+  enabled: true
+  interval_seconds: 14400
+  random_order: false
+  target_worlds: []
+  required_permission: ""
+  messages:
+    - "<aqua>Discord: <click:open_url:'https://discord.gg/75xEWsYth'><underlined>https://discord.gg/75xEWsYth</underlined></click></aqua>"
+
+# Messages that are broadcasted at specific server times (HH:MM).
+# Make sure the time matches the server's time zone.
+# target_worlds and required_permissions are per-time-key maps.
+scheduled_messages:
+  enabled: false
+  messages: {}
+  target_worlds: {}
+  required_permissions: {}

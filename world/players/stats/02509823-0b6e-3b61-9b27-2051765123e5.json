@@ -1,0 +1,36 @@
+{
+  "stats": {
+    "minecraft:killed_by": {
+      "minecraft:zombie": 2
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 7521,
+      "minecraft:walk_one_cm": 11992,
+      "minecraft:leave_game": 1,
+      "minecraft:damage_taken": 612,
+      "minecraft:play_time": 7955,
+      "minecraft:damage_dealt": 207,
+      "minecraft:jump": 41,
+      "minecraft:time_since_death": 7501,
+      "minecraft:sprint_one_cm": 2865,
+      "minecraft:fall_one_cm": 566,
+      "minecraft:total_world_time": 7955,
+      "minecraft:fly_one_cm": 56010,
+      "minecraft:sneak_time": 127,
+      "minecraft:deaths": 2
+    },
+    "minecraft:used": {
+      "minecraft:stone_sword": 3,
+      "minecraft:wooden_axe": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:carrot": 1,
+      "minecraft:chainmail_leggings": 1,
+      "minecraft:stone_sword": 1,
+      "minecraft:cooked_beef": 16,
+      "minecraft:nether_star": 65,
+      "minecraft:chainmail_helmet": 1
+    }
+  },
+  "DataVersion": 4903
+}

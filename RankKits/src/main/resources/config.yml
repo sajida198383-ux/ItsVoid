@@ -1,0 +1,202 @@
+cooldown-hours: 24
+kits:
+  vip:
+    display-name: '&aVIP'
+    permission: rankkits.kit.vip
+    items:
+      - material: IRON_PICKAXE
+        amount: 1
+      - material: IRON_AXE
+        amount: 1
+      - material: COOKED_BEEF
+        amount: 16
+      - material: TORCH
+        amount: 32
+  vip+:
+    display-name: '&bVIP+'
+    permission: rankkits.kit.vipplus
+    items:
+      - material: IRON_SWORD
+        amount: 1
+      - material: BOW
+        amount: 1
+      - material: ARROW
+        amount: 32
+      - material: COOKED_BEEF
+        amount: 24
+      - material: GOLDEN_APPLE
+        amount: 1
+  elite:
+    display-name: '&3Elite'
+    permission: rankkits.kit.elite
+    items:
+      - material: IRON_CHESTPLATE
+        amount: 1
+      - material: IRON_LEGGINGS
+        amount: 1
+      - material: IRON_BOOTS
+        amount: 1
+      - material: DIAMOND
+        amount: 2
+      - material: GOLDEN_APPLE
+        amount: 2
+      - material: COOKED_BEEF
+        amount: 32
+  mvp:
+    display-name: '&9MVP'
+    permission: rankkits.kit.mvp
+    items:
+      - material: DIAMOND_PICKAXE
+        amount: 1
+      - material: DIAMOND_SWORD
+        amount: 1
+        enchantments:
+          sharpness: 1
+      - material: DIAMOND
+        amount: 4
+      - material: GOLDEN_APPLE
+        amount: 3
+      - material: COOKED_BEEF
+        amount: 32
+  mvp+:
+    display-name: '&5MVP+'
+    permission: rankkits.kit.mvpplus
+    items:
+      - material: DIAMOND_CHESTPLATE
+        amount: 1
+      - material: DIAMOND_LEGGINGS
+        amount: 1
+      - material: DIAMOND_PICKAXE
+        amount: 1
+        enchantments:
+          efficiency: 1
+      - material: DIAMOND
+        amount: 6
+      - material: GOLDEN_APPLE
+        amount: 4
+      - material: ENDER_PEARL
+        amount: 8
+  legend:
+    display-name: '&cLegend'
+    permission: rankkits.kit.legend
+    items:
+      - material: DIAMOND_HELMET
+        amount: 1
+        enchantments:
+          protection: 1
+      - material: DIAMOND_CHESTPLATE
+        amount: 1
+        enchantments:
+          protection: 1
+      - material: DIAMOND_LEGGINGS
+        amount: 1
+        enchantments:
+          protection: 1
+      - material: DIAMOND_BOOTS
+        amount: 1
+        enchantments:
+          protection: 1
+      - material: DIAMOND_SWORD
+        amount: 1
+        enchantments:
+          sharpness: 1
+      - material: GOLDEN_APPLE
+        amount: 4
+  legend+:
+    display-name: '&6Legend+'
+    permission: rankkits.kit.legendplus
+    items:
+      - material: DIAMOND_HELMET
+        amount: 1
+        enchantments:
+          protection: 2
+      - material: DIAMOND_CHESTPLATE
+        amount: 1
+        enchantments:
+          protection: 2
+      - material: DIAMOND_LEGGINGS
+        amount: 1
+        enchantments:
+          protection: 2
+      - material: DIAMOND_BOOTS
+        amount: 1
+        enchantments:
+          protection: 2
+      - material: DIAMOND_PICKAXE
+        amount: 1
+        enchantments:
+          efficiency: 2
+      - material: DIAMOND
+        amount: 8
+      - material: GOLDEN_APPLE
+        amount: 6
+      - material: ENDER_PEARL
+        amount: 8
+  titan:
+    display-name: '&dTitan'
+    permission: rankkits.kit.titan
+    items:
+      - material: DIAMOND_HELMET
+        amount: 1
+        enchantments:
+          protection: 2
+      - material: DIAMOND_CHESTPLATE
+        amount: 1
+        enchantments:
+          protection: 3
+      - material: DIAMOND_LEGGINGS
+        amount: 1
+        enchantments:
+          protection: 3
+      - material: DIAMOND_BOOTS
+        amount: 1
+        enchantments:
+          protection: 2
+      - material: DIAMOND_SWORD
+        amount: 1
+        enchantments:
+          sharpness: 2
+      - material: GOLDEN_APPLE
+        amount: 8
+      - material: DIAMOND
+        amount: 12
+      - material: ENDER_PEARL
+        amount: 12
+  titan+:
+    display-name: '&bTitan+'
+    permission: rankkits.kit.titanplus
+    items:
+      - material: DIAMOND_HELMET
+        amount: 1
+        enchantments:
+          protection: 3
+      - material: DIAMOND_CHESTPLATE
+        amount: 1
+        enchantments:
+          protection: 3
+      - material: DIAMOND_LEGGINGS
+        amount: 1
+        enchantments:
+          protection: 3
+      - material: DIAMOND_BOOTS
+        amount: 1
+        enchantments:
+          protection: 3
+      - material: DIAMOND_SWORD
+        amount: 1
+        enchantments:
+          sharpness: 3
+          unbreaking: 2
+      - material: DIAMOND_PICKAXE
+        amount: 1
+        enchantments:
+          efficiency: 3
+          unbreaking: 2
+      - material: GOLDEN_APPLE
+        amount: 10
+      - material: DIAMOND
+        amount: 16
+      - material: ENDER_PEARL
+        amount: 16
+      - material: EXPERIENCE_BOTTLE
+        amount: 16

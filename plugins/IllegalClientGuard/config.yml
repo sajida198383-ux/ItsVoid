@@ -1,0 +1,30 @@
+# These are client-supplied identifiers and can be spoofed by modified clients.
+blocked-client-brands:
+  - wurst
+  - meteor
+  - liquid
+  - liquidbounce
+  - aristois
+  - impact
+  - rusherhack
+  - future
+  - rise
+  - vape
+  - bleachhack
+
+# Only channels explicitly advertised by these map mods are blocked.
+blocked-map-mod-channels:
+  - xaerominimap
+  - xaeroworldmap
+  - journeymap
+  - voxelmap
+  - mapwriter
+
+# Public player IPs are sent to ProxyCheck.io for VPN/proxy detection.
+anti-vpn:
+  enabled: true
+  api-key: ''
+  timeout-seconds: 5
+  cache-minutes: 30
+  # Deny login if the provider is unavailable, preventing VPN bypass during outages.
+  fail-open: false

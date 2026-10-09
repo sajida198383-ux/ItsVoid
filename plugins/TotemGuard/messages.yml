@@ -1,0 +1,189 @@
+#   ___________     __                   ________                       .___
+#   \__    ___/____/  |_  ____   _____  /  _____/ __ _______ _______  __| _/
+#     |    | /  _ \   __\/ __ \ /     \/   \  ___|  |  \__  \\_  __ \/ __ |
+#     |    |(  <_> )  | \  ___/|  Y Y  \    \_\  \  |  // __ \|  | \/ /_/ |
+#     |____| \____/|__|  \___  >__|_|  /\______  /____/(____  /__|  \____ |
+#                            \/      \/        \/           \/           \/
+
+# Which text formatter to use (MINIMESSAGE, LEGACY)
+format: LEGACY
+
+# Prefix: The prefix for all messages.
+prefix: '&6&lTG &8»'
+
+# Alert Format: The format for all alerts.
+alert-format:
+  # Alert Format: The format for all alerts.
+  alert-format: '%prefix% &e%player%&7 failed &6%check_name% &7VL[&6%violations%/%max_violations%&7]%dev%'
+
+  # Alert Format Console: The format for all alerts in console.
+  alert-format-console: '%prefix% &e%player%&7 failed &6%check_name% &7VL[&6%violations%/%max_violations%&7]%dev%'
+
+  # Alert Hover Format: The format for all alerts when hovered over.
+  alert-hover-message: |-
+    &7TPS: &6%tps%&8 |&7 Client Version: &6%client_version%&8 |&7 Client Brand: &6%client_brand%
+
+    &7Player: &6%player%
+    &7Ping: &6(K: %k_ping%ms | T: %t_ping%ms)
+
+    &7Check: &6%check_name%
+    &7Description: &6%check_description%
+    &7Server: &6%server%
+
+    %check_details%
+
+    &7Click to &6teleport &7to %player%.
+
+  # Alert Click Command: The command to run when the alert is clicked.
+  alert-click-command: /tp %player%
+
+  # Prefix for experimental checks. Replaces the %dev% placeholder.
+  dev-prefix: '&d&l *'
+
+  # Check Details Color: The color for the alert details.
+  check-details-color:
+    # Main Color: The main color for the check details.
+    main: '&7'
+
+    # Secondary Color: The secondary color for the check details.
+    secondary: '&6'
+
+alerts-enabled: '%prefix% &aAlerts enabled'
+alerts-disabled: '%prefix% &cAlerts disabled'
+alerts-enabled-other: '%prefix% &aAlerts enabled for %player%'
+alerts-disabled-other: '%prefix% &cAlerts disabled for %player%'
+no-permission-toggle-other: '%prefix% &cYou do not have permission to toggle alerts
+  for other players.'
+alert-toggle-blocked: '%prefix% &cAn external event handler is blocking your alert
+  toggle.'
+alert-brand: '%prefix% &6%player% &7joined using: &6%client_brand%'
+
+# Command Messages
+command-messages:
+  # Generic Command Messages
+  generic-commands:
+    specify-player: '%prefix% &cPlease specify a player.'
+    plugin-reloaded: '%prefix% &aThe plugin has been reloaded!'
+    target-never-joined: '%prefix% &cTarget has never joined the server.'
+    no-database-player-found: '%prefix% &cNo database player found for %player%.'
+
+  # /totemguard check
+  check-command:
+    target-cannot-be-checked: '%prefix% &cTarget cannot be checked.'
+    target-on-cooldown: '%prefix% &cTarget is on cooldown for %cooldown%ms.'
+    player-not-survival: '%prefix% &cTarget must be in survival mode to use this command.'
+    player-invulnerable: '%prefix% &cTarget is invulnerable.'
+    player-no-totem: '%prefix% &cTarget does not have a totem in their hands.'
+    target-no-damage: '%prefix% &cTarget did not receive any damage. Are they protected
+      by a plugin or in a safe zone?'
+    target-passed: '%prefix% &a%player% has successfully passed the manual check.'
+
+  # /totemguard profile
+  profile-command:
+    loading-profile: '%prefix% &7Loading profile for %player%...'
+
+    # Profile Format: The format for the message returned when checking a player's profile.
+    profile-format:
+      profile-format: |-
+        &6&lTotemGuard Profile
+        &7&lPlayer: &6%player%
+        &7&lBrand: &6%client_brand%
+        &7&lSafety Status: %safety_status%
+        &7&lTotal Alerts: &6%total_alerts%
+        &7&lTotal Punishments: &6%total_punishments%
+        &7&lLoad Time: &6%load_time%ms
+
+        &6&l> Alert Summary <
+        %alert_summary%
+
+        &6&l> Punishment Summary <
+        %punishment_summary%
+
+      # Profile Alert Summary: The format for the alert summary in the profile. Will replace %alert_summary%.
+      alert-summary: '&8- &7&l%check_name% &6%violations%x'
+
+      # Profile Punishment Summary: The format for the punishment summary in the profile. Will replace %punishment_summary%.
+      punishment-summary: '&8- &7Punished for &6&l%check_name% &7on &6%date%'
+
+      # Profile No Alerts Found: The message returned when no alerts are found. Will replace %alert_summary%.
+      no-alerts-found: '&7&o No alerts found.'
+
+      # Profile No Punishments Found: The message returned when no punishments are found. Will replace %punishment_summary%.
+      no-punishments-found: '&7&o No punishments found.'
+
+      # Message to be added when more than 3 punishments are found.
+      showing-last-punishments: '&7&oShowing the last 3 punishments:'
+      and-more-to-be-displayed: '&7&o... and more not displayed'
+
+  # /totemguard database
+  database-command:
+    # Message when the database clearing has started.
+    clearing-started: '%prefix% &aDatabase clearing started...'
+
+    # Message when the database trimming has started.
+    trimming-started: '%prefix% &aDatabase trimming started...'
+
+    # Invalid confirmation code has been provided.
+    invalid-confirmation-code: '%prefix% &cInvalid code. Please use the code provided.'
+
+    # Database clearing completed
+    clearing-completed: '%prefix% &aCleared %amount% database entries in %duration%ms.'
+
+    # Database trimming completed
+    trimming-completed: '%prefix% &aTrimmed %amount% database entries in %duration%ms.'
+
+    # Action Confirmation Format
+    action-confirmation-format:
+      action-confirmation-format: |-
+        &c&l[WARNING]: &7You are about to %action% the database.
+        &7This action is irreversible.
+
+        &7Type: %command%
+        &7 or click %confirm_button% to confirm.
+      confirm-button: '&6&l[CONFIRM]'
+      confirm-hover: '&7Click to run %command%'
+      confirm-command: /totemguard database %action% %code%
+
+  # /totemguard clearlogs
+  clear-logs-command:
+    # Message when the logs are starting to get cleared.
+    clearing-logs: '%prefix% &7Clearing logs...'
+
+    # Message when the logs have been cleared.
+    logs-cleared: '%prefix% &aCleared %amount% logs for %player% in %duration%ms.'
+
+  # /totemguard stats
+  stats-command:
+    # Message when the stats are starting to get loaded.
+    loading-stats: '%prefix% &7Loading stats...'
+
+    # Stats Format: The format for the message returned when checking the server stats.
+    stats-format:
+      stats-format: |-
+        &6&lTotemGuard Stats
+        &7&lTotal Punishments: &6%total_punishments%
+        &7&lTotal Alerts: &6%total_alerts%
+
+        &6&l> Punishments <
+        %punishment_summary%
+
+        &6&l> Alerts <
+        %alert_summary%
+
+      # Stats Punishment Summary: The format for the punishment summary in the stats. Will replace %punishment_summary%.
+      punishment-summary: |-
+        &7&lLast 30 days: &6%punishment_last_30%
+        &7&lLast 7 days: &6%punishment_last_7%
+        &7&lLast 24 hours: &6%punishment_last_24h%
+
+      # Stats Alert Summary: The format for the alert summary in the stats. Will replace %alert_summary%.
+      alert-summary: |-
+        &7&lLast 30 days: &6%alerts_last_30%
+        &7&lLast 7 days: &6%alerts_last_7%
+        &7&lLast 24 hours: &6%alerts_last_24h%
+
+      # Stats No Punishments Found: The message returned when no punishments are found. Will replace %punishment_summary% if no punishments are found.
+      no-punishments-found: '&7&oNo punishments found.'
+
+      # Stats No Alerts Found: The message returned when no alerts are found. Will replace %alert_summary% if no alerts are found.
+      no-alerts-found: '&7&oNo alerts found.'

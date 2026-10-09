@@ -1,0 +1,16 @@
+{
+  "name": "itsvoid-uptime-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A stationary Minecraft player bot for the ItsVoid server",
+  "scripts": {
+    "start": "node index.js",
+    "discord-control": "node discord-control.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "dotenv": "^18.0.6",
+    "mineflayer": "^4.39.0",
+    "rcon-client": "^4.2.5"
+  }
+}

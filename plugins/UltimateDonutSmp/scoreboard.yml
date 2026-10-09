@@ -1,0 +1,45 @@
+# ==============================================================================
+# UltimateDonutSMP - Scoreboard Configuration
+# ==============================================================================
+
+SCOREBOARD:
+  # Enable or disable the animated sidebar scoreboard (true / false)
+  ENABLED: true
+
+  # Ticks between title animation frames (20 ticks = 1 second)
+  TITLE-UPDATE-TICKS: 2
+
+  # Enable column alignment for icons on the left side of scoreboard lines (true / false)
+  ALIGN-ICON-COLUMN: true
+
+  # Column width in pixels for icon alignment padding
+  ICON-COLUMN-WIDTH: 10
+
+  # Animated title frames displayed at the top of the scoreboard
+  TITLE:
+    - '&#4a0000&lV&#660000&le&#820000&lx&#9e0000&lo&#ba0000&lr&#d600000&la'
+
+  # Dynamic line templates rendered on the scoreboard
+  LINES:
+    - ''
+    - '&#FCE300★ &fMoney &#FCE300%economy_nicestMoney%     '
+    - '&#A303F9✧ &fShards &#A303F9%economy_shards%     '
+    - '&#8B0000🗡 &fKills &#8B0000%economy_kills%      '
+    - '&#BA0000☠ &fDeaths &#BA0000%economy_deaths%   '
+    - '&#A303F9⌛ &fKeyall &#A303F9%economy_keyall_countdown%'
+    - '&#FCE300⌚ &fPlaytime &#FCE300%economy_playtime%   '
+    - '{team}'
+    - '{shard_cuboid}'
+    - '{shard_booster}'
+    - ''
+    - '&7NA East &7(&#BA0000%economy_ping%ms&7)'
+
+
+  # Formatting template for the team display line
+  TEAM: '&#00A4FC🪓 &fTeam &#00A4FC%economy_team%     '
+
+  # Formatting template for the active shard booster display line
+  SHARD-BOOSTER: '&#A303F9⚡ &fBooster &#A303F9%economy_booster_countdown%     '
+
+  # Formatting template for the shard cuboid display line
+  SHARD-CUBOID: '&#A303F9⌛ &fShards &#A303F9%economy_shard_cuboid_display%     '

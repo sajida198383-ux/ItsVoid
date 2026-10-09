@@ -1,0 +1,23 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 9923,
+      "minecraft:walk_one_cm": 2462,
+      "minecraft:leave_game": 2,
+      "minecraft:play_time": 9923,
+      "minecraft:open_shulker_box": 2,
+      "minecraft:jump": 146,
+      "minecraft:time_since_death": 9923,
+      "minecraft:open_barrel": 2,
+      "minecraft:sprint_one_cm": 11381,
+      "minecraft:fall_one_cm": 2350,
+      "minecraft:total_world_time": 9923,
+      "minecraft:fly_one_cm": 39418,
+      "minecraft:sneak_time": 17
+    },
+    "minecraft:used": {
+      "minecraft:brown_terracotta": 3
+    }
+  },
+  "DataVersion": 4903
+}

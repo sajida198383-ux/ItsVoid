@@ -1,0 +1,64 @@
+locations:
+  baeb9820-84cd-3d12-ac54-429c1de2801e:
+    username: hashim4423
+    world: world
+    x: -1921.9816008824953
+    y: 187.24918707874468
+    z: -360.19511075568505
+    yaw: 34.8544
+    pitch: 36.158302
+    timestamp: 1791408481127
+  a3bb3a22-a294-33f1-a8b9-2b1215c4cef3:
+    username: lolkah122
+    world: world
+    x: -1822.0798029445828
+    y: 62.0
+    z: -240.70165253189637
+    yaw: -19.295515
+    pitch: 26.549997
+    timestamp: 1791494800863
+  00000000-0000-0000-0009-01f6082219d9:
+    username: .Voidthar1209
+    world: world
+    x: -1888.9999
+    y: 179.02123
+    z: -411.18512
+    yaw: -32.716003
+    pitch: 44.74936
+    timestamp: 1791406860002
+  be0a981b-a802-3419-8e76-899cd7368d6e:
+    username: ItsVoidMe
+    world: world
+    x: -2038.1136670632336
+    y: 179.0
+    z: -269.3685211416034
+    yaw: 74.753876
+    pitch: 72.14997
+    timestamp: 1791494531310
+  d92642d2-427e-3744-8aea-47a1817e8972:
+    username: Frost_Q
+    world: Spawn
+    x: 12.031672337354163
+    y: 202.25220334025371
+    z: -16.182495913816318
+    yaw: -21.408173
+    pitch: 51.208153
+    timestamp: 1791408585673
+  56a1e205-05eb-3fc4-a68d-7e50f3524968:
+    username: jettism
+    world: Spawn
+    x: 10.92463414406896
+    y: 199.0
+    z: 1.0456880108704492
+    yaw: 65.86389
+    pitch: 43.34998
+    timestamp: 1791409149256
+  02509823-0b6e-3b61-9b27-2051765123e5:
+    username: ItsWaRz
+    world: Spawn
+    x: -152.69999998807907
+    y: 146.98077877069727
+    z: -172.69999998807907
+    yaw: 160.9476
+    pitch: -72.45001
+    timestamp: 1791488364301

@@ -1,0 +1,176 @@
+prefix: '&8[&bDiscord&8] &7'
+noPermission: '&cVoce nao tem permissao para isso.'
+playersOnly: '&cEste comando so pode ser usado por jogadores.'
+playersNotFound: '&cEsse jogador nao existe.'
+genericError: '&cOcorreu um erro interno. Verifique o console.'
+moduleDisabled: '&cO modulo {module} esta desativado.'
+linking:
+  notEnabled: '&cA vinculacao de contas esta desativada.'
+  alreadyLinked: '&cSua conta ja esta vinculada com &b{tag}&c.'
+  notLinked: '&cSua conta nao esta vinculada. Use &b/discord &cpara comecar.'
+  needCode: '&cUso correto: &b/connect <codigo>'
+  invalidCode: '&cCodigo invalido ou expirado.'
+  locked: '&cMuitas tentativas falhas. Aguarde {minutes} minuto(s).'
+  connected: '&aConta vinculada com sucesso a &b{tag}&a!'
+  connectedPending: '&aCodigo aceito. Um membro da equipe precisa verificar sua conta.'
+  disconnected: '&aSua conta foi desvinculada.'
+  unlinkedByAdmin: '&aO jogador &f{player} &afoi desvinculado.'
+  playerMissing: '&cEsse jogador nao esta vinculado.'
+  codeGenerated: 'Pedido recebido. Seu codigo e:'
+  codeLine: '> **{code}**'
+  codeInstructions: Digite-o no servidor de Minecraft com `/connect {code}`. Expira
+    em {minutes} minuto(s).
+  alreadyLinkedDiscord: Esta conta do Discord ja esta vinculada a **{player}**.
+  unlinkedDiscord: Sua conta do Discord foi desvinculada.
+  rateLimited: Aguarde alguns segundos antes de pedir outro codigo.
+  pendingVerified: '&a{player} verificado e vinculado corretamente.'
+  noPending: '&cNao ha vinculacoes pendentes para &f{player}&c.'
+  codeEntry: '&e{code} &7expira em {minutes}m &7- {tag}'
+chat:
+  mcToDiscord: '**{player}**: {message}'
+  discordToMc: '&8[&bD&8] &f{username}&7: &f{message}'
+  joinFormat: '**{player}** entrou no servidor'
+  quitFormat: '**{player}** saiu do servidor'
+  # v1.6.2
+  deathFormat: ☠ {message}
+  deathFallback: '**{player}** morreu'
+  advancementFormat: 🏆 **{player}** desbloqueou **{advancement}**
+  firstJoinFormat: 👋 **{player}** entrou no servidor pela primeira vez
+  attachment: ' &7[arquivo] {url}'
+  relayFormat: '&8[&e{server}&8] &f{sender}&7: &f{message}'
+  adminRelayFormat: '&8[&cAviso&8] &f{message}'
+  filterBlocked: '&cSua mensagem foi bloqueada pelo filtro.'
+  serverStarted: ✅ Server has started
+  serverStopped: ❌ Server has stopped
+console:
+  overflow: + {count} blocos de console anexados no arquivo
+  connected: Console conectado por {server}
+  blocked: 'Comando bloqueado: `{command}`'
+  noRole: Voce nao tem o cargo necessario para usar o console.
+  rateLimited: Voce atingiu o limite de comandos por minuto.
+  executed: 'Comando executado: `{command}`'
+report:
+  created: '&aReport #{id} criado contra &e{target}&a.'
+  cooldown: '&cVoce deve aguardar &f{seconds}s &cantes de criar outro report.'
+  noReason: '&cUso correto: &b/report <jogador> [motivo]'
+  selfReport: '&cVoce nao pode reportar a si mesmo.'
+  bugCreated: '&aReport de bug #{id} enviado. Obrigado!'
+  notFound: '&cReport #{id} nao encontrado.'
+  resolved: '&aReport #{id} marcado como {status}.'
+  deleted: '&aReport #{id} excluido.'
+  embedTitle: 'Novo report #{id}'
+  bugEmbedTitle: 'Novo report de bug #{id}'
+  fieldTarget: Jogador
+  fieldReporter: Reportado por
+  fieldReason: Motivo
+  fieldServer: Servidor
+  notifyAdmins: '&c[Report #{id}] &f{reporter} &7-> &e{target}&7: &f{reason}'
+gui:
+  reportsTitle: '&8Reports &7({page}/{pages})'
+  adminTitle: '&8sDiscord &7Painel'
+  reportItem: '&e#{id} &f{target}'
+  reportLore:
+  - '&7Reportado por: &f{reporter}'
+  - '&7Motivo: &f{reason}'
+  - '&7Servidor: &f{server}'
+  - '&7Status: &f{status}'
+  empty: '&cNao ha nada para ver aqui.'
+  next: '&aProxima pagina'
+  prev: '&aPagina anterior'
+  close: '&cFechar'
+  # v1.6.2
+  afkTitle: '&5Recompensas AFK'
+  afkMc: '&5&lMinecraft'
+  afkDiscord: '&5&lDiscord'
+  afkStatus: '&5&lEstado AFK'
+  afkTotal: '&5&lAFK total'
+  afkToday: '&5&lHoje'
+  afkSession: '&5&lSessao'
+  afkPoints: '&5&lPontos'
+  afkRank: '&5&lPosicao'
+  afkMilestones: '&5&lMarcos'
+  afkVc: '&5&lCanal AFK'
+  afkUsers: '&5&lUsuarios AFK'
+  afkLeaderboard: '&5&lRanking'
+  statusModules: '&7Modulos: &f{value}'
+  statusStorage: '&7Armazenamento: &f{value}'
+  statusDiscord: '&7Discord: &f{value}'
+  statusLinked: '&7Vinculados: &f{value}'
+  statusReports: '&7Reports abertos: &f{value}'
+  statusUptime: '&7Uptime: &f{value}'
+  reloadItem: '&aRecarregar configuracao'
+  reloadLore: '&7Aplica todas as mudancas sem reiniciar'
+  debugItem: '&eAlternar modo debug'
+  debugLore: '&7Atualmente: &f{value}'
+  reportsItem: '&bAbrir reports'
+  backItem: '&7Voltar'
+admin:
+  statusTitle: '&8[&bsDiscord&8] &7Status &f(v{version})'
+  statusLine: '&7{key}: &f{value}'
+  reloaded: '&aConfiguracao recarregada.'
+  reloadFailed: '&cA recarga falhou: &f{error}'
+  broadcastUsage: '&cUso correto: &b/sdiscord broadcast <mensagem>'
+  broadcastSent: '&aBroadcast enviado.'
+  unlinkUsage: '&cUso correto: &b/sdiscord unlink <jogador>'
+  codesEmpty: '&7Nao ha codigos ativos.'
+  debugOn: '&aModo debug ativado.'
+  debugOff: '&cModo debug desativado.'
+  selftestTitle: '&8[&bsDiscord&8] &7Self-test &f(v{version})'
+  testOk: '&a[OK] &f{name}'
+  testFail: '&c[FALHA] &f{name}&c: {error}'
+audit:
+  entryFormat: '&8[{time}] &7{source} &f{actor} &7-> &e{action}&7: &f{details}'
+placeholders:
+  linkedYes: sim
+  linkedNo: nao
+slash:
+  vincularDesc: Vincule sua conta do Discord com o servidor
+  vincularPlayerOpt: Jogador (somente equipe, para ver o status)
+  reportDesc: Reporte um jogador para a equipe do servidor
+  reportPlayerOpt: Jogador a ser reportado
+  reportReasonOpt: Motivo do report
+  desvincularDesc: Desvincule sua conta do Discord do servidor
+  unknown: Este comando nao esta disponivel no momento.
+staff:
+  join: '{player} entrou no servidor'
+  quit: '{player} saiu do servidor'
+  serverStart: Servidor iniciado
+  serverStop: Servidor parado
+discord:
+  title: '&8[&bDiscord&8] &7Status de vinculacao'
+  linked: '&aSua conta esta vinculada.'
+  notLinked: '&cSua conta nao esta vinculada.'
+  account: '&7Discord: &b{tag}'
+  invite: '&7Servidor: &f{invite}'
+  howTo: '&7Use &b/vincular &7no nosso Discord e depois &b/connect <codigo> &7aqui.'
+
+# v1.6.2: recompensas por canal de voz
+afk:
+  vcJoin: '{mention} Voce esta AFK em **{server}**. Voce ganhara **{currency} {amount}**
+    a cada **{interval} minutos**.'
+  vcLeave: '{mention} Voce saiu de **{server}**. Voce nao ganhara mais **{currency}**
+    enquanto estiver fora do canal de voz AFK.'
+  reward: '**{player}** recebeu **{points}** pontos por **{minutes}** minutos de AFK.'
+  milestone: 🏆 **{player}** alcancou o marco de **{minutes}** minutos de AFK.
+  linkReminder: '{mention} Vincule sua conta do Discord com **/vincular** (ou **/connect**
+    no jogo) para comecar a ganhar recompensas.'
+  dailyLimit: '{mention} Voce alcancou o limite diario de recompensas AFK ({minutes}
+    minutos). Volte amanha.'
+  summary: '&7Recompensas AFK: &f{points} pontos &7- hoje &f{minutes} min &7- total
+    &f{total} min &7({status}&7)'
+  hint: '&7Use &b/discord afk &7para suas estatisticas ou &b/discord top &7para o
+    ranking.'
+  topHeader: '&8&m----------&r &5Top AFK &8&m----------'
+  topEntry: '&e#{rank} &f{player} &7- {time} &7- &f{points} pontos'
+  topEmpty: '&cAinda nao ha dados de AFK.'
+  topHint: '&7Use &b/discord top &7no jogo'
+  timeHours: '{hours}h {minutes}m'
+  timeMinutes: '{minutes}m'
+  activeYes: '&aAtivo'
+  activeNo: '&cInativo'
+  notLinked: '&cNao vinculado'
+  milestoneNext: '&f{minutes} min'
+  milestoneDone: '&aConcluidos'
+  vcKnown: '&f{channel}'
+  vcUnknown: '&7Nao configurado'
+  guiDisabled: '&cA GUI de recompensas AFK esta desativada.'

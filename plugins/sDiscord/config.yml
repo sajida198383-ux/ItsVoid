@@ -1,0 +1,59 @@
+token: MTU1NzE0MTQ0NDMwNzcyMjMyMA.GBejgk.J0wgmXsenvasN3Qlp7Lj3MbJlGrPYyPTWoVhv4
+applicationId: '1557141444307722320'
+# Server (guild) ID for INSTANT slash command registration. Leave empty and
+# sDiscord auto-detects it when the bot is in a single server.
+guildId: '1532782075181011055'
+serverName: 👑 VEXORA
+inviteUrl: https://discord.gg/d6pFWB5CZ
+debug: false
+showBanner: true
+language: en_US
+storage:
+  type: AUTO
+  mysql:
+    host: localhost
+    port: 3306
+    database: sdiscord
+    user: root
+    password: ''
+    poolSize: 8
+  prefix: sdiscord_
+network:
+  enabled: false
+  serverId: '1532782075181011055'
+  role: PRIMARY
+  pollMs: 1000
+reconnect:
+  initialSeconds: 2
+  maxSeconds: 120
+  multiplier: 1.5
+  # Repeated gateway warnings (heartbeat / reconnect) are collapsed into one
+  # line for this many seconds; the next line reports how many were suppressed.
+  # 0 logs every event (old behavior, very spammy).
+  quietSeconds: 300
+presence:
+  enabled: true
+  status: ONLINE
+  intervalSeconds: 60
+  activities:
+  - Minecraft | %players% players
+slash:
+  register: true
+intents:
+  # Privileged intents must ALSO be switched on in the Discord Developer
+  # Portal (your application -> Bot -> Privileged Gateway Intents). New bots
+  # have them OFF by default. If Discord rejects them (close 4014) sDiscord
+  # keeps working without them (slash commands, Minecraft->Discord chat,
+  # console) and logs one warning — but Discord->Minecraft chat text needs
+  # messageContent, so enable both switches in the portal when you can.
+  members: true
+  messageContent: true
+  # Voice channel events for the AFK rewards module (v1.6.2). NOT
+  # privileged: no switch in the Discord Developer Portal is needed.
+  voiceStates: true
+advanced:
+  restTimeoutSeconds: 30
+  heartbeatFactor: 2.0
+  maxConsoleQueue: 400
+  logFile: true
+  logMaxMb: 5

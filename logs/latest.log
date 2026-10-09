@@ -1,0 +1,27 @@
+[00:00:13] [Thread-20/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[00:03:49] [Server thread/INFO]: Sub_to_qMee (921cae29-348f-386e-bc47-abfabb6d0b93) lost connection: Timed out
+[00:04:14] [Thread-20/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[00:04:31] [Thread-20/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.215:22785, peerAddr=169.58.107.35:38552, claimAddress=69.9.184.2:43783, claimToken=[44, 0, 104, -109, -71, -35, -41, 89, 1, -87, 58, 107, 35, -106, -104, 95, 124, 117, 60, -85, 7, 106, -56, 47, -113, 0, 0, 0, 0, 0, 40, -46, 107, 0, 0, 0, 0, 0, 106, 15, 78, 0, 0, 0, 0, 0, 74, 74, -113, -88, 27, -85, 7, 0, 0, 0, 0, 38, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 34, 33, 0, -1, 5, 26, 102, 114, 105, 101, 100, 45, 105, 109, 109, 101, 100, 105, 97, 116, 101, 46, 116, 117, 110, 46, 112, 108, 121, 46, 103, 103, 89, 1, 1, -14, 9, -98, -15, -99, 73, -66, 26, -35, 82, 26, -83, -25, -111, -83, -76], tunnelServerId=0, tunnelId=4868751, dataCenterId=38, portOffset=0}
+[00:04:31] [Thread-20/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[00:04:31] [Thread-20/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43783 to claim client
+[00:04:31] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[00:04:31] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[00:04:31] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[00:04:31] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[00:04:31] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[00:04:31] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /169.58.107.35:38552
+[00:04:31] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
+[00:04:31] [Thread-20/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.215:22785, peerAddr=169.58.107.35:38546, claimAddress=69.9.184.2:43783, claimToken=[44, 0, -122, -109, -71, -35, -41, 89, 1, -87, 58, 107, 35, -106, -110, -6, -37, 52, 15, -85, 7, 106, -56, 47, -113, 0, 0, 0, 0, 0, 40, -46, 107, 0, 0, 0, 0, 0, 106, 15, 78, 0, 0, 0, 0, 0, 74, 74, -113, 113, -48, -85, 7, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 2, 0, 16, 0, 64, 33, 0, -1, 5, 26, 102, 114, 105, 101, 100, 45, 105, 109, 109, 101, 100, 105, 97, 116, 101, 46, 116, 117, 110, 46, 112, 108, 121, 46, 103, 103, 89, 1, 2, 29, 0, 11, 83, 117, 98, 95, 116, 111, 95, 113, 77, 101, 101, -110, 28, -82, 41, 52, -113, 56, 110, -68, 71, -85, -6, -69, 109, 11, -109, -26, 4, 53, 46, 110, -125, 77, 99, 24, 37, -127, -109, 62, 72, 86, 78], tunnelServerId=0, tunnelId=4868751, dataCenterId=36, portOffset=0}
+[00:04:31] [Thread-20/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[00:04:31] [Thread-20/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /69.9.184.2:43783 to claim client
+[00:04:31] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[00:04:31] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[00:04:31] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[00:04:31] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[00:04:31] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[00:04:31] [Netty Epoll IO #0/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /169.58.107.35:38546
+[00:04:31] [Netty Epoll IO #0/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
+[00:04:32] [User Authenticator #3/INFO]: UUID of player Sub_to_qMee is 921cae29-348f-386e-bc47-abfabb6d0b93
+[00:08:14] [Thread-20/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[00:12:15] [Thread-20/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[00:16:16] [Thread-20/INFO]: [gg.playit.control.ChannelSetup] send keep alive

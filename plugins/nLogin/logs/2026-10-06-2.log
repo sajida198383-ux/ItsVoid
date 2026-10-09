@@ -1,0 +1,26 @@
+[2026/10/06 12:57:12 INFO]:           __             _       
+[2026/10/06 12:57:12 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/10/06 12:57:12 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/10/06 12:57:12 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/10/06 12:57:12 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/10/06 12:57:12 INFO]:                   |___/            
+[2026/10/06 12:57:12 INFO]:  By: www.nickuc.com - V 2.0.24 DEV
+[2026/10/06 12:57:12 INFO]:  
+[2026/10/06 12:57:12 DEBUG]: Loading the messages_en.yml message file...
+[2026/10/06 12:57:12 DEBUG]: Messages were loaded in 76 ms (single file).
+[2026/10/06 12:57:12 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/10/06 12:57:12 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/10/06 12:57:12 DEBUG]: Settings were loaded in 130 ms.
+[2026/10/06 12:57:12 DEBUG]: Loading database...
+[2026/10/06 12:57:12 DEBUG]: Starting logger filter...
+[2026/10/06 12:57:12 INFO]: Loading packetevents-spigot 2.14.0-SNAPSHOT...
+[2026/10/06 12:58:39 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'ItsVoidMe', `unique_id` = be0a981ba80234198e76899cd7368d6e,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$p2TBOLzbEVqA2vx0mdBssg$xGimfeHayeZW0n4o3IBWjTH4OJFZQp+L5crAA5YuZyw', `last_ip` = '169.224.25.165', `creation_date` = 2026-10-06 12:47:48.711, `last_seen` = 2026-10-06 12:58:39.068, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2026/10/06 12:58:39 INFO]: The user ItsVoidMe has successfully logged in.
+[2026/10/06 12:58:54 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'ItsVoidMe', `unique_id` = be0a981ba80234198e76899cd7368d6e,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$p2TBOLzbEVqA2vx0mdBssg$xGimfeHayeZW0n4o3IBWjTH4OJFZQp+L5crAA5YuZyw', `last_ip` = '169.224.25.165', `creation_date` = 2026-10-06 12:47:48.711, `last_seen` = 2026-10-06 12:58:54.443, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2026/10/06 12:59:51 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'ItsVoidMe', `unique_id` = be0a981ba80234198e76899cd7368d6e,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$p2TBOLzbEVqA2vx0mdBssg$xGimfeHayeZW0n4o3IBWjTH4OJFZQp+L5crAA5YuZyw', `last_ip` = '169.224.25.165', `creation_date` = 2026-10-06 12:47:48.711, `last_seen` = 2026-10-06 12:59:51.022, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2026/10/06 12:59:51 INFO]: The user ItsVoidMe has successfully logged in.
+[2026/10/06 12:59:51 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'ItsVoidMe', `unique_id` = be0a981ba80234198e76899cd7368d6e,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$p2TBOLzbEVqA2vx0mdBssg$xGimfeHayeZW0n4o3IBWjTH4OJFZQp+L5crAA5YuZyw', `last_ip` = '169.224.25.165', `creation_date` = 2026-10-06 12:47:48.711, `last_seen` = 2026-10-06 12:59:51.548, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2026/10/06 13:00:37 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'ItsVoidMe', `unique_id` = be0a981ba80234198e76899cd7368d6e,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$p2TBOLzbEVqA2vx0mdBssg$xGimfeHayeZW0n4o3IBWjTH4OJFZQp+L5crAA5YuZyw', `last_ip` = '169.224.25.165', `creation_date` = 2026-10-06 12:47:48.711, `last_seen` = 2026-10-06 13:00:37.266, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2026/10/06 13:00:37 INFO]: The user ItsVoidMe has successfully logged in.
+[2026/10/06 13:02:52 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'ItsVoidMe', `unique_id` = be0a981ba80234198e76899cd7368d6e,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$p2TBOLzbEVqA2vx0mdBssg$xGimfeHayeZW0n4o3IBWjTH4OJFZQp+L5crAA5YuZyw', `last_ip` = '169.224.25.165', `creation_date` = 2026-10-06 12:47:48.711, `last_seen` = 2026-10-06 13:02:52.933, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2026/10/06 13:03:50 INFO]: Successful plugin core shutdown (took 0.00s)
