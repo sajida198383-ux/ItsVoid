@@ -1,0 +1,20 @@
+[2026/10/07 15:52:58 INFO]:           __             _       
+[2026/10/07 15:52:58 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/10/07 15:52:58 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/10/07 15:52:58 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/10/07 15:52:58 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/10/07 15:52:58 INFO]:                   |___/            
+[2026/10/07 15:52:58 INFO]:  By: www.nickuc.com - V 2.0.24 DEV
+[2026/10/07 15:52:58 INFO]:  
+[2026/10/07 15:52:58 DEBUG]: Loading the messages_en.yml message file...
+[2026/10/07 15:52:58 DEBUG]: Messages were loaded in 71 ms (single file).
+[2026/10/07 15:52:58 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/10/07 15:52:58 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/10/07 15:52:58 DEBUG]: Settings were loaded in 108 ms.
+[2026/10/07 15:52:58 DEBUG]: Loading database...
+[2026/10/07 15:52:59 DEBUG]: Starting logger filter...
+[2026/10/07 15:52:59 INFO]: Loading packetevents-spigot 2.14.0-SNAPSHOT...
+[2026/10/07 15:54:04 DEBUG]: [SQLite] [UPDATE]: "INSERT INTO `nlogin` (`last_name`, `unique_id`, `mojang_id`, `bedrock_id`, `password`, `last_ip`, `creation_date`, `last_seen`, `email`, `discord`, `settings`) VALUES ('idfw342', e0c63e41b0b23b3981cd026dc71e7169, null, null, '$argon2id$v=19$m=32768,t=5,p=1$8RjveNuxB6LoG9hrDgmI1w$6DqgSxcJyxBAOFsHP91h5i96a1iRTYqNEPEQXy7pxAY', '169.224.26.165', '2026-10-07 15:54:04.408', '2026-10-07 15:54:04.408', null, null, '{"settings":[{"value":true,"key":"force-invalid-session"}],"version":0}')" (applied to all columns)
+[2026/10/07 15:54:04 INFO]: The user idfw342 has successfully registered.
+[2026/10/07 15:54:59 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'idfw342', `unique_id` = e0c63e41b0b23b3981cd026dc71e7169,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$8RjveNuxB6LoG9hrDgmI1w$6DqgSxcJyxBAOFsHP91h5i96a1iRTYqNEPEQXy7pxAY', `last_ip` = '169.224.26.165', `creation_date` = 2026-10-07 15:54:04.408, `last_seen` = 2026-10-07 15:54:59.375, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"force-invalid-session"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 2" (applied to [last_seen, settings] columns)
+[2026/10/07 15:55:57 INFO]: Successful plugin core shutdown (took 0.00s)

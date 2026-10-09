@@ -1,0 +1,23 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:brown_mushroom": 2
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 484,
+      "minecraft:walk_one_cm": 129,
+      "minecraft:total_world_time": 484,
+      "minecraft:leave_game": 1,
+      "minecraft:play_time": 484,
+      "minecraft:time_since_death": 484,
+      "minecraft:drop": 2
+    },
+    "minecraft:mined": {
+      "minecraft:brown_mushroom_block": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:brown_mushroom": 2
+    }
+  },
+  "DataVersion": 4903
+}

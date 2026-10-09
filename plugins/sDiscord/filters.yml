@@ -1,0 +1,25 @@
+enabled: true
+words: []
+wordsAction: CENSOR
+regex: []
+regexAction: BLOCK
+caps:
+  enabled: false
+  maxRatio: 0.75
+  minLength: 10
+urls:
+  enabled: false
+  mode: DENY
+  list: []
+  replace: '[link]'
+mentions:
+  maxPerMessage: 3
+  everyoneReplace: '@aqui'
+rateLimit:
+  messages: 5
+  seconds: 10
+length:
+  maxMcToDiscord: 1800
+  maxDiscordToMc: 256
+stripColors: true
+stripMarkdown: true

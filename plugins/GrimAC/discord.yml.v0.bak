@@ -1,0 +1,19 @@
+
+#           BY TOLUAM
+
+enabled: false
+webhook: "https://discord.com/api/webhooks/1557134920311120025/UtCvsh_-vjpSFIzVc0J_-pxAbHV4bPAu-q0077HehvefQ7EdxV9gVxvY61IW-ctKueyM"
+embed-title: "**Anticheat Alert**"
+embed-color: "#E67E22"
+violation-content: 
+  - "**%player% information:**"
+  - "> Client: %version%"
+  - "> Brand: %brand%"
+  - "> Ping: %ping%"
+  - " "
+  - "**Server information:**"
+  - "> TPS: %tps%"
+  - " "
+  - "**Anticheat information**:"
+  - "> Check: %check%"
+  - "> Violations: %violations%"

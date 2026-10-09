@@ -1,0 +1,77 @@
+{
+  "stats": {
+    "minecraft:killed": {
+      "minecraft:zombie": 9,
+      "minecraft:skeleton": 2,
+      "minecraft:creeper": 3,
+      "minecraft:bat": 1,
+      "minecraft:spider": 2
+    },
+    "minecraft:killed_by": {
+      "minecraft:player": 1,
+      "minecraft:zombie": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:egg": 1,
+      "minecraft:brush": 1,
+      "minecraft:spruce_sign": 2,
+      "minecraft:red_wool": 1,
+      "minecraft:nether_star": 1,
+      "minecraft:chainmail_helmet": 1,
+      "minecraft:spruce_fence": 1,
+      "minecraft:green_wool": 1,
+      "minecraft:green_concrete_powder": 1,
+      "minecraft:jungle_button": 1,
+      "minecraft:oak_sign": 1,
+      "minecraft:grass_block": 1,
+      "minecraft:wheat_seeds": 1,
+      "minecraft:mud_brick_stairs": 1,
+      "minecraft:gunpowder": 2,
+      "minecraft:barrier": 1,
+      "minecraft:chainmail_chestplate": 1,
+      "minecraft:spruce_stairs": 1
+    },
+    "minecraft:used": {
+      "minecraft:jungle_button": 1,
+      "minecraft:end_crystal": 18,
+      "minecraft:totem_of_undying": 1,
+      "minecraft:egg": 131,
+      "minecraft:netherite_spear": 4,
+      "minecraft:mace": 20,
+      "minecraft:obsidian": 10
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 12233,
+      "minecraft:walk_one_cm": 21852,
+      "minecraft:leave_game": 4,
+      "minecraft:walk_under_water_one_cm": 261,
+      "minecraft:mob_kills": 17,
+      "minecraft:damage_taken": 802,
+      "minecraft:play_time": 38228,
+      "minecraft:damage_dealt": 4122,
+      "minecraft:open_shulker_box": 1,
+      "minecraft:damage_absorbed": 8,
+      "minecraft:jump": 589,
+      "minecraft:time_since_death": 12213,
+      "minecraft:damage_dealt_absorbed": 8,
+      "minecraft:drop": 2,
+      "minecraft:sprint_one_cm": 55792,
+      "minecraft:fall_one_cm": 12436,
+      "minecraft:total_world_time": 38228,
+      "minecraft:swim_one_cm": 868,
+      "minecraft:fly_one_cm": 402046,
+      "minecraft:walk_on_water_one_cm": 711,
+      "minecraft:crouch_one_cm": 81,
+      "minecraft:sneak_time": 143,
+      "minecraft:deaths": 3,
+      "minecraft:player_kills": 1
+    },
+    "minecraft:mined": {
+      "minecraft:jungle_button": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:gunpowder": 2
+    }
+  },
+  "DataVersion": 4903
+}

@@ -1,0 +1,134 @@
+lp group default meta setprefix 100 "&7[Player] "
+lp group default setweight 0
+lp group default permission set ultimatedonutsmp.command.* false
+lp group default permission set rankkits.kit.* false
+lp creategroup member
+lp group member parent add default
+lp group member meta setprefix 101 "&a[Member] "
+lp group member setweight 1
+lp group member permission set ultimatedonutsmp.command.spawn true
+lp group member permission set ultimatedonutsmp.command.msg true
+lp group member permission set ultimatedonutsmp.command.home true
+lp group member permission set ultimatedonutsmp.command.sethome true
+lp creategroup vip
+lp group vip parent add member
+lp group vip meta setprefix 102 "&a[VIP] "
+lp group vip setweight 2
+lp group vip permission set rankkits.kit.vip true
+lp creategroup vipplus
+lp group vipplus parent add vip
+lp group vipplus meta setprefix 103 "&b[VIP+] "
+lp group vipplus setweight 3
+lp group vipplus permission set rankkits.kit.vipplus true
+lp creategroup elite
+lp group elite parent add vipplus
+lp group elite meta setprefix 104 "&3[Elite] "
+lp group elite setweight 4
+lp group elite permission set rankkits.kit.elite true
+lp group elite permission set ultimatedonutsmp.command.feed true
+lp creategroup mvp
+lp group mvp parent add elite
+lp group mvp meta setprefix 105 "&9[MVP] "
+lp group mvp setweight 5
+lp group mvp permission set rankkits.kit.mvp true
+lp group mvp permission set ultimatedonutsmp.command.enderchest true
+lp creategroup mvpplus
+lp group mvpplus parent add mvp
+lp group mvpplus meta setprefix 106 "&5[MVP+] "
+lp group mvpplus setweight 6
+lp group mvpplus permission set rankkits.kit.mvpplus true
+lp creategroup legend
+lp group legend parent add mvpplus
+lp group legend meta setprefix 107 "&c[Legend] "
+lp group legend setweight 7
+lp group legend permission set rankkits.kit.legend true
+lp creategroup legendplus
+lp group legendplus parent add legend
+lp group legendplus meta setprefix 108 "&6[Legend+] "
+lp group legendplus setweight 8
+lp group legendplus permission set rankkits.kit.legendplus true
+lp creategroup titan
+lp group titan parent add legendplus
+lp group titan meta setprefix 109 "&d[Titan] "
+lp group titan setweight 9
+lp group titan permission set rankkits.kit.titan true
+lp creategroup titanplus
+lp group titanplus parent add titan
+lp group titanplus meta setprefix 110 "&b[Titan+] "
+lp group titanplus setweight 10
+lp group titanplus permission set rankkits.kit.titanplus true
+lp creategroup helper
+lp group helper parent add member
+lp group helper meta setprefix 111 "&2[Helper] "
+lp group helper setweight 11
+lp group helper permission set ultimatedonutsmp.command.staffmode true
+lp group helper permission set ultimatedonutsmp.staff.mode true
+lp group helper permission set ultimatedonutsmp.staff.mode.vanish true
+lp group helper permission set ultimatedonutsmp.staff.mode.betterview true
+lp group helper permission set ultimatedonutsmp.command.stafflist true
+lp group helper permission set ultimatedonutsmp.staff.punishments.create true
+lp group helper permission set ultimatedonutsmp.staff.punishments.mute true
+lp creategroup trialmod
+lp group trialmod parent add helper
+lp group trialmod meta setprefix 112 "&e[TrialMod] "
+lp group trialmod setweight 12
+lp group trialmod permission set ultimatedonutsmp.command.staffchat true
+lp creategroup moderator
+lp group moderator parent add trialmod
+lp group moderator meta setprefix 113 "&c[Moderator] "
+lp group moderator setweight 13
+lp group moderator permission set ultimatedonutsmp.staff.punishments.ban true
+lp group moderator permission set ultimatedonutsmp.command.punishments true
+lp creategroup seniormod
+lp group seniormod parent add moderator
+lp group seniormod meta setprefix 114 "&4[SeniorMod] "
+lp group seniormod setweight 14
+lp group seniormod permission set ultimatedonutsmp.staff.punishments.offend true
+lp group seniormod permission set ultimatedonutsmp.command.logs true
+lp creategroup admin
+lp group admin parent add seniormod
+lp group admin meta setprefix 115 "&c[Admin] "
+lp group admin setweight 15
+lp group admin permission set ultimatedonutsmp.command.teleport true
+lp group admin permission set ultimatedonutsmp.command.gamemode true
+lp group admin permission set ultimatedonutsmp.command.freeze true
+lp group admin permission set ultimatedonutsmp.command.invsee true
+lp group admin permission set ultimatedonutsmp.command.profileviewer true
+lp group admin permission set ultimatedonutsmp.command.alts true
+lp group admin permission set ultimatedonutsmp.command.heal true
+lp group admin permission set ultimatedonutsmp.command.feed true
+lp group admin permission set ultimatedonutsmp.staff.freeze true
+lp group admin permission set ultimatedonutsmp.staff.invsee true
+lp group admin permission set ultimatedonutsmp.staff.invsee.modify true
+lp group admin permission set ultimatedonutsmp.admin.freeze true
+lp group admin permission set ultimatedonutsmp.admin.invsee true
+lp group admin permission set ultimatedonutsmp.admin.staffmode true
+lp creategroup senioradmin
+lp group senioradmin parent add admin
+lp group senioradmin meta setprefix 116 "&5[SeniorAdmin] "
+lp group senioradmin setweight 16
+lp group senioradmin permission set ultimatedonutsmp.command.warpmanager true
+lp group senioradmin permission set ultimatedonutsmp.command.portalmanager true
+lp group senioradmin permission set ultimatedonutsmp.command.ultimatedonutsmp true
+lp group senioradmin permission set ultimatedonutsmp.admin.ecsee true
+lp group senioradmin permission set ultimatedonutsmp.admin.spawner.seeall true
+lp creategroup manager
+lp group manager parent add senioradmin
+lp group manager meta setprefix 117 "&6[Manager] "
+lp group manager setweight 17
+lp group manager permission set ultimatedonutsmp.command.maintenance true
+lp group manager permission set ultimatedonutsmp.command.clearlag true
+lp group manager permission set ultimatedonutsmp.command.setwarp true
+lp group manager permission set ultimatedonutsmp.command.delwarp true
+lp creategroup headadmin
+lp group headadmin parent add manager
+lp group headadmin meta setprefix 118 "&4[HeadAdmin] "
+lp group headadmin setweight 18
+lp group headadmin permission set ultimatedonutsmp.command.* true
+lp group headadmin permission set ultimatedonutsmp.staff.* true
+lp creategroup owner
+lp group owner parent add headadmin
+lp group owner meta setprefix 119 "&6[Owner] "
+lp group owner setweight 19
+# Grant operator status only to the chosen Owner account from the server console:
+# op <owner-username>

@@ -1,0 +1,60 @@
+# =====================================
+#  AdvancedRTPQueue Configuration
+# =====================================
+# Configure queue size, teleport settings, messages, and sounds.
+
+# ==========================
+# Queue Settings
+# ==========================
+queue:
+  required-players: 2 # Players needed to start teleportation
+  clear-interval: 300 # Queue resets if inactive (seconds)
+
+# ==========================
+# Teleportation Settings
+# ==========================
+teleport:
+  world: world
+  safe-teleport: true # Ensures safe landing spots
+  max-teleport-attempts: 10 # Retries for safe teleport location
+  spawn-radius: 5 # Radius within which players spawn
+  
+  # Unsafe blocks for teleportation
+  unsafe-blocks:
+  - WATER
+
+# ==========================
+# Messages
+# ==========================
+messages:
+  join-queue: '&#08FB0F&lRTP QUEUE &8➟ &fYou joined the RTP queue.'
+  waiting-for-opponent: '&#08FB0F&lRTP QUEUE &8➟ &fPlease wait for a opponent to be
+    paired with.'
+  leave-queue: '&#08FB0F&lRTP QUEUE &8➟ &fYou left the queue.'
+  already-in-queue: '&#08FB0F&lRTP QUEUE &8➟ &fYou''re already in the queue!'
+  not-in-queue: '&#08FB0F&lRTP QUEUE &8➟ &fYou''re not in the queue.'
+  opponent-found: '&#08FB0F&lRTP QUEUE &8➟ &fYou have been paired with an opponent.'
+  teleporting-title: '&#08FB0F&lRTP QUEUE &8➟ &fTeleporting...'
+  teleporting-subtitle: '&fYou joined the &#08FB0FRTP queue&f.'
+  teleported: '&#08FB0F&lRTP QUEUE &8➟ &fTeleported!'
+  no-permission: '&#08FB0F&lRTP QUEUE &8➟ &fYou do not have permission to use this
+    command.'
+  reload: '&#08FB0F&lRTP QUEUE &8➟ &fThe config has been reloaded successfully.'
+  queue-cleared: '&#08FB0F&lRTP QUEUE &8➟ &fThe queue have been cleared.'
+  invalid-world: '&#08FB0F&lRTP QUEUE &8➟ &fYou do not have permission to use this
+    command.'
+  invalid-command: '&#08FB0F&lRTP QUEUE &8➟ &fYou do not have permission to use this
+    command.'
+  teleport-failed: '&#08FB0F&lRTP QUEUE &8➟ &fThere was no safe spot found. Try again.'
+
+# ==========================
+# Sounds
+# ==========================
+sounds:
+  queue-join: ENTITY_PLAYER_LEVELUP
+  teleport: ENTITY_ENDERMAN_TELEPORT
+  error: ENTITY_VILLAGER_NO
+  queue-cleared: ENTITY_ENDER_DRAGON_GROWL
+  opponent-found: ENTITY_EXPERIENCE_ORB_PICKUP
+
+# Made By @krez.xml

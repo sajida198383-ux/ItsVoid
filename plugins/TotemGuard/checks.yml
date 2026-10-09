@@ -1,0 +1,222 @@
+#   ___________     __                   ________                       .___
+#   \__    ___/____/  |_  ____   _____  /  _____/ __ _______ _______  __| _/
+#     |    | /  _ \   __\/ __ \ /     \/   \  ___|  |  \__  \\_  __ \/ __ |
+#     |    |(  <_> )  | \  ___/|  Y Y  \    \_\  \  |  // __ \|  | \/ /_/ |
+#     |____| \____/|__|  \___  >__|_|  /\______  /____/(____  /__|  \____ |
+#                            \/      \/        \/           \/           \/
+
+# This command placeholder can be used by using %default_punishment% as a punishment command.
+default-punishment: ban %player% 1d [TotemGuard] Unfair Advantage
+
+# AutoTotemA
+auto-totem-a:
+  enabled: true
+  punishable: true
+  punishment-delay-in-seconds: 0
+  max-violations: 4
+  punishment-commands:
+  - '%default_punishment%'
+
+  # Normal Check Time: Sets the interval (in ms) for normal checks.
+  normal-check-time-ms: 1500
+
+  # Click Time Difference: The value (in ms) which anything below will trigger the flag.
+  click-time-difference: 75
+
+# AutoTotemB
+auto-totem-b:
+  enabled: true
+  punishable: true
+  punishment-delay-in-seconds: 0
+  max-violations: 12
+  punishment-commands:
+  - '%default_punishment%'
+
+  # Standard Deviation Threshold: The threshold for the standard deviation.
+  -standard-deviation-threshold: 30.0
+
+  # Mean Threshold: The threshold for the mean.
+  -mean-threshold: 500.0
+
+  # Consecutive Low SD Count: The amount of consecutive low standard deviations before flagging.
+  -consecutive-low-s-d-count: 3
+
+# AutoTotemC
+auto-totem-c:
+  enabled: true
+  punishable: false
+  punishment-delay-in-seconds: 0
+  max-violations: 6
+  punishment-commands:
+  - '%default_punishment%'
+
+  # Consistent SD Range: The range for the standard average deviation.
+  -consistent-s-d-range: 1.0
+
+  # Consecutive Violations: The amount of consecutive violations before flagging.
+  -consecutive-violations: 3
+
+# AutoTotemD
+auto-totem-d:
+  enabled: true
+  punishable: true
+  punishment-delay-in-seconds: 0
+  max-violations: 3
+  punishment-commands:
+  - '%default_punishment%'
+
+  # Total Sequence: The total sequence timing under which the player will be flagged.
+  -total-sequence: 160
+
+  # Time average Difference between packets: The time difference between packets.
+  -base-time-difference: 50
+
+  # Time Tolerance: The tolerance for the time difference.
+  -tolerance: 5
+
+# AutoTotemE
+auto-totem-e:
+  enabled: true
+  punishable: false
+  punishment-delay-in-seconds: 0
+  max-violations: 4
+  punishment-commands:
+  - '%default_punishment%'
+
+  # Standard Deviation Threshold: The threshold for the standard deviation.
+  -standard-deviation-threshold: 10.0
+
+  # Average Standard Deviation Threshold: The threshold for the average standard deviation.
+  -average-st-deviation-threshold: 10.0
+
+# AutoTotemF
+auto-totem-f:
+  enabled: true
+  punishable: false
+  punishment-delay-in-seconds: 0
+  max-violations: 20
+  punishment-commands:
+  - '%default_punishment%'
+
+  # Time Difference: The time difference between closing the inventory and the last click.
+  -time-difference: 1500
+
+# AutoTotemG
+auto-totem-g:
+  enabled: true
+  punishable: false
+  punishment-delay-in-seconds: 0
+  max-violations: 4
+  punishment-commands:
+  - '%default_punishment%'
+
+  # Normal Check Time: Sets the interval (in ms) for normal checks.
+  normal-check-time-ms: 1500
+
+  # Click to Swap Time Difference: The value (in ms) which anything below will trigger the flag.
+  click-to-swap-time-difference: 75
+
+# AutoTotemH
+auto-totem-h:
+  enabled: true
+  punishable: false
+  punishment-delay-in-seconds: 0
+  max-violations: 4
+  punishment-commands:
+  - '%default_punishment%'
+
+  # Minimum Check Time: Sets the minimum time (in ms) before a difference will be added to the interval.
+  min-check-time: 1500
+
+  # Standard Deviation Threshold: The threshold for the standard deviation.
+  -standard-deviation-threshold: 35.0
+
+  # Mean Threshold: The threshold for the mean.
+  -mean-threshold: 100.0
+
+  # Consecutive Low SD Count: The amount of consecutive low standard deviations before flagging.
+  -consecutive-low-s-d-count: 2
+
+# BadPacketsA
+bad-packets-a:
+  enabled: true
+  punishable: true
+  punishment-delay-in-seconds: 20
+  max-violations: 1
+  punishment-commands:
+  - '%default_punishment%'
+
+# BadPacketsB
+bad-packets-b:
+  enabled: true
+  punishable: true
+  punishment-delay-in-seconds: 20
+  max-violations: 1
+  punishment-commands:
+  - '%default_punishment%'
+
+  # Banned Client Brands: The list of client brands to flag.
+  banned-brands:
+  - autototem
+
+# BadPacketsC
+bad-packets-c:
+  enabled: true
+  punishable: false
+  punishment-delay-in-seconds: 20
+  max-violations: 10
+  punishment-commands:
+  - '%default_punishment%'
+
+# BadPacketsD
+bad-packets-d:
+  enabled: true
+  punishable: false
+  punishment-delay-in-seconds: 20
+  max-violations: 1
+  punishment-commands:
+  - '%default_punishment%'
+
+# ManualTotemA
+manual-totem-a:
+  enabled: true
+  punishable: false
+  punishment-delay-in-seconds: 0
+  max-violations: 4
+  punishment-commands:
+  - '%default_punishment%'
+
+  # Check Time: Amount of time the check command waits for a retotem. (in ms)
+  -check-time: 400
+
+
+# ======
+#  Mod Detections
+# ======
+
+#  Tweakeroo (https://modrinth.com/mod/tweakeroo)
+tweakeroo:
+  enabled: true
+  punishable: false
+  punishment-delay-in-seconds: 0
+  max-violations: 1
+  punishment-commands:
+  - kick %player% [TotemGuard] Unauthorised Mod Detected
+
+# Accurate Block Placement Reborn (https://modrinth.com/mod/accurate-block-placement-reborn)
+accurate-block-placement-reborn:
+  enabled: true
+  punishable: false
+  punishment-delay-in-seconds: 0
+  max-violations: 1
+  punishment-commands:
+  - kick %player% [TotemGuard] Unauthorised Mod Detected
+
+# Elytra Swapper Mods
+elytra-swapper:
+  enabled: true
+  punishable: false
+  punishment-delay-in-seconds: 0
+  max-violations: 1
+  punishment-commands:
+  - kick %player% [TotemGuard] Unauthorised Mod Detected

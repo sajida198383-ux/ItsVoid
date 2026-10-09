@@ -1,0 +1,39 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:brown_wool": 2
+    },
+    "minecraft:killed_by": {
+      "minecraft:creeper": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:brown_wool": 2
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 23386,
+      "minecraft:walk_one_cm": 9829,
+      "minecraft:leave_game": 3,
+      "minecraft:damage_taken": 579,
+      "minecraft:play_time": 50714,
+      "minecraft:damage_dealt": 23,
+      "minecraft:open_shulker_box": 1,
+      "minecraft:jump": 90,
+      "minecraft:time_since_death": 23366,
+      "minecraft:sprint_one_cm": 24640,
+      "minecraft:fall_one_cm": 2570,
+      "minecraft:total_world_time": 50714,
+      "minecraft:fly_one_cm": 196232,
+      "minecraft:sneak_time": 152,
+      "minecraft:deaths": 1
+    },
+    "minecraft:used": {
+      "minecraft:grass_block": 18,
+      "minecraft:packed_mud": 8,
+      "minecraft:azalea_leaves": 1,
+      "minecraft:rooted_dirt": 13,
+      "minecraft:brown_wool": 2,
+      "minecraft:polished_andesite_slab": 1
+    }
+  },
+  "DataVersion": 4903
+}

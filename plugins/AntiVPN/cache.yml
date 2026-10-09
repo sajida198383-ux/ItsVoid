@@ -1,0 +1,132 @@
+entries:
+  '169_224_29_0':
+    ip: 169.224.29.0
+    provider: local+proxycheck+ip-api
+    vpn: false
+    proxy: false
+    datacenter: false
+    tor: false
+    residential: true
+    malicious: false
+    suspiciousAsn: false
+    country: Iraq
+    countryCode: IQ
+    region: Baghdad
+    city: Baghdad
+    isp: Earthlink Telecommunications Equipment Trading & Services DMCC
+    asn: AS199739
+    organization: Earthlink Telecommunications Equipment Trading & Services DMCC
+    networkType: RESIDENTIAL
+    riskScore: 0
+    reasons: []
+    checkedAt: 1791409045297
+    expires: 1791495445299
+  '169_224_29_88':
+    ip: 169.224.29.88
+    provider: local+proxycheck+ip-api
+    vpn: false
+    proxy: false
+    datacenter: false
+    tor: false
+    residential: true
+    malicious: false
+    suspiciousAsn: false
+    country: Iraq
+    countryCode: IQ
+    region: Baghdad
+    city: Baghdad
+    isp: Earthlink Telecommunications Equipment Trading & Services DMCC
+    asn: AS199739
+    organization: Earthlink Telecommunications Equipment Trading & Services DMCC
+    networkType: RESIDENTIAL
+    riskScore: 0
+    reasons: []
+    checkedAt: 1791466967228
+    expires: 1791553367228
+  '169_224_83_4':
+    ip: 169.224.83.4
+    provider: local+proxycheck+ip-api
+    vpn: false
+    proxy: false
+    datacenter: false
+    tor: false
+    residential: true
+    malicious: false
+    suspiciousAsn: false
+    country: Iraq
+    countryCode: IQ
+    region: Baghdad
+    city: Baghdad
+    isp: Earthlink Telecommunications Equipment Trading & Services DMCC
+    asn: AS199739
+    organization: Earthlink Telecommunications Equipment Trading & Services DMCC
+    networkType: RESIDENTIAL
+    riskScore: 0
+    reasons: []
+    checkedAt: 1791488010343
+    expires: 1791574410344
+  '104_28_215_125':
+    ip: 104.28.215.125
+    provider: local+proxycheck+ip-api
+    vpn: true
+    proxy: true
+    datacenter: false
+    tor: false
+    residential: false
+    malicious: false
+    suspiciousAsn: false
+    country: Iraq
+    countryCode: IQ
+    region: Baghdad
+    city: Baghdad
+    isp: Cloudflare, Inc.
+    asn: AS13335
+    organization: Cloudflare
+    networkType: VPN
+    riskScore: 0
+    reasons:
+    - VPN reported by proxycheck.io
+    - Proxy flag reported by ip-api
+    checkedAt: 1791466941354
+    expires: 1791553341356
+  '127_188_64_57':
+    ip: 127.188.64.57
+    provider: local+proxycheck+ip-api
+    vpn: false
+    proxy: false
+    datacenter: false
+    tor: false
+    residential: true
+    malicious: false
+    suspiciousAsn: false
+    networkType: RESIDENTIAL
+    riskScore: 0
+    reasons:
+    - Local or private address — skipped remote lookup
+    - Local or private address — skipped remote lookup
+    checkedAt: 1791412069777
+    expires: 1791498469778
+  '104_28_215_124':
+    ip: 104.28.215.124
+    provider: local+proxycheck+ip-api
+    vpn: false
+    proxy: true
+    datacenter: false
+    tor: false
+    residential: false
+    malicious: false
+    suspiciousAsn: false
+    country: Iraq
+    countryCode: IQ
+    region: Baghdad
+    city: Baghdad
+    isp: Cloudflare, Inc.
+    asn: AS13335
+    organization: Cloudflare
+    networkType: PROXY
+    riskScore: 0
+    reasons:
+    - Proxy reported by proxycheck.io
+    - Proxy flag reported by ip-api
+    checkedAt: 1791468720447
+    expires: 1791555120447

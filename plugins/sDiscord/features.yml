@@ -1,0 +1,178 @@
+chatBridge:
+  enabled: true
+  mcToDiscord: true
+  discordToMc: true
+  translateMentions: true
+  translateDiscordMarkdown: true
+  useDisplayName: false
+  usePlaceholders: false
+  announceJoinLeave: true
+  # v1.5.1: a player hidden by any vanish/staff plugin never hits the chat
+  # channel — their join/quit is only written to the plugin log. Once they
+  # turn vanish off, the next join/quit is announced normally again.
+  hideVanishedJoinLeave: true
+  logChat: true
+  announceServerStatus: true
+  # v1.6.2: deaths and advancement unlocks reach the chat channel too, and
+  # a player's FIRST visit gets its own welcome line. All three are
+  # vanish-aware like join/quit.
+  announceDeaths: true
+  announceAdvancements: true
+  announceFirstJoin: true
+  # DiscordSRV-style webhook delivery: player messages are posted with the
+  # player's name and skin avatar. Create a webhook in the chat channel and
+  # paste its URL here (leave empty to send everything as the bot instead).
+  webhookUrl: https://discord.com/api/webhooks/1557362444458917959/NyhtxaB0dpmusMtDdqfD9VDO1_jzDIr16K5kFVYKiPs1Hqiu6rVVb51cwQQzQvp5S8eQ
+  # %uuid% and %name% are replaced per message. Any avatar service works.
+  webhookAvatarUrl: https://discord.com/api/webhooks/1557362444458917959/NyhtxaB0dpmusMtDdqfD9VDO1_jzDIr16K5kFVYKiPs1Hqiu6rVVb51cwQQzQvp5S8eQ
+  # Relay webhook messages back into the game (keep false to avoid echoes).
+  webhookRelayToMc: false
+consoleBridge:
+  enabled: true
+  minLevel: INFO
+  realTime: true
+  realTimeBatchMs: 300
+  realTimeMaxMessages: 5
+  useCodeBlock: true
+  timestamps: true
+  # When a backlog would exceed realTimeMaxMessages, the remaining lines are
+  # uploaded as a console-*.log attachment instead of flooding the channel.
+  attachmentOnOverflow: true
+  # v1.6.2: bot tokens and webhook URLs pasted into a config are scrubbed
+  # from console lines BEFORE they reach the Discord channel. Short hashes
+  # (md5/sha1) pass through untouched.
+  redactSecrets: true
+  flushMs: 2000
+  maxMessagesPerFlush: 2
+  filterInclude: []
+  filterExclude: []
+  commandsEnabled: true
+  maxCommandsPerMinute: 10
+  whitelist: []
+  blacklist: []
+linking:
+  enabled: true
+  codeTtl: 600
+  requireVerify: false
+  removeRolesOnUnlink: false
+  maxAttempts: 5
+  lockoutMinutes: 10
+  codeCooldown: 30
+  refreshSeconds: 60
+reports:
+  enabled: true
+  cooldown: 60
+  notifyStaff: true
+  notifyIngameAdmins: true
+bugs:
+  enabled: true
+gui:
+  enabled: true
+  pageSize: 45
+autorole:
+  enabled: true
+  syncPeriodSeconds: 300
+  removeMissing: true
+  groups: {}
+  permissions: {}
+staff:
+  enabled: true
+  join: true
+  quit: true
+  serverStart: true
+  serverStop: true
+slash:
+  register: true
+audit:
+  toDiscord:
+  - link
+  - unlink
+  - verify
+  - command
+  - lockout
+  - broadcast
+  - reload
+api:
+  events: true
+  placeholders: true
+# ---------------------------------------------------------------------------
+# v1.6.2: VOICE CHANNEL REWARDS. Players sitting in the configured Discord
+# voice channel accumulate time and earn rewards on the server through the
+# linked Minecraft account. The account must be linked (/vincular in Discord
+# or /connect in the game) and the Minecraft player must be ONLINE for the
+# clock to run. Stats: /discord, /discord afk (GUI), /discord top, and the
+# %sdiscord_afk_points% / _total_minutes% / _today_minutes% /
+# _session_minutes% / _rank% / _status% placeholders.
+# ---------------------------------------------------------------------------
+voiceRewards:
+  enabled: true
+  # The Discord voice channel to watch (right click a channel -> Copy ID).
+  # Nothing happens until this is set.
+  voiceChannelId: ''
+  # Where join/leave/reward/milestone messages are posted. Empty = the
+  # 'chat' channel from channels.yml.
+  notifyChannel: ''
+  # Only Discord accounts linked (and verified) to a Minecraft player earn.
+  requireLink: true
+  # The Minecraft player must be online while earning. Set false to let the
+  # clock run with the player offline (rewards queue until their next join).
+  requireOnline: true
+  # Default reward profile: every 10 minutes of AFK time, run these console
+  # commands ({player}, {uuid}, {discord}, {minutes}) and track 10 points.
+  intervalMinutes: 10
+  pointsPerReward: 10
+  rewardCommands:
+  - points give {player} 10
+  # Displayed in the Discord join/leave messages ("Coins", "Dollars", ...).
+  currencyName: Coins
+  # 0 = show the effective points of the player's profile instead.
+  currencyAmount: 0
+  notifyJoinLeave: true
+  notifyRewards: true
+  notifyMilestones: true
+  # Higher priority wins; the first matching rank is used. All values fall
+  # back to the default profile above.
+  permissionRewards:
+    enabled: true
+    ranks:
+      power:
+        permission: sdiscord.afk.power
+        priority: 1
+        intervalMinutes: 5
+        points: 20
+        commands:
+        - points give {player} 20
+      legend:
+        permission: sdiscord.afk.legend
+        priority: 2
+        intervalMinutes: 3
+        points: 50
+        commands:
+        - points give {player} 50
+        - eco give {player} 500
+  # Total-time milestones, claimed ONCE per player. Key = minutes of total
+  # AFK time. Commands run as the console when the milestone is reached.
+  milestones:
+    enabled: true
+    '60':
+      commands:
+      - give {player} diamond 1
+    '600':
+      commands:
+      - eco give {player} 10000
+    '3000':
+      commands:
+      - give {player} netherite_ingot 1
+  # Rewarded minutes per calendar day (0 = unlimited).
+  dailyLimit:
+    enabled: false
+    minutes: 120
+  # Anti-abuse: short sessions earn nothing, quick leave+rejoin does not
+  # farm the clock (rejoining AFTER the cooldown resumes the session), and
+  # one Minecraft account can only earn through one Discord session.
+  protection:
+    minimumSessionMinutes: 1
+    joinLeaveCooldownSeconds: 30
+    preventMultiSession: true
+  gui:
+    enabled: true

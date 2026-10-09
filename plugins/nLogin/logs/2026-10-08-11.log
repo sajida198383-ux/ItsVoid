@@ -1,0 +1,20 @@
+[2026/10/08 18:47:27 INFO]:           __             _       
+[2026/10/08 18:47:27 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/10/08 18:47:27 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/10/08 18:47:27 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/10/08 18:47:27 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/10/08 18:47:27 INFO]:                   |___/            
+[2026/10/08 18:47:27 INFO]:  By: www.nickuc.com - V 2.0.24 DEV
+[2026/10/08 18:47:27 INFO]:  
+[2026/10/08 18:47:27 DEBUG]: Loading the messages_en.yml message file...
+[2026/10/08 18:47:27 DEBUG]: Messages were loaded in 94 ms (single file).
+[2026/10/08 18:47:27 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/10/08 18:47:27 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/10/08 18:47:27 DEBUG]: Settings were loaded in 151 ms.
+[2026/10/08 18:47:27 DEBUG]: Loading database...
+[2026/10/08 18:47:27 DEBUG]: Starting logger filter...
+[2026/10/08 18:47:27 INFO]: Loading packetevents-spigot 2.14.0-SNAPSHOT...
+[2026/10/08 18:59:43 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'ItsVoidMe', `unique_id` = be0a981ba80234198e76899cd7368d6e,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$p2TBOLzbEVqA2vx0mdBssg$xGimfeHayeZW0n4o3IBWjTH4OJFZQp+L5crAA5YuZyw', `last_ip` = '169.224.29.88', `creation_date` = 2026-10-06 12:47:48.711, `last_seen` = 2026-10-08 18:59:43.053, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2026/10/08 18:59:43 INFO]: The user ItsVoidMe has successfully logged in.
+[2026/10/08 19:10:32 DEBUG]: [SQLite] [UPDATE]: "INSERT INTO `nlogin` (`last_name`, `unique_id`, `mojang_id`, `bedrock_id`, `password`, `last_ip`, `creation_date`, `last_seen`, `email`, `discord`, `settings`) VALUES ('ItsWaRz', 025098230b6e3b619b272051765123e5, null, null, '$argon2id$v=19$m=32768,t=5,p=1$U/OD5hLHjxa/tHgXpMSaNQ$afzd3msdO9DdFAMvDWVGiMEzY8CatfgQ5OMSkt/JiJU', '169.224.83.4', '2026-10-08 19:10:32.859', '2026-10-08 19:10:32.859', null, null, '{"settings":[{"value":true,"key":"force-invalid-session"}],"version":0}')" (applied to all columns)
+[2026/10/08 19:10:32 INFO]: The user ItsWaRz has successfully registered.

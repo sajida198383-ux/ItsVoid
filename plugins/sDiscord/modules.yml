@@ -1,0 +1,14 @@
+storage: true
+discord: true
+linking: true
+chat: true
+console: true
+reports: true
+gui: true
+autorole: true
+staff: true
+security: true
+audit: true
+proxy: true
+api: true
+voicerewards: true

@@ -1,0 +1,175 @@
+prefix: '&8[&bDiscord&8] &7'
+noPermission: '&cYou don''t have permission for this.'
+playersOnly: '&cThis command can only be used by players.'
+playersNotFound: '&cThat player doesn''t exist.'
+genericError: '&cAn internal error occurred. Check the console.'
+moduleDisabled: '&cThe {module} module is disabled.'
+linking:
+  notEnabled: '&cAccount linking is disabled.'
+  alreadyLinked: '&cYour account is already linked to &b{tag}&c.'
+  notLinked: '&cYour account is not linked. Use &b/discord &cto get started.'
+  needCode: '&cCorrect usage: &b/connect <code>'
+  invalidCode: '&cInvalid or expired code.'
+  locked: '&cToo many failed attempts. Wait {minutes} minute(s).'
+  connected: '&aAccount successfully linked to &b{tag}&a!'
+  connectedPending: '&aCode accepted. A staff member must verify your account.'
+  disconnected: '&aYour account was unlinked.'
+  unlinkedByAdmin: '&aPlayer &f{player} &awas unlinked.'
+  playerMissing: '&cThat player is not linked.'
+  codeGenerated: 'Request received. Your code is:'
+  codeLine: '> **{code}**'
+  codeInstructions: Type it on the Minecraft server with `/connect {code}`. Expires
+    in {minutes} minute(s).
+  alreadyLinkedDiscord: This Discord account is already linked to **{player}**.
+  unlinkedDiscord: Your Discord account was unlinked.
+  rateLimited: Wait a few seconds before requesting another code.
+  pendingVerified: '&a{player} verified and linked correctly.'
+  noPending: '&cThere are no pending links for &f{player}&c.'
+  codeEntry: '&e{code} &7expires in {minutes}m &7- {tag}'
+chat:
+  mcToDiscord: '**{player}**: {message}'
+  discordToMc: '&8[&bD&8] &f{username}&7: &f{message}'
+  joinFormat: '**{player}** joined the server'
+  quitFormat: '**{player}** left the server'
+  # v1.6.2
+  deathFormat: ☠ {message}
+  deathFallback: '**{player}** died'
+  advancementFormat: 🏆 **{player}** unlocked **{advancement}**
+  firstJoinFormat: 👋 **{player}** joined the server for the first time
+  attachment: ' &7[file] {url}'
+  relayFormat: '&8[&e{server}&8] &f{sender}&7: &f{message}'
+  adminRelayFormat: '&8[&cNotice&8] &f{message}'
+  filterBlocked: '&cYour message was blocked by the filter.'
+  serverStarted: ✅ Server has started
+  serverStopped: ❌ Server has stopped
+console:
+  overflow: + {count} console chunk(s) attached as file
+  connected: Console connected from {server}
+  blocked: 'Command blocked: `{command}`'
+  noRole: You don't have the required role to use the console.
+  rateLimited: You reached the commands per minute limit.
+  executed: 'Command executed: `{command}`'
+report:
+  created: '&aReport #{id} created against &e{target}&a.'
+  cooldown: '&cYou must wait &f{seconds}s &cbefore creating another report.'
+  noReason: '&cCorrect usage: &b/report <player> [reason]'
+  selfReport: '&cYou can''t report yourself.'
+  bugCreated: '&aBug report #{id} sent. Thanks!'
+  notFound: '&cReport #{id} not found.'
+  resolved: '&aReport #{id} marked as {status}.'
+  deleted: '&aReport #{id} deleted.'
+  embedTitle: 'New report #{id}'
+  bugEmbedTitle: 'New bug report #{id}'
+  fieldTarget: Player
+  fieldReporter: Reported by
+  fieldReason: Reason
+  fieldServer: Server
+  notifyAdmins: '&c[Report #{id}] &f{reporter} &7-> &e{target}&7: &f{reason}'
+gui:
+  reportsTitle: '&8Reports &7({page}/{pages})'
+  adminTitle: '&8sDiscord &7Panel'
+  reportItem: '&e#{id} &f{target}'
+  reportLore:
+  - '&7Reported by: &f{reporter}'
+  - '&7Reason: &f{reason}'
+  - '&7Server: &f{server}'
+  - '&7Status: &f{status}'
+  empty: '&cThere''s nothing to see here.'
+  next: '&aNext page'
+  prev: '&aPrevious page'
+  close: '&cClose'
+  # v1.6.2
+  afkTitle: '&5AFK Rewards'
+  afkMc: '&5&lMinecraft'
+  afkDiscord: '&5&lDiscord'
+  afkStatus: '&5&lAFK status'
+  afkTotal: '&5&lTotal AFK'
+  afkToday: '&5&lToday'
+  afkSession: '&5&lSession'
+  afkPoints: '&5&lPoints'
+  afkRank: '&5&lRank'
+  afkMilestones: '&5&lMilestones'
+  afkVc: '&5&lAFK channel'
+  afkUsers: '&5&lAFK users'
+  afkLeaderboard: '&5&lLeaderboard'
+  statusModules: '&7Modules: &f{value}'
+  statusStorage: '&7Storage: &f{value}'
+  statusDiscord: '&7Discord: &f{value}'
+  statusLinked: '&7Linked: &f{value}'
+  statusReports: '&7Open reports: &f{value}'
+  statusUptime: '&7Uptime: &f{value}'
+  reloadItem: '&aReload configuration'
+  reloadLore: '&7Apply all changes without restarting'
+  debugItem: '&eToggle debug mode'
+  debugLore: '&7Currently: &f{value}'
+  reportsItem: '&bOpen reports'
+  backItem: '&7Back'
+admin:
+  statusTitle: '&8[&bsDiscord&8] &7Status &f(v{version})'
+  statusLine: '&7{key}: &f{value}'
+  reloaded: '&aConfiguration reloaded.'
+  reloadFailed: '&cReload failed: &f{error}'
+  broadcastUsage: '&cCorrect usage: &b/sdiscord broadcast <message>'
+  broadcastSent: '&aBroadcast sent.'
+  unlinkUsage: '&cCorrect usage: &b/sdiscord unlink <player>'
+  codesEmpty: '&7There are no active codes.'
+  debugOn: '&aDebug mode enabled.'
+  debugOff: '&cDebug mode disabled.'
+  selftestTitle: '&8[&bsDiscord&8] &7Self-test &f(v{version})'
+  testOk: '&a[OK] &f{name}'
+  testFail: '&c[FAIL] &f{name}&c: {error}'
+audit:
+  entryFormat: '&8[{time}] &7{source} &f{actor} &7-> &e{action}&7: &f{details}'
+placeholders:
+  linkedYes: 'yes'
+  linkedNo: 'no'
+slash:
+  vincularDesc: Link your Discord account with the server
+  vincularPlayerOpt: Player (staff only, to check their status)
+  reportDesc: Report a player to the server staff
+  reportPlayerOpt: Player to report
+  reportReasonOpt: Reason for the report
+  desvincularDesc: Unlink your Discord account from the server
+  unknown: This command is not available right now.
+staff:
+  join: '{player} joined the server'
+  quit: '{player} left the server'
+  serverStart: Server started
+  serverStop: Server stopped
+discord:
+  title: '&8[&bDiscord&8] &7Link status'
+  linked: '&aYour account is linked.'
+  notLinked: '&cYour account is not linked.'
+  account: '&7Discord: &b{tag}'
+  invite: '&7Server: &f{invite}'
+  howTo: '&7Use &b/vincular &7in our Discord and then &b/connect <code> &7here.'
+
+# v1.6.2: voice channel rewards
+afk:
+  vcJoin: '{mention} You are now AFK in **{server}**. You will earn **{currency} {amount}**
+    every **{interval} minutes**.'
+  vcLeave: '{mention} You left **{server}**. You will no longer earn **{currency}**
+    while you are outside the AFK voice channel.'
+  reward: '**{player}** received **{points}** points for **{minutes}** AFK minutes.'
+  milestone: 🏆 **{player}** reached the **{minutes}** minute AFK milestone.
+  linkReminder: '{mention} Link your Discord account with **/vincular** (or **/connect**
+    in the game) to start earning rewards.'
+  dailyLimit: '{mention} You reached the daily AFK reward limit ({minutes} minutes).
+    Come back tomorrow.'
+  summary: '&7AFK rewards: &f{points} points &7- today &f{minutes} min &7- total &f{total}
+    min &7({status}&7)'
+  hint: '&7Use &b/discord afk &7for your stats or &b/discord top &7for the leaderboard.'
+  topHeader: '&8&m----------&r &5AFK Top &8&m----------'
+  topEntry: '&e#{rank} &f{player} &7- {time} &7- &f{points} points'
+  topEmpty: '&cNo AFK data yet.'
+  topHint: '&7Use &b/discord top &7in the game'
+  timeHours: '{hours}h {minutes}m'
+  timeMinutes: '{minutes}m'
+  activeYes: '&aActive'
+  activeNo: '&cInactive'
+  notLinked: '&cNot linked'
+  milestoneNext: '&f{minutes} min'
+  milestoneDone: '&aAll done'
+  vcKnown: '&f{channel}'
+  vcUnknown: '&7Not configured'
+  guiDisabled: '&cThe AFK rewards GUI is disabled.'

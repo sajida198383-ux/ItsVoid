@@ -1,0 +1,56 @@
+[2026/10/06 12:45:45 INFO]:           __             _       
+[2026/10/06 12:45:45 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/10/06 12:45:45 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/10/06 12:45:45 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/10/06 12:45:45 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/10/06 12:45:45 INFO]:                   |___/            
+[2026/10/06 12:45:45 INFO]:  By: www.nickuc.com - V 2.0.24 DEV
+[2026/10/06 12:45:45 INFO]:  
+[2026/10/06 12:45:46 DEBUG]: The config.yml file was created successfully.
+[2026/10/06 12:45:46 DEBUG]: Loading the messages_en.yml message file...
+[2026/10/06 12:45:46 DEBUG]: Messages were loaded in 77 ms (single file).
+[2026/10/06 12:45:46 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/10/06 12:45:46 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/10/06 12:45:46 DEBUG]: Settings were loaded in 156 ms.
+[2026/10/06 12:45:46 DEBUG]: Loading database...
+[2026/10/06 12:45:46 INFO]: Generating RSA keypair... (this may take a while)
+[2026/10/06 12:45:48 INFO]: The RSA key pair was successfully generated. Took 1.68s
+[2026/10/06 12:45:48 DEBUG]: Starting logger filter...
+[2026/10/06 12:45:48 INFO]: Loading packetevents-spigot 2.14.0-SNAPSHOT...
+[2026/10/06 12:46:16 INFO]: 
+[2026/10/06 12:46:16 INFO]:  Thank you so much for choosing nLogin! :)
+[2026/10/06 12:46:16 INFO]: 
+[2026/10/06 12:46:16 INFO]:  For your safety, please read the message below:
+[2026/10/06 12:46:16 INFO]:   Never download nLogin from unknown sources.
+[2026/10/06 12:46:16 INFO]:   A modified version may contain malicious software.
+[2026/10/06 12:46:16 INFO]: 
+[2026/10/06 12:46:16 INFO]:  Trusted sources:
+[2026/10/06 12:46:16 INFO]:   Website: nickuc.com
+[2026/10/06 12:46:16 INFO]:   GitHub: github.com/nickuc-com
+[2026/10/06 12:46:16 INFO]:   OpeNLogin installer (from Spigot or GitHub)
+[2026/10/06 12:46:16 INFO]: 
+[2026/10/06 12:46:16 INFO]:  Official support:
+[2026/10/06 12:46:16 INFO]:   Documentation: docs.nickuc.com/nlogin/
+[2026/10/06 12:46:16 INFO]:   Discord: nickuc.com/discord
+[2026/10/06 12:46:16 INFO]:   Email: support@nickuc.com
+[2026/10/06 12:46:16 INFO]: 
+[2026/10/06 12:47:38 DEBUG]: Loading the messages_en.yml message file...
+[2026/10/06 12:47:38 DEBUG]: Messages were loaded in 12 ms (single file).
+[2026/10/06 12:47:38 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/10/06 12:47:38 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/10/06 12:47:38 DEBUG]: Settings were loaded in 24 ms.
+[2026/10/06 12:47:48 DEBUG]: [SQLite] [UPDATE]: "INSERT INTO `nlogin` (`last_name`, `unique_id`, `mojang_id`, `bedrock_id`, `password`, `last_ip`, `creation_date`, `last_seen`, `email`, `discord`, `settings`) VALUES ('ItsVoidMe', be0a981ba80234198e76899cd7368d6e, null, null, '$argon2id$v=19$m=32768,t=5,p=1$p2TBOLzbEVqA2vx0mdBssg$xGimfeHayeZW0n4o3IBWjTH4OJFZQp+L5crAA5YuZyw', '169.224.25.165', '2026-10-06 12:47:48.711', '2026-10-06 12:47:48.711', null, null, '{"settings":[{"value":true,"key":"force-invalid-session"}],"version":0}')" (applied to all columns)
+[2026/10/06 12:47:48 INFO]: The user ItsVoidMe has successfully registered.
+[2026/10/06 12:49:08 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'ItsVoidMe', `unique_id` = be0a981ba80234198e76899cd7368d6e,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$p2TBOLzbEVqA2vx0mdBssg$xGimfeHayeZW0n4o3IBWjTH4OJFZQp+L5crAA5YuZyw', `last_ip` = '169.224.25.165', `creation_date` = 2026-10-06 12:47:48.711, `last_seen` = 2026-10-06 12:49:08.581, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"force-invalid-session"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2026/10/06 12:49:21 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'ItsVoidMe', `unique_id` = be0a981ba80234198e76899cd7368d6e,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$p2TBOLzbEVqA2vx0mdBssg$xGimfeHayeZW0n4o3IBWjTH4OJFZQp+L5crAA5YuZyw', `last_ip` = '169.224.25.165', `creation_date` = 2026-10-06 12:47:48.711, `last_seen` = 2026-10-06 12:49:21.864, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2026/10/06 12:49:21 INFO]: The user ItsVoidMe has successfully logged in.
+[2026/10/06 12:54:13 DEBUG]: Loading the messages_en.yml message file...
+[2026/10/06 12:54:13 DEBUG]: Messages were loaded in 12 ms (single file).
+[2026/10/06 12:54:13 WARN]: The "unsupported-settings.perform-username-validation" option is enabled in config/paper-global.yml
+[2026/10/06 12:54:13 WARN]: The username-appender feature may fail with an invalid nickname kick message.
+[2026/10/06 12:54:13 DEBUG]: Settings were loaded in 25 ms.
+[2026/10/06 12:54:17 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'ItsVoidMe', `unique_id` = be0a981ba80234198e76899cd7368d6e,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$p2TBOLzbEVqA2vx0mdBssg$xGimfeHayeZW0n4o3IBWjTH4OJFZQp+L5crAA5YuZyw', `last_ip` = '169.224.25.165', `creation_date` = 2026-10-06 12:47:48.711, `last_seen` = 2026-10-06 12:54:17.581, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2026/10/06 12:54:29 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'ItsVoidMe', `unique_id` = be0a981ba80234198e76899cd7368d6e,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$p2TBOLzbEVqA2vx0mdBssg$xGimfeHayeZW0n4o3IBWjTH4OJFZQp+L5crAA5YuZyw', `last_ip` = '169.224.25.165', `creation_date` = 2026-10-06 12:47:48.711, `last_seen` = 2026-10-06 12:54:29.267, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2026/10/06 12:54:29 INFO]: The user ItsVoidMe has successfully logged in.
+[2026/10/06 12:54:42 INFO]: ItsVoidMe started a restart process.
+[2026/10/06 12:55:42 INFO]: Successful plugin core shutdown (took 0.00s)

@@ -1,0 +1,11 @@
+blocks:
+  '104_28_215_125':
+    ip: 104.28.215.125
+    reason: VPN reported by proxycheck.io
+    expires: 1791553341357
+    created: 1791466941357
+  '169_224_29_0':
+    ip: 169.224.29.0
+    reason: Rate limited
+    expires: 1791495580243
+    created: 1791409180243
